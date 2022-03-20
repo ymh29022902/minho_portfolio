@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>PORPFOLIO</title>
+	    <link href="css/sub.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/common.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+        <script>
+            $(function(){
+                $(".logo_bar").click(function(){
+                    $(".menu").slideToggle();
+                });   
+
+                $(window).resize(function()  {
+                    if(window.innerWidth>=800) {
+                        $(".menu").show();
+                    }
+                    if(window.innerWidth<=799){
+                        $(".menu").hide();
+                    }
+                }); 
+            });
+
+
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 500) {
+                        $("header").css("background", "rgb(35, 35, 35, 1)");
+                    }
+                    else{
+                        $("header").css("background", "rgba(0, 0, 0, 0)")
+                    }
+                });
+            });          
+
+        </script>  
+
+    </head>
+
+    <body> 
+
+    <div id="wrap">    
+        <header>
+        
+            <div class="row_bar">
+                <div class="row_bar_side">
+            	    <div class="row_bar_left">Tickets for 2021 on sale now!</div>
+                    <div class="row_bar_right">Call us 406.285.0099</div>  
+                </div>              	
+            </div>
+
+            <div id="banner">
+            	<div class="logo">
+                    <a href="./main.html">
+                        <div class="bg1"></div>
+                    </a>
+                    <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-256.png" class="logo_bar" alt="logo">
+            	</div>
+
+            	<nav class="menu">
+            		<ul>
+                        <li><a href="./main.html">HOME</a></li>
+                        <li><a href="#">TICKET</a></li>
+                        <li><a href="#">LINE UP'S</a>
+                            <ul class="sidemenu1">
+                                <li><a href="#" class="line_up">2021 Line Up</a></li>
+                                <li><a href="#">Part Line Up's</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">2021 BANDS ⋁</a>
+                            <ul class="sidemenu2">
+                                <li><a href="#">Skillet</a></li>
+                                <li><a href="#">Lit</a></li>
+                                <li><a href="#">Saving Abel's Scotty Austin</a></li>
+                                <li><a href="#">Dead Fervor</a></li>
+                                <li><a href="#">.38 Special</a></li>
+                                <li><a href="#">John Cafferty & The Beaver Brown Band</a></li>
+                                <li><hr></li>
+                                <li><a href="#">Bluee tattoo</a></li>
+                                <li><a href="#">Jared Stewart</a></li>
+                                <li><a href="#">Black Stone Cherry</a></li>
+                                <li><a href="#">Steven Adler(of Gun's Roses)</a></li>
+                                <li><a href="#">The Iron Maidens</a></li>
+                                <li><a href="#">Black Label Society</a></li>
+                                <li><a href="#">Defenders of the Faith</a></li>
+                                <li><hr></li>
+                                <li><a href="#">Liliac</a></li>
+                                <li><a href="#">2am Logic</a></li>
+                                <li><a href="#">Candlebox</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">SPONSORS&VENDORS</a></li>
+                        <li><a href="./sub.html">CAMPING</a></li>
+                        <li><a href="#">NEWS&UPDATES</a></li>
+                        <li><a href="#">MEDIA</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">SHOP</a>
+                            <ul class="sidemenu3">
+                                <li><a href="#" class="memoraibilia">Memoraibilia</a></li>
+                                <li><a href="#" class="clothing">Clothing</a></li>
+                                <li><a href="#" class="cart">Cart</a></li>
+                                <li><a href="#" class="check_out">Checkout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            	</nav>
+
+            </div>	
+        
+        </header>
+
+
+        <div id="slider">
+            <div class="slider_box">          
+                <div class="slider_log"><img src="img/rockin-the-rivers-logo.svg" alt="slider_log"></div>
+                <h5>MONTANA'S HOMEGROWN ROCKFEST</h5>
+                <h1>BE A TENT OR A CAMPER</h1>
+                <p>The convenience of on-location camping.</p>
+            </div>
+        </div>    
+
+
+        <section>
+        <div id="section_cover">    
+            <div id=sub_1>
+
+            <!--콘텐츠1-->    
+
+                <div id=content_1>
+                    <div class="content_1_text1">
+                        <h2>How to Enjoy Camping by Montana</h2>
+                        <p>May 31, 2021 - <span class="name_font">John Smith</span></p>
+                        <span class="name_font">● ● ●</span>
+                    </div>
+
+                    <div class="content_1_imgbox photo1"></div>
+
+                     <div class="content_1_text2">
+                        <h4>TAGS : <a href="#"><span class="tag_button">Camping</span></a>
+                            <a href="#"><span class="tag_button">Camping Facility</span></a>
+                            <a href="#"><span class="tag_button">Entertainment</span></a>
+                        </h4>
+                        <p>At Rockin' the Rivers, not only the stage where the audience can enjoy the performance by maximizing the quality of sound, but also the environment where they can enjoy the beautiful scenery around them are prepared for the audience. If you have a tent or a camping car, You will be able to enjoy the scenery while viewing the beautiful sea of stars in the night sky using the rock as a pillow. For those who visit for the first time, if you download the map from the website, you will be able to find the right place for camping more easily. It is also a good option to refer to the photos on the official camping site to look at the scenery and choose a place. I participated in this event for the third time this year and had a very satisfying time. I would like to give useful tips to beginners who have great passion for rock and want to spend time here.</p>
+                    </div>   
+
+                    <div class="content_1_text3">
+                        <a href="#"><span class="read_button1">Read&nbsp;More</span></a>
+                        <div class="view">
+                            <img src="img/sub/eyes.png" alt="eyes">
+                            <h5 class="see">3997</h5>
+                            <img src="img/sub/comment.png" alt="comment">
+                            <h5 class="comment">102</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id=content_2>
+                    <div class="content_2_text1">
+                        <h2>Festival With Water!</h2>
+                        <p>May 31, 2021 - <span class="name_font">Michael Dennis</span></p>
+                        <span class="name_font">● ● ●</span>
+                    </div>
+
+                    <div class="content_2_imgbox photo2"></div>
+
+                    <div class="content_2_text2">
+                        <h4>TAGS : <a href="#"><span class="tag_button">Entertainment</span></a>
+                            <a href="#"><span class="tag_button">Season</span></a>
+                        </h4>
+                        <p>Montana is known for its beautiful rock scenery, but the Guadalupe River is also a waste to pass by. After thinking about how to enjoy this beautiful river, Rockin' the Rivers prepared a lot so that you can enjoy the water festival. During the Summer Festival, you can enjoy rock performances on tubes. In addition, those who own tickets to the Summer Festival can receive discounts at nearby accommodations and other amenities. In particular, Gruene and Huaco Raft lend kayaks to those who hold festival tickets at half the price, and if the person holding the festival ticket is staying here, they provide free service. In addition, there are various things to enjoy, such as salmon fishing and team competitions. Rockin' the Rivers shows us that there are not only rock performances that soothe the heat of summer, but also various water activities.</p>
+                    </div>    
+                    <div class="content_2_text3">
+                        <a href="#"><span class="read_button1">Read&nbsp;More</span></a>
+                        <div class="view">
+                            <img src="img/sub/eyes.png" alt="eyes">
+                            <h5 class="see">4857</h5>
+                            <img src="img/sub/comment.png" alt="comment">
+                            <h5 class="comment">108</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id=content_3>
+                    <div class="content_3_text1">
+                        <h2>How to use Montana's Good Facility</h2>
+                        <p>May 29, 2021 - <span class="name_font">Sarah Michelle</span></p>
+                        <span class="name_font">● ● ●</span>
+                    </div>
+
+                    <div class="content_3_imgbox photo3"></div>
+
+                    <div class="content_3_text2">
+                        <h4>TAGS : <a href="#"><span class="tag_button">Camping</span></a>
+                            <a href="#"><span class="tag_button">Camping Facility</span></a>
+                            <a href="#"><span class="tag_button">Entertainment</span></a>
+                            <a href="#"><span class="tag_button">Season</span></a>
+                        </h4>
+                        <p>Rockin' the Rivers has partnered with nearby companies to help those who visit the performance have more fun. This is a relationship where visitors can benefit from increasing their satisfaction by using accommodations or restaurants at a lower price, and nearby companies can benefit from increasing income as the number of tourists increases. Thank you for the measures to make rock lovers love Rockin' the Rivers, but you need to figure out which facilities provide a more comfortable and pleasant environment. In addition, most of the companies provide discount services to customers with festival tickets, of which some provide services at lower prices, so those who visit rock performances on couples or family trips will help finance. There is also a lottery event for performance visitors, and various prizes are available, ranging from free accommodation vouchers to free kayaking rental services and restaurant discount coupons.</p>
+                    </div>    
+                    <div class="content_3_text3">
+                        <a href="#"><span class="read_button1">Read&nbsp;More</span></a>
+                        <div class="view">
+                            <img src="img/sub/eyes.png" alt="eyes">
+                            <h5 class="see">5865</h5>
+                            <img src="img/sub/comment.png" alt="comment">
+                            <h5 class="comment">224</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id=content_4>
+                    <div class="content_4_text1">
+                        <h2>Collection Of Memories</h2>
+                        <p>May 28, 2021 - <span class="name_font">Katty Wilson</span></p>
+                        <span class="name_font">● ● ●</span>
+                    </div>
+
+                    <div class="content_4_imgbox photo4"></div>
+
+                    <div class="content_4_text2">
+                        <h4>TAGS : <a href="#"><span class="tag_button">Camping</span></a>
+                            <a href="#"><span class="tag_button">Media</span></a>
+                        </h4>
+                        <p>Rock! Rock! Rock! Rock and roll! Rock-lovers, gather at Rockin' the Rivers! Explode your passion, spirit, affection, and madness for rock at Rockin' the Rivers, one of the biggest rock performances in the United States! This is a sacred place and heaven for rock lovers. The stage, which has a natural sound effect made of rocks, provides a drug-like addiction to the ear. With rock-loving brothers, put your arms around each other's shoulders and shout! We can prove here why rock will never die. Legendary bands, including Skillet, Blue Tattoo, and Theironmaiden, have prepared a stage worthy of the name locker. We enjoy the stage so crazy that we don't know if the singer will go out first or the audience will go out first, writing music so hard that we don't lose to the voice of the rockers and the sound of the fireworks! Leave beautiful memories here!</p>
+                    </div>    
+                    <div class="content_4_text3">
+                        <a href="#"><span class="read_button1">Read&nbsp;More</span></a>
+                        <div class="view">
+                            <img src="img/sub/eyes.png" alt="eyes">
+                            <h5 class="see">6981</h5>
+                            <img src="img/sub/comment.png" alt="comment">
+                            <h5 class="comment">306</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sub_2">
+                <div id="sub_content1">
+                    <input type="text" class="search" placeholder="Enter Your Keywords.."/> 
+                    <img src="img/sub/icon27.png" class="i" alt="icon">
+                </div>
+
+
+                <div id="sub_content2">
+                    <h2>ROCKIN' THE RIVERS</h2>
+                    <div class="sub_2_imgbox photo5"></div>
+                    <div class="sub_2_textbox">    
+                        <h4>Montana's Homegrown Rockfest</h4>    
+                        <p>This festival in Montana provides a place for you to express your passion and sincerity for rock</p>
+                    </div>    
+                </div>
+
+
+                <div id="sub_content3">
+                    <h2>FOLLOW US</h2>
+                    <div class="sub3_iconbox">
+                        <a href="#"><img src="img/sub/icon21.png" class="icon1" alt="icon"></a>
+                        <a href="#"><img src="img/sub/icon22.png" class="icon2" alt="icon"></a>
+                        <a href="#"><img src="img/sub/icon24.png" class="icon3" alt="icon"></a>
+                        <a href="#"><img src="img/sub/icon23.png" class="icon4" alt="icon"></a>
+                        <a href="#"><img src="img/sub/icon26.png" class="icon5" alt="icon"></a>
+                        <a href="#"><img src="img/sub/icon25.png" class="icon6" alt="icon"></a>
+                    </div>    
+                </div>
+
+
+                <div id="sub_content4">
+                    <h2>CATEGORIES</h2>
+                    <div class="categories">
+                        <ul>
+                            <li><a href="#">Rock</a><span class="category_sub">50</span><hr></li>
+                            <li><a href="#">Band</a><span class="category_sub">40</span><hr></li>
+                            <li><a href="#">Concert</a><span class="category_sub">35</span><hr></li>
+                            <li><a href="#">Ticket</a><span class="category_sub">12</span><hr></li>
+                            <li><a href="#">Camping</a><span class="category_sub">18</span><hr></li>
+                            <li><a href="#">Camping Facility</a><span class="category_sub">12</span><hr></li>
+                            <li><a href="#">Entertainment</a><span class="category_sub">11</span><hr></li>
+                            <li><a href="#">Season</a><span class="category_sub">29</span><hr></li>
+                            <li><a href="#">Shop</a><span class="category_sub">18</span><hr></li>
+                            <li><a href="#">Media</a><span class="category_sub">13</span><hr></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="sub_content5">
+                    <h2>TESTIMONIALS</h2>
+                    <div class="sub_5_textbox">
+                        <img src="img/sub/icon16.png" alt="icon">
+                        <p>I've got lot experiences! I'm always impressed with the event. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. John, Customer</p>
+                        <img src="img/sub/icon17.png" alt="icon">
+                    </div>
+                </div>
+
+
+                <div id="sub_content6">
+                    <h2 class="popular">Concerts's date</h2>
+                    <div class="sub_6_box">
+                        <img src="img/38-special.jpg" alt="camping">
+                        <div class="sub_6_textbox">
+                            <h2><a href="#">.38 Special</a></h2>
+                            <p>Jacksonville, Florida</p>
+                            <span>May 31, 2021 - 1865 Comments</span>
+                        </div>
+                    </div>
+                    <div class="sub_6_box">
+                        <img src="img/skillet.jpg" alt="camping">
+                        <div class="sub_6_textbox">
+                            <h2><a href="#">Skillet</a></h2>
+                            <p>Memphis, Tennessee</p>
+                            <span>May 31, 2021 - 2357 Comments</span>
+                        </div>
+                    </div>
+                    <div class="sub_6_box">
+                        <img src="img/black-label-society.jpg" alt="camping">
+                        <div class="sub_6_textbox">
+                            <h2><a href="#">Black label society</a></h2>
+                            <p>Los Angeles, Califonia</p>
+                            <span>May 31, 2021 - 1916 Comments</span>
+                        </div>
+                    </div>
+                    <div class="sub_6_box">
+                        <img src="img/coldplay1.jpg" alt="camping">
+                        <div class="sub_6_textbox">
+                            <h2><a href="#">Coldplay</a></h2>
+                            <p>New York</p>
+                            <span>May 31, 2021 - 9835 Comments</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="sub_content7">
+                    <h2>TAGS</h2>
+                    <div class="tags">
+                        <ul>
+                            <li><a href="#">Art</a></li>
+                            <li><a href="#">Application</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Entertainment</a></li>
+ 
+                            <li><a href="#">Internet</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Multipurpose</a></li>
+                            <li><a href="#">Music</a></li>
+                         
+                            <li><a href="#">Print</a></li>
+                            <li><a href="#">Programing</a></li>
+                            <li><a href="#">Responsive</a></li>
+                            <li><a href="#">Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="sub_content8">
+                    <h2>LETTER</h2>
+                    <input type="text" class="search" placeholder="Enter your name.."/>
+                    <img src="img/sub/icon27.png" class="in" alt="icon">
+                </div>
+
+
+                <div id="sub_content9">
+                    <h2>INSTAGRAM</h2>
+                    <div class="sub_9_box">
+                        <a href="#" class="sub_9_imgbox">
+                            <div class="sub_9_img photo6"></div>
+                            <img src="img/sub/icon20.png" class="instagram" alt="insta">
+                        </a>
+                        <a href="#" class="sub_9_imgbox">
+                            <div class="sub_9_img photo7"></div>
+                            <img src="img/sub/icon20.png" class="instagram" alt="insta">
+                        </a>
+                        <a href="#" class="sub_9_imgbox">
+                            <div class="sub_9_img photo8"></div>
+                            <img src="img/sub/icon20.png" class="instagram" alt="insta">
+                        </a>
+                        <a href="#" class="sub_9_imgbox">
+                            <div class="sub_9_img photo9"></div>
+                            <img src="img/sub/icon20.png" class="instagram" alt="insta">
+                        </a>
+                        <a href="#" class="sub_9_imgbox">
+                            <div class="sub_9_img photo10"></div>
+                            <img src="img/sub/icon20.png" class="instagram" alt="insta">
+                        </a>
+                        <a href="#" class="sub_9_imgbox">
+                            <div class="sub_9_img photo11"></div>
+                            <img src="img/sub/icon20.png" class="instagram" alt="insta">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+  
+
+
+        <footer>
+            <div id="footer_box">
+                <div class="footer_sub1">
+                    <h3>ROCKIN'THE RIVERS</h3>
+                    <p>Montana's Homegrown Rockfest</p>
+                        <ul> 
+                            <li><a href="https://www.twitter.com/rockintherivers"><div class="icon twitter"></div></a></li>
+                            <li><a href="https://www.facebook.com/rockintheriversMT"><div class="icon face"></div></a></li>
+                            <li><a href="https://www.instagram.com/rockintheriversofficial"><div class="icon insta"></div></a></li>
+                        </ul>    
+                </div>
+
+                <div class="footer_sub2">
+                    <h3>LINKS</h3>
+                    
+                        <ul>
+                            <li><a href="#">Purchase Tickets</a></li>
+                            <li><a href="#">See Full Line-Up</a></li>
+                            <li><a href="#">Camping Information</a></li>
+                            <li><a href="#">Follow News</a></li>
+                            <li><a href="#">Purchase Merchandise</a></li>
+                        </ul>
+                    
+                </div>
+
+                <div class="footer_sub3">
+                    <h3>CONTACK</h3>
+                    
+                        <ul>
+                            <li><img src="img/icon7.png" class="sub3_icon" alt="icon">406.285.0099</li>
+                            <li><img src="img/icon8.png" class="sub3_icon" alt="icon">1865 Hwy 2 Cardwell MT 59721</li>
+                            <li><img src="img/icon10.png" class="sub3_icon" alt="icon"><a href="#"> info@rockintherivers.com</a></li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,1280 @@
+@charset "utf-8";
+
+
+    /*1100 9000*/
+    
+
+    @media(max-width:991px){
+
+        #wrap{width: 100%; height: auto;}
+
+        #slider{width: 100%; height: 80vw; margin: 0 auto;}
+            #slider_wrap{width: 100%; height: 80vw; background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/2.jpg"); background-size: cover; background-position: center; text-align: center; color: white;}
+                #slider_wrap h2{padding: 40% 0 0 0px; font-size: 2.5rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                #slider_wrap h4{padding: 20px 0 0 0px}
+
+                /*타원을 만든 다음 position:relative로 위치를 조정해 모양을 꾸민 후  하단의 content1에도 position: relative를 입력해 먹히지 않도록 함*/
+
+                .slider_button{width: 50%; height: 10vw; border-radius: 50%; background-color: white; border: none; position: relative; bottom: 20px; margin: 0 auto; display: flex; justify-content: center; padding: 3% 0 0 0px;}
+                    .button_box{width: 12%; height: 20px; position: relative; display: flex; justify-content: space-between;}
+                        .button_box button{width: 10px; height: 10px; border: none; background-color: #666; border-radius: 50%; cursor: pointer;}
+                        .button_box button:nth-of-type(1) {background-color: #b5a46d;}
+
+    }          
+
+
+    
+    @media(min-width:992px){
+
+        #wrap{width: 100%; height: auto;}
+
+    	#slider{width: 100%; height: 900px; margin: 0 auto;}
+        	#slider_wrap{width: 100%; height: 100%; background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/2.jpg"); background-size: cover; background-position: center; text-align: center; color: white;}
+        	    #slider_wrap h2{padding: 340px 0 0 0px; font-size: 3.5rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+        	    #slider_wrap h4{padding: 20px;}
+
+                /*타원을 만든 다음 position:relative로 위치를 조정해 모양을 꾸민 후  하단의 content1에도 position: relative를 입력해 먹히지 않도록 함*/
+
+        	    .slider_button{width: 85%; height: 200px; border-radius: 50%; background-color: white; border: none; position: relative; bottom: 50px; margin: 0 auto; display: flex; justify-content: center; padding: 30px 0 0 0px;}
+        	        .button_box{width: 40px; height: 20px; position: relative; display: flex; justify-content: space-between;}
+                        .button_box button{width: 14px; height: 14px; border: none; background-color: #666; border-radius: 50%; cursor: pointer;}
+                        .button_box button:nth-of-type(1) {background-color: #b5a46d;}
+
+    }                    
+        
+/*-------------------------------------------slider motion area end---------------------------------------*/    
+
+
+    @media(max-width:575px) {
+
+        #wrap{width: 100%; height: auto;}
+
+
+        section{width: 100%; height: auto;  margin: 0 auto;}
+            #section_wrap{width: 100%; height: auto; display: flex; justify-content: center; align-content: flex-start; flex-flow: row wrap;}
+                .story{padding: 10px 15px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.8rem;}
+
+                #content_1{width: 100%; height: auto; display: flex; flex-flow: row wrap; position: relative; align-items: flex-start; flex-direction: column;}
+                    .con_1_textbox{width: 100%; height: auto; float: left; display: flex; justify-content: center; flex-direction: column; padding: 5%;}
+                        .con_1_textbox span{width: 100px;}
+                        .con_1_textbox h2{padding: 0 0 3% 0px; font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_1_textbox p{font-size: 16px; color: #666;}
+
+                        .con_1_subtext{width: 100%; height: 50px; display: flex; flex-flow: row wrap; margin: 5% 0 0 2%;}
+                            .con_1_subtext img{width: 50px; height: 50px;}
+                            .con_1_sub{padding: 0 0 0 5%;}
+                                .con_1_sub h3{font-size: 15px;}
+                                .con_1_sub p{font-size: 15px;}
+
+                    .con_1_imgbox{width: 100%; height:300vw; display: flex; flex-direction: column; padding: 5%;}
+                        .con_1_img{width: 100%; height: 100%; margin: 0 0 10px 0px;}
+                            .photo_5{background-image: url(../img/1-2.jpg); background-size: cover; background-position: center; border: none}
+                            .photo_6{background-image: url(../img/2-1.jpg); background-size: cover; background-position: center;}
+                            .photo_7{background-image: url(../img/3.jpg); background-size: cover; background-position: center;}
+                            .photo_8{background-image: url(../img/4.jpg); background-size: cover; background-position: center;}
+
+
+                #content_2{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+                    .con_2_textbox{width: 100%; height: 80vw; background-color: #f7f6f0; padding: 2%;}
+                        .con_2_subtext{width: 100%; height: 100%; border: 1px solid #d3d3d3; display: flex; flex-direction: column; justify-content: center; align-items: center;} 
+                            .con_2_subtext img{width: 80px; height: 80px;}
+                            .con_2_subtext h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                            .con_2_subtext p{padding: 0 0 20px 0px; font-size: 0.9rem; color: #666;}
+                            .book{padding: 13px 20px; background-color: rgba(35, 35, 35, 1.0); color: white; font-size: 13px; border-radius: 5px;}
+
+                    .con_2_imgbox{width: 100%; height: 80vw;}        
+                        .photo_9{background-image: url(../img/4-1.jpg); background-size: cover; background-position: center;}  
+
+
+                #content_3{width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; flex-direction: column;}  
+                    .con_3_sub_1{width: 100%; height: auto; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15% 5% 10% 5%;}
+                        .con_3_sub_1 > h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_3_sub_1 > p{line-height: 30px; font-size: 1rem;}
+
+                    .con_3_sub_2{width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column;} 
+
+                    .con_3_box_1{width: 100%; height: 100vw; display: flex; flex-direction: column;} 
+                    .con_3_box_2{width: 100%; height: 100vw; display: flex; flex-direction: column;} 
+                    .con_3_box_3{width: 100%; height: 100vw; display: flex; flex-direction: column; margin: 0 0 10% 0px;} 
+
+                        .gold{color: #b5a482; font-size: 12px; padding: 10px 0 0 0px;}  
+                        .con_3_textbox1{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox1 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox1 p{font-size: 0.9rem; line-height: 23px;}  
+                        .con_3_textbox2{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}
+                            .con_3_textbox2 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox2 p{font-size: 0.9rem; line-height: 23px;}     
+                        .con_3_textbox3{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}  
+                            .con_3_textbox3 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox3 p{font-size: 0.9rem; line-height: 23px;}   
+                        .con_3_textbox4{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox4 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox4 p{font-size: 0.9rem; line-height: 23px;}    
+
+                        .con_3_imgbox{width: 100%; height: 50%;}
+                             .con_3_imgbox:hover .eat_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                            .photo_10{background-image: url(../img/1-3.jpg); background-size: cover; background-position: center;}
+                            .photo_11{background-image: url(../img/3-1.jpg); background-size: cover; background-position: center;}
+                            .photo_12{background-image: url(../img/2-2.jpg); background-size: cover; background-position: center;}
+                            .photo_13{background-image: url(../img/4-2.jpg); background-size: cover; background-position: center;}
+
+                            .eat_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .eat_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+
+
+
+                #content_4{width: 100%; height: auto; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/8-1.jpg); background-size: cover; background-position: center; background-attachment: fixed; margin: 0 auto; display: flex; align-items: center;}  
+                    .con_4_textbox{width: 100%; height: 50vw; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;} 
+                        .con_4_textbox img{width: 40px; height: 40px;}
+
+                        .choice{font-size: 20px; color: white;}
+                        .con_4_subtext{width: 80%; height: 50%; background-color: #232323; padding: 2%;}     
+                            .con_4_sub{width: 100%; height: 100%; border: 1px solid #666; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 7%;}  
+                                .con_4_sub h2{padding: 0 0 10px 0px; font-family: "GoudyOlst BT"; font-size: 0.7rem;}
+                                .con_4_sub p{font-size: 0.6rem; padding: 0 0 10px 0px;}
+                                .star_box{width: 100px; height: 20px; display: flex; justify-content: space-between;}
+                                    .star_box img{width: 18px; height: 18px;}
+
+
+                #content_5{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center;}
+                    .con_5_textbox{width: 100%; height: 200vw; margin: 0 auto; padding: 5% 2%; text-align: center; }
+                        .con_5_sub_1{width: 100%; height: 30%; padding:5% 2% 0% 2%;} 
+                            .con_5_sub_1 h2{padding: 25px 0 20px 0px; font-size: 1.8rem;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_5_sub_1 p{font-size: 0.85rem; color: #666; padding: 2% 0 5% 0px;}
+
+                        .con_5_sub_2{width: 100%; height: 5%;  display: flex; justify-content: center; text-align: center; align-items: center;}   
+                            
+                                .con_5_sub_2 ul li{float: left;}          
+                                    .con_5_sub_2 ul li a{color: #b5a482; padding: 0 2% 0 5%; font-size: 0.9rem; font-weight: bold;}  
+                                    .con_5_sub_2 .meal{color: #b5a482; padding: 0 2% 0 0px; font-size: 0.9rem; font-weight: bold; border: none; cursor: pointer; background-color: white;}  
+
+                        .con_5_sub_3{width: 100%; height: 65%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 5% 0 0 0px;}
+                            .con_5_subbox{width: 100%; height: 15%; display: flex; flex-flow: row wrap; justify-content: space-evenly; margin: 0 0 5% 0px;}    
+                                .con_5_subimg{width: 58px; height: 58px; box-shadow: 1px 1px 1px 1px #eee; padding: 1%;}    
+                                    .con_5_subbox img{width: 50px; height: 50px;}    
+
+                                .con_5_subtext{width: 80%; height: 100%; text-align: left;}
+                                    .con_5_subtext p{color: #666; font-size: 0.9rem;}
+                                    .foodmenu_1:after {content: "3.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_2:after {content: "4.30$"; float: right; font-size: 1rem;}
+                                    .foodmenu_3:after {content: "5.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_4:after {content: "4.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_5:after {content: "15.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_6:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_7:after {content: "19.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_8:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_9:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_10:after {content: "14.00$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_11:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_12:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_13:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_14:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_15:after {content: "14.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_16:after {content: "5.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_17:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_18:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_19:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_20:after {content: "15.90$"; float: right; font-size: 1rem;}
+
+                                    .textline_1{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 40%;}
+                                    .textline_2{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 25%;}
+                                    .textline_3{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 37%;}
+                                    .textline_4{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 35%;}
+                                    .textline_5{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 40%;}
+
+                                    .textline_6{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                    .textline_7{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 37%;}
+                                    .textline_8{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 33%;}
+                                    .textline_9{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 37%;}
+                                    .textline_10{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 31%;}
+
+                                    .textline_11{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 22%;}
+                                    .textline_12{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 42%;}
+                                    .textline_13{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 33%;}
+                                    .textline_14{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 18%;}
+                                    .textline_15{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 26%;}
+
+                                    .textline_16{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 35%;}
+                                    .textline_17{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 30%;}
+                                    .textline_18{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 42%;}
+                                    .textline_19{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 42%;}
+                                    .textline_20{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 26%;}
+
+                        .con_5_sub_4{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; display: none; padding: 5% 0 0 0px;}
+                        .con_5_sub_5{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; display: none; padding: 5% 0 0 0px;}   
+                        .con_5_sub_6{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; display: none; padding: 5% 0 0 0px;}  
+
+
+                #content_6{width: 100%; height: auto; margin: 0 auto; background-color: #f9f5ec; display: flex; justify-content: center; align-items: center; padding: 10% 2%;}
+                    .content_6_wrap{width: 100%; height: 530vw; display: flex; justify-content: space-between; flex-direction: column; align-items: center;}
+                        .con_6_imgbox{width: 90%; height: 12%; transition:all 1.0s;} 
+                            
+                            .photo_14{background-image: url(../img/1-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_14:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_14:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_15{background-image: url(../img/6.jpg); background-size: cover; background-position: center;}  
+                                .photo_15:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_15:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_16{background-image: url(../img/4-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_16:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_16:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_17{background-image: url(../img/4-3.jpg); background-size: cover; background-position: center;}  
+                                .photo_17:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_17:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_18{background-image: url(../img/5.jpg); background-size: cover; background-position: center;}  
+                                .photo_18:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_18:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_19{background-image: url(../img/2-4.jpg); background-size: cover; background-position: center;}
+                                .photo_19:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}   
+                                .photo_19:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_20{background-image: url(../img/7.jpg); background-size: cover; background-position: center;} 
+                                .photo_20:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}  
+                                .photo_20:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_21{background-image: url(../img/8.jpg); background-size: cover; background-position: center;} 
+                                .photo_21:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_21:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+
+                            .plus_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .plus_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+                                @keyframes fadein{from{opacity: 0;} to {opacity: 1;}}
+                                @keyframes fadeout{from{opacity: 1;} to {opacity: 0;}}
+                                .plus{color: white; padding: 8px 15px; font-size: 1.2rem; background-color: #b5a46d; border-radius: 50%; font-weight: bold;}
+                                    .plus:hover{font-size: 1.6rem; padding:  10px 20px 12px 20px;}
+
+
+                #content_7{width: 100%; height: 220vw; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center; padding: 5% 2%;}   
+                    .con_7_textbox_1{width: 100%; height: 25%; padding: 10% 2%;}
+                        .con_7_textbox_1 h2{padding: 20px 0px 10px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_7_textbox_1 p{color: #666; line-height: 27px; font-size: 0.9rem;}
+
+                    .con_7_textbox_2{width: 100%; height: 45%; display: flex; flex-flow: row wrap; justify-content: center;}
+                        .con_7_subtext{width: 45%; height: 45%; display: flex; flex-direction: column; align-items: center;} 
+                            .con_7_sub_img{width: 100%; height: 30%; display: flex; justify-content: flex-start; flex-direction: column; align-items: center;}
+                            .con_7_sub_imgbox {width: 55px; height: 70px; position: relative; z-index: 2;}
+                                .photo22{background-image: url(../img/medal.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo23{background-image: url(../img/open.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo24{background-image: url(../img/parking.png); background-size: 100% 90%; background-position: center; background-repeat: no-repeat;}
+                                .photo25{background-image: url(../img/chef.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                            .circle_1{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px 40px 0 0px}
+                            .circle_2{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px -40px 0 0px}
+                            .circle_3{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px 40px 0 0px}
+                            .circle_4{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px -40px 0 0px}
+
+                            .con_7_subtext h3{padding: 4% 0 2% 0px;}
+                            .con_7_subtext p{color: #666; font-size: 0.9rem;}
+
+                    .con_7_textbox_3{widtH: 100%; height: 30%; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/6_1.jpg); background-size: cover; background-position: center; display: flex; 
+                    flex-direction: column; justify-content: center; align-items: center; color: white; padding: 10%;}        
+                        .con_7_subtext_5{width: 80%; height: 40%; text-align: left; padding: 0 8% 0 5%;}
+                            .con_7_subtext_5 h2{padding: 0 0 10px 0px; font-size: 1.8rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_7_subtext_5 p{font-size: 0.9rem; color: rgba(255, 255, 255, 0.7);}
+                        .con_7_subtext_6{width: 80%; height: 100%; text-align: right; display: flex; align-items: center; justify-content: flex-start; padding: 0 0 0 5%;}
+                            .table{color: white; background-color: #b5a46d; padding: 15px 25px; border-radius: 5px;}               
+                                .table:hover{background-color: #b5a482;}
+
+
+                #content_8{width: 100%; height: auto; margin: 0 auto;}
+                    .content_8_wrap{width: 100%; height: 1000px; background-image: url(../img/5-5.jpg); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center;}  
+                        .content_8_cover{width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;} 
+                            .content_8_textbox{width: 80%; height: 70%; background-color: white; display: flex; flex-flow: row wrap; padding: 5% 7% 0 7%;}
+                                .reservation{padding: 10px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.9rem;}
+                                .content_8_textbox h4{font-size: 0.7rem; padding: 0 0 15px 0px;}
+                                .content_8_textbox h4:after {content: "*"; color: #b5a482; padding: 0 0 0 3px;}
+
+                                .con_8_subtext_1{width: 100%; height: 25%; padding: 0 30% 0 0px;}
+                                    .con_8_subtext_1 h2 {font-size: 1.8rem; padding: 5% 0 3% 0px;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                                    .con_8_subtext_1 p {font-size: 1rem; color: rgb(35, 35, 35); line-height: 30px;}
+                                .con_8_subtext_2{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    
+                                .con_8_subtext_3{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    .con_8_subbox{width: 100%; height: 28%; display: flex; flex-direction: column;}
+                                        .search{width: 90%; height: 40%; outline:none; border: 1px solid #eee; border-radius: 10px; padding: 5%}
+                                            .search::placeholder{color: #d3d3d3;}
+                                            .search:focus{outline: 1px solid #b5a482; box-shadow: 0px 0px 0px 4px rgba(181, 164, 130, 0.5);}
+                                    
+                                .con_8_subtext_4{width: 100%; height: 13%; display: flex; align-items: flex-start;} 
+                                    .book_table{background-color: black; color: white; padding: 15px 30px; font-size: 0.8rem; border-radius: 5px;}
+                                        .book_table a{color: white;}
+                                        .book_table a:hover{color: #b5a482;}      
+
+
+                #content_9{width: 100%; height: 360vw; margin: 0 auto; display: flex; }
+
+                /*머리*/
+                    .con_9_subtext_1 {width: 100%; height: 15%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 13% 0 13%; text-align: center;}
+                        .olive{color: #b5a482;}
+                        .olive_1{color: #b5a482; padding: 5px 10px; border-radius: 5px; background-color: #f7f6f0; font-size: 0.8rem;}
+                        .olive_2{color: #b5a46d; padding: 5px 10px; border-radius: 5px; background-color: white; font-size: 0.8rem;}
+                        .con_9_subtext_1 h2{ font-family: "GoudyOlst BT"; font-size: 36px; font-weight: normal; padding: 18px 0 10px 0px}
+                        .con_9_subtext_1 p{font-size: 0.9rem; color: #666; line-height: 30px;}
+                        .con_9_subtext_1 span{font-size: 0.7rem;}
+
+                    .con_9_subtext_2 {width: 100%; height: 75%; display: flex; flex-direction: column; align-items: center;  padding: 0% 13%; justify-content: space-between;} 
+
+                /*왼팔and오른팔*/        
+                        .con_9_sub_1 {width: 100%; height: 40%; display: flex; flex-direction: column; text-align: left; border: 1px solid #eee; border-radius: 10px;}
+                            .con_9_sub_1_img{width: 100%; height: 50%;}
+                                .con_9_sub_1_img img {width: 100%; height: 100%; border-top-left-radius:10px; border-top-right-radius:10px;}
+                            
+                            .con_9_sub_body{width: 100%; height: 50%; padding: 6% 8%;}
+                                .con_9_subbox_1{width: 100%; display: flex; justify-content: space-between; align-items: center;}
+                                    .con_9_subbox_1 h5{ font-weight: normal}
+                                .con_9_sub_body h2{font-weight: normal; color: #666; font-size: 1.3rem; padding: 10px 0 10px 0px;}
+                                    .con_9_sub_body h2 a{color: black; font-family: "GoudyOlst BT"; }
+                                    .con_9_sub_body h2 a:hover{color: #b5a482;}
+                                .con_9_sub_body p{width: 95%; color: #666; line-height: 25px; font-size: 0.8rem;}
+                /*왼손and오른손*/
+                                .con_9_sub_min{width: 100%; height: 40%; padding: 2% 8% 5% 8%; display: flex; align-items: center;}
+                                    .sub_min_img{width: 60px; height: 60px;}
+                                        .sub_min_img img{width: 60px; height: 60px; border-radius: 50%;}
+                                    .con_9_sub_min p{padding: 0 0 0 10px;}    
+
+                /*몸통*/
+                        .con_9_sub_2 {width: 100%; height: 20%; display: flex; flex-direction: column; justify-content: space-between; background-color: #b5a46d; color: white; padding: 3%; margin: 3% 0 3% 0px;}
+                            .con_9_subbox_2{width: 100%;}
+                                .con_9_subbox_2 img{display: none;}
+                                .con_9_subbox_2 h3{font-size: 1.7rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                                .con_9_subbox_2 p{padding: 20px 0 20px 0px;}
+
+                      
+                        
+                /*하반신*/
+                    .con_9_subtext_3 {width: 100%; height: 10%; display: flex; justify-content: center; align-items: center;} 
+                        .post_button{background-color: #eee; padding: 10px 15px; border-radius: 5px;}
+                            .post_button a{color: black}
+                            .post_button:hover{background-color: #d3d3d3;}                                    
+                                    
+ 
+    }
+
+/*-------------------------------------------section motion area 1 end---------------------------------------*/  
+
+    
+
+    @media(min-width:576px) and (max-width: 768px) {
+
+        #wrap{width: 100%; height: auto;}
+
+
+        section{width: 100%; height: auto;  margin: 0 auto;}
+            #section_wrap{width: 100%; height: auto; display: flex; justify-content: center; align-content: flex-start; flex-flow: row wrap;}
+                .story{padding: 10px 15px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.8rem;}
+
+                #content_1{width: 100%; height: 90vw; display: flex; flex-flow: row wrap; position: relative; align-items: flex-start; padding: 10% 5%;}
+                    .con_1_textbox{width: 50%; height: 80%; float: left; display: flex; justify-content: center; flex-direction: column; padding: 10% 10% 0 0px;}
+                        .con_1_textbox span{width: 100px;}
+                        .con_1_textbox h2{padding: 0 0 3% 0px; font-family: "GoudyOlst BT"; font-weight: normal; font-size: 1.5rem;}
+                        .con_1_textbox p{font-size: 16px; color: #666;}
+
+                        .con_1_subtext{width: 70%; height: 50px; display: flex; flex-flow: row wrap; margin: 5% 0 0 2%}
+                            .con_1_subtext img{width: 50px; height: 50px;}
+                            .con_1_sub{padding: 0 0 0 5%;}
+                                .con_1_sub h3{font-size: 15px;}
+                                .con_1_sub p{font-size: 15px;}
+
+                    .con_1_imgbox{width: 50%; height:50%; display: flex; justify-content: space-between; align-content: space-between; flex-flow: row wrap; margin: 20% 0 0 0px;}
+                        .con_1_img{width: 49%; height: 49%; cursor: pointer;}
+                            .con_1_img:hover{opacity: 0.9;}
+
+                            .photo_5{background-image: url(../img/1-2.jpg); background-size: cover; background-position: center; border: none;}
+                            .photo_6{background-image: url(../img/2-1.jpg); background-size: cover; background-position: center;}
+                            .photo_7{background-image: url(../img/3.jpg); background-size: cover; background-position: center;}
+                            .photo_8{background-image: url(../img/4.jpg); background-size: cover; background-position: center;}
+
+
+                #content_2{width: 100%; height: 800px; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+                    .con_2_textbox{width: 50%; height: 770px; background-color: #f7f6f0; padding: 2%;}
+                        .con_2_subtext{width: 100%; height: 100%; border: 1px solid #d3d3d3; display: flex; flex-direction: column; justify-content: center; align-items: center;} 
+                            .con_2_subtext img{width: 80px; height: 80px;}
+                            .con_2_subtext h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                            .con_2_subtext p{padding: 0 0 20px 0px; font-size: 0.9rem; color: #666;}
+                            .book{padding: 13px 20px; background-color: rgba(35, 35, 35, 1.0); color: white; font-size: 13px; border-radius: 5px;}
+
+                    .con_2_imgbox{width: 50%; height: 770px;}        
+                        .photo_9{background-image: url(../img/4-1.jpg); background-size: cover; background-position: center;}  
+
+
+                #content_3{width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; flex-direction: column; padding: 0 5% 0 5%;}  
+                    .con_3_sub_1{width: 100%; height: auto; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15% 5% 10% 5%;}
+                        .con_3_sub_1 > h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_3_sub_1 > p{line-height: 30px; font-size: 1rem;}
+
+                    .con_3_sub_2{width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column;} 
+
+                    .con_3_box_1{width: 100%; height: 100vw; display: flex; flex-direction: column;} 
+                    .con_3_box_2{width: 100%; height: 100vw; display: flex; flex-direction: column;} 
+                    .con_3_box_3{width: 100%; height: 100vw; display: flex; flex-direction: column; margin: 0 0 10% 0px;} 
+
+                        .gold{color: #b5a482; font-size: 12px; padding: 10px 0 0 0px;}  
+                        .con_3_textbox1{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox1 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox1 p{font-size: 0.9rem; line-height: 23px;}  
+                        .con_3_textbox2{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}
+                            .con_3_textbox2 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox2 p{font-size: 0.9rem; line-height: 23px;}     
+                        .con_3_textbox3{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}  
+                            .con_3_textbox3 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox3 p{font-size: 0.9rem; line-height: 23px;}   
+                        .con_3_textbox4{width: 100%; height: 50%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox4 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox4 p{font-size: 0.9rem; line-height: 23px;}    
+
+                        .con_3_imgbox{width: 100%; height: 50%;}
+                            .con_3_imgbox:hover .eat_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                            .photo_10{background-image: url(../img/1-3.jpg); background-size: cover; background-position: center;}
+                            .photo_11{background-image: url(../img/3-1.jpg); background-size: cover; background-position: center;}
+                            .photo_12{background-image: url(../img/2-2.jpg); background-size: cover; background-position: center;}
+                            .photo_13{background-image: url(../img/4-2.jpg); background-size: cover; background-position: center;}
+
+                            .eat_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .eat_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+
+
+
+                #content_4{width: 100%; height: 490px; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/8-1.jpg); background-size: cover; background-position: center; background-attachment: fixed; margin: 0 auto; display: flex; align-items: center;}  
+                    .con_4_textbox{width: 100%; height: 300px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;} 
+                        .con_4_textbox img{width: 40px; height: 40px;}
+
+                        .choice{font-size: 20px; color: white;}
+                        .con_4_subtext{width: 500px; height: 100%; background-color: #232323; padding: 2%;}     
+                            .con_4_sub{width: 100%; height: 100%; border: 1px solid #666; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 7%;}  
+                                .con_4_sub h2{padding: 0 0 10px 0px; font-family: "GoudyOlst BT";}
+                                .con_4_sub p{font-size: 0.9rem; padding: 0 0 10px 0px;}
+                                .star_box{width: 100px; height: 20px; display: flex; justify-content: space-between;}
+                                    .star_box img{width: 18px; height: 18px;}
+
+
+                #content_5{width: 100%; height: 954px; margin: 0 auto; display: flex; justify-content: center;}
+                    .con_5_textbox{width: 100%; height: 954px; margin: 0 auto; padding: 5% 10%; text-align: center; }
+                        .con_5_sub_1{width: 100%; height: 30%; padding: 0 20%;} 
+                            .con_5_sub_1 h2{padding: 25px 0 20px 0px; font-size: 1.8rem;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_5_sub_1 p{font-size: 0.85rem; color: #666;}
+
+                        .con_5_sub_2{width: 100%; height: 10%;  display: flex; justify-content: center; text-align: center;}   
+                              
+                                .con_5_sub_2 ul li{float: left;}          
+                                    .con_5_sub_2 ul li a{color: #b5a482; padding: 0 10px 0 10px; font-size: 0.9rem; font-weight: bold;}  
+                                    .con_5_sub_2 .meal{color: #b5a482; padding: 0 10px 0 0px; font-size: 0.9rem; font-weight: bold; border: none; cursor: pointer; background-color: white;}  
+
+                        .con_5_sub_3{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+                            .con_5_subbox{width: 100%; height: 15%; display: flex; flex-flow: row wrap; justify-content: space-evenly; margin: 0 0 5% 0px;}    
+                                .con_5_subimg{width: 70px; height: 100%; box-shadow: 1px 1px 1px 1px #eee; padding: 1%;}    
+                                    .con_5_subbox img{width: 58px; height: 58px;}    
+
+                                .con_5_subtext{width: 80%; height: 100%; text-align: left;}
+                                    .con_5_subtext p{color: #666; font-size: 0.9rem;}
+                                    .foodmenu_1:after {content: "3.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_2:after {content: "4.30$"; float: right; font-size: 1rem;}
+                                    .foodmenu_3:after {content: "5.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_4:after {content: "4.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_5:after {content: "15.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_6:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_7:after {content: "19.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_8:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_9:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_10:after {content: "14.00$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_11:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_12:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_13:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_14:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_15:after {content: "14.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_16:after {content: "5.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_17:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_18:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_19:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_20:after {content: "15.90$"; float: right; font-size: 1rem;}
+
+                                   .textline_1{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                   .textline_2{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 38%;}
+                                   .textline_3{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                   .textline_4{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                   .textline_5{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+
+                                   .textline_6{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56%;}
+                                   .textline_7{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                   .textline_8{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 48%;}
+                                   .textline_9{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                   .textline_10{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+
+                                   .textline_11{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 40%;}
+                                   .textline_12{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56%;}
+                                   .textline_13{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 48.5%;}
+                                   .textline_14{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 37%;}
+                                   .textline_15{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 44%;}
+
+                                   .textline_16{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 50%;}
+                                   .textline_17{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 46%;}
+                                   .textline_18{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56%;}
+                                   .textline_19{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 55%;}
+                                   .textline_20{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 46%;}
+
+                        .con_5_sub_4{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}
+                        .con_5_sub_5{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}   
+                        .con_5_sub_6{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}  
+
+
+
+                #content_6{width: 100%; height: auto; margin: 0 auto; background-color: #f9f5ec; display: flex; justify-content: center; align-items: center;}
+                    .content_6_wrap{width: 100%; height: 180vw; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between; padding: 5%;}
+                        .con_6_imgbox{width: 48%; height: 24%; transition:all 1.0s;} 
+                            
+                            .photo_14{background-image: url(../img/1-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_14:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_14:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_15{background-image: url(../img/6.jpg); background-size: cover; background-position: center;}  
+                                .photo_15:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_15:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_16{background-image: url(../img/4-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_16:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_16:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_17{background-image: url(../img/4-3.jpg); background-size: cover; background-position: center;}  
+                                .photo_17:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_17:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_18{background-image: url(../img/5.jpg); background-size: cover; background-position: center;}  
+                                .photo_18:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_18:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_19{background-image: url(../img/2-4.jpg); background-size: cover; background-position: center;}
+                                .photo_19:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}   
+                                .photo_19:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_20{background-image: url(../img/7.jpg); background-size: cover; background-position: center;} 
+                                .photo_20:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}  
+                                .photo_20:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_21{background-image: url(../img/8.jpg); background-size: cover; background-position: center;} 
+                                .photo_21:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_21:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+
+                            .plus_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .plus_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+                                @keyframes fadein{from{opacity: 0;} to {opacity: 1;}}
+                                @keyframes fadeout{from{opacity: 1;} to {opacity: 0;}}
+                                .plus{color: white; padding: 8px 15px; font-size: 1.2rem; background-color: #b5a46d; border-radius: 50%; font-weight: bold;}
+                                    .plus:hover{font-size: 1.6rem; padding:  10px 20px 12px 20px;}
+
+
+                #content_7{width: 100%; height: 150vw; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center;}   
+                    .con_7_textbox_1{width: 100%; height: 20%; padding: 0 5% 5% 5%;}
+                        .con_7_textbox_1 h2{padding: 20px 0px 10px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_7_textbox_1 p{color: #666; line-height: 27px; font-size: 0.9rem;}
+
+                    .con_7_textbox_2{width: 100%; height: 50%; display: flex; justify-content: space-between; flex-flow: row wrap; padding: 0 4% 0 4%;}
+                        .con_7_subtext{width: 48%; height: 50%; display: flex; flex-direction: column; align-items: center;} 
+                            .con_7_sub_img{width: 100%; height: 30%; display: flex; justify-content: flex-start; flex-direction: column; align-items: center;}
+                            .con_7_sub_imgbox {width: 55px; height: 70px; position: relative; z-index: 2;}
+                                .photo22{background-image: url(../img/medal.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo23{background-image: url(../img/open.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo24{background-image: url(../img/parking.png); background-size: 100% 90%; background-position: center; background-repeat: no-repeat;}
+                                .photo25{background-image: url(../img/chef.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                            .circle_1{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px 40px 0 0px}
+                            .circle_2{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px -40px 0 0px}
+                            .circle_3{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px 40px 0 0px}
+                            .circle_4{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px -40px 0 0px}
+
+                            .con_7_subtext h3{padding: 4% 0 2% 0px;}
+                            .con_7_subtext p{color: #666; font-size: 0.9rem;}
+
+                    .con_7_textbox_3{widtH: 100%; height: 25%; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/6_1.jpg); background-size: cover; background-position: center; display: flex; 
+                    justify-content: space-between; align-items: center; color: white;}        
+                        .con_7_subtext_5{width: 50%; height: 40%; text-align: left; padding: 0 8% 0 5%;}
+                            .con_7_subtext_5 h2{padding: 0 0 10px 0px; font-size: 1.8rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_7_subtext_5 p{font-size: 0.9rem; color: rgba(255, 255, 255, 0.7);}
+                        .con_7_subtext_6{width: 40%; height: 100%; text-align: right; display: flex; align-items: center; justify-content: flex-end; padding: 0 5% 0 0px;}
+                            .table{color: white; background-color: #b5a46d; padding: 15px 25px; border-radius: 5px;}               
+                                .table:hover{background-color: #808000;}
+
+
+                #content_8{width: 100%; height: 1000px; margin: 0 auto;}
+                    .content_8_wrap{width: 100%; height: 1000px; background-image: url(../img/5-5.jpg); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center;}  
+                        .content_8_cover{width: 100%; height: 100%; display: flex; justify-content: space-around; align-items: center;} 
+                            .content_8_textbox{width: 60%; height: 70%; background-color: white; display: flex; flex-flow: row wrap; padding: 5% 5% 0 5%;}
+                                .reservation{padding: 10px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.9rem;}
+                                .content_8_textbox h4{font-size: 0.7rem; padding: 0 0 15px 0px;}
+                                .content_8_textbox h4:after {content: "*"; color: #b5a482; padding: 0 0 0 3px;}
+
+                                .con_8_subtext_1{width: 100%; height: 25%; padding: 0 30% 0 0px;}
+                                    .con_8_subtext_1 h2 {font-size: 1.8rem; padding: 5% 0 3% 0px;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                                    .con_8_subtext_1 p {font-size: 1rem; color: rgb(35, 35, 35); line-height: 30px;}
+                                .con_8_subtext_2{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    
+                                .con_8_subtext_3{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    .con_8_subbox{width: 100%; height: 28%; display: flex; flex-direction: column;}
+                                        .search{width: 90%; height: 40%; outline:none; border: 1px solid #bebebe; border-radius: 10px; padding: 5%;}
+                                            .search::placeholder{color: #7f7f7f;}
+                                            .search:focus{outline: 1px solid #b5a482; box-shadow: 0px 0px 0px 4px rgba(181, 164, 130, 0.5);}
+                                    
+                                .con_8_subtext_4{width: 100%; height: 13%; display: flex; align-items: flex-start;} 
+                                    .book_table{background-color: black; color: white; padding: 15px 30px; font-size: 0.8rem; border-radius: 5px;}
+                                        .book_table a{color: white;}
+                                        .book_table a:hover{color: #b5a482;}    
+
+
+                #content_9{width: 100%; height: 360vw; margin: 0 auto; display: flex; }
+
+                /*머리*/
+                    .con_9_subtext_1 {width: 100%; height: 15%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 13% 0 13%; text-align: center;}
+                        .olive{color: #b5a482;}
+                        .olive_1{color: #b5a482; padding: 5px 10px; border-radius: 5px; background-color: #f7f6f0; font-size: 0.8rem;}
+                        .olive_2{color: #b5a46d; padding: 5px 10px; border-radius: 5px; background-color: white; font-size: 0.8rem;}
+                        .con_9_subtext_1 h2{ font-family: "GoudyOlst BT"; font-size: 36px; font-weight: normal; padding: 18px 0 10px 0px}
+                        .con_9_subtext_1 p{font-size: 0.9rem; color: #666; line-height: 30px;}
+                        .con_9_subtext_1 span{font-size: 0.7rem;}
+
+                    .con_9_subtext_2 {width: 100%; height: 75%; display: flex; flex-direction: column; align-items: center;  padding: 0% 13%; justify-content: space-between;} 
+
+                /*왼팔and오른팔*/        
+                        .con_9_sub_1 {width: 100%; height: 40%; display: flex; flex-direction: column; text-align: left; border: 1px solid #eee; border-radius: 10px;}
+                            .con_9_sub_1_img{width: 100%; height: 50%;}
+                                .con_9_sub_1_img img {width: 100%; height: 100%; border-top-left-radius:10px; border-top-right-radius:10px;}
+                            
+                            .con_9_sub_body{width: 100%; height: 50%; padding: 6% 8%;}
+                                .con_9_subbox_1{width: 100%; display: flex; justify-content: space-between; align-items: center;}
+                                    .con_9_subbox_1 h5{ font-weight: normal}
+                                .con_9_sub_body h2{font-weight: normal; color: #666; font-size: 1.3rem; padding: 10px 0 10px 0px;}
+                                    .con_9_sub_body h2 a{color: black; font-family: "GoudyOlst BT"; }
+                                    .con_9_sub_body h2 a:hover{color: #b5a482;}
+                                .con_9_sub_body p{width: 95%; color: #666; line-height: 25px; font-size: 0.8rem;}
+                /*왼손and오른손*/
+                                .con_9_sub_min{width: 100%; height: 40%; padding: 2% 8% 5% 8%; display: flex; align-items: center;}
+                                    .sub_min_img{width: 60px; height: 60px;}
+                                        .sub_min_img img{width: 60px; height: 60px; border-radius: 50%;}
+                                    .con_9_sub_min p{padding: 0 0 0 10px;}    
+
+                /*몸통*/
+                        .con_9_sub_2 {width: 100%; height: 20%; display: flex; flex-direction: column; justify-content: space-between; background-color: #b5a46d; color: white; padding: 3%; margin: 3% 0 3% 0px;}
+                            .con_9_subbox_2{width: 100%;}
+                                .con_9_subbox_2 img{display: none;}
+                                .con_9_subbox_2 h3{font-size: 1.7rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                                .con_9_subbox_2 p{padding: 20px 0 20px 0px;}
+
+                      
+                        
+                /*하반신*/
+                    .con_9_subtext_3 {width: 100%; height: 10%; display: flex; justify-content: center; align-items: center;} 
+                        .post_button{background-color: #eee; padding: 10px 15px; border-radius: 5px;}
+                            .post_button a{color: black}
+                            .post_button:hover{background-color: #d3d3d3;}                                     
+ 
+    }         
+                                    
+
+
+/*-------------------------------------------section motion area 2 end---------------------------------------*/   
+
+    @media(min-width:769px) and (max-width: 991px) {
+
+        #wrap{width: 100%; height: auto;}
+
+
+        section{width: 100%; height: auto;  margin: 0 auto;}
+            #section_wrap{width: 100%; height: auto; display: flex; justify-content: center; align-content: flex-start; flex-flow: row wrap;}
+                .story{padding: 10px 15px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.8rem;}
+
+                #content_1{width: 100%; height: 70vw; display: flex; flex-flow: row wrap; position: relative; align-items: flex-start; padding: 2%;}
+                    .con_1_textbox{width: 50%; height: 80%; float: left; display: flex; justify-content: center; flex-direction: column; padding: 0 10% 0 0px;}
+                        .con_1_textbox span{width: 100px;}
+                        .con_1_textbox h2{padding: 0 0 3% 0px; font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_1_textbox p{font-size: 16px; color: #666;}
+
+                        .con_1_subtext{width: 70%; height: 50px; display: flex; flex-flow: row wrap; margin: 5% 0 0 2%}
+                            .con_1_subtext img{width: 50px; height: 50px;}
+                            .con_1_sub{padding: 0 0 0 5%;}
+                                .con_1_sub h3{font-size: 15px;}
+                                .con_1_sub p{font-size: 15px;}
+
+                    .con_1_imgbox{width: 50%; height:50%; display: flex; justify-content: space-between; align-content: space-between; flex-flow: row wrap; margin: 10% 0 0 0px;}
+                        .con_1_img{width: 49%; height: 49%; cursor: pointer;}
+                            .con_1_img:hover{opacity: 0.9;}
+
+                            .photo_5{background-image: url(../img/1-2.jpg); background-size: cover; background-position: center; border: none;}
+                            .photo_6{background-image: url(../img/2-1.jpg); background-size: cover; background-position: center;}
+                            .photo_7{background-image: url(../img/3.jpg); background-size: cover; background-position: center;}
+                            .photo_8{background-image: url(../img/4.jpg); background-size: cover; background-position: center;}
+
+
+                #content_2{width: 100%; height: 800px; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+                    .con_2_textbox{width: 50%; height: 770px; background-color: #f7f6f0; padding: 2%;}
+                        .con_2_subtext{width: 100%; height: 100%; border: 1px solid #d3d3d3; display: flex; flex-direction: column; justify-content: center; align-items: center;} 
+                            .con_2_subtext img{width: 80px; height: 80px;}
+                            .con_2_subtext h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                            .con_2_subtext p{padding: 0 0 20px 0px; font-size: 0.9rem; color: #666;}
+                            .book{padding: 13px 20px; background-color: rgba(35, 35, 35, 1.0); color: white; font-size: 13px; border-radius: 5px;}
+
+                    .con_2_imgbox{width: 50%; height: 770px;}        
+                        .photo_9{background-image: url(../img/4-1.jpg); background-size: cover; background-position: center;}  
+
+
+                #content_3{width: 100%; height: 130vw; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-start; margin: 0 auto; padding: 5%;}  
+                    .con_3_sub_1{width: 100%; height: 20%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15% 25% 10% 25%;}
+                        .con_3_sub_1 > h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_3_sub_1 > p{line-height: 30px; font-size: 1rem;}
+
+                    .con_3_sub_2{width: 100%; height: 70%; margin: 0 auto; display: flex; flex-flow: row wrap;} 
+
+                    .con_3_box_1{width: 50%; height: 50%; display: flex; flex-flow: row wrap;}  
+                    .con_3_box_2{width: 50%; height: 50%; display: flex; flex-flow: row-reverse wrap;} 
+                    .con_3_box_3{width: 50%; height: 50%; display: flex; flex-flow: row-reverse wrap;} 
+
+                        .gold{color: #b5a482; font-size: 12px; padding: 10px 0 0 0px;}  
+                        .con_3_textbox1{width: 50%; height: 100%; text-align: center; box-shadow: 0px 0px 15px 15px rgba(238, 238, 238, 0.5), 0px 0px 10px 10px rgba(238, 238, 238, 0.7), 0px 0px 5px 5px rgba(238, 238, 238, 1); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox1 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox1 p{font-size: 0.9rem; line-height: 23px;}  
+                        .con_3_textbox2{width: 50%; height: 100%; text-align: center; box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 0.5), 0px 0px 10px 0px rgba(238, 238, 238, 0.7), 0px 0px 5px 0px rgba(238, 238, 238, 1); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}
+                            .con_3_textbox2 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox2 p{font-size: 0.9rem; line-height: 23px;}     
+                        .con_3_textbox3{width: 50%; height: 100%; text-align: center; box-shadow:  0px 5px 0px 0px rgba(238, 238, 238, 1), 0px 7px 0px 0px rgba(238, 238, 238, 0.7), 0px 10px 0px 0px rgba(238, 238, 238, 0.5); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}  
+                            .con_3_textbox3 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox3 p{font-size: 0.9rem; line-height: 23px;}   
+                        .con_3_textbox4{width: 50%; height: 100%; text-align: center; box-shadow: 3px 3px 0px 0px rgba(211, 211, 211, 0.2),  5px 5px 0px 0px rgba(238, 238, 238, 0.8), 8px 8px 0px 0px #f1f3f5, 10px 10px 0px 0px rgba(238, 238, 238, 0.5); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox4 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox4 p{font-size: 0.9rem; line-height: 23px;}    
+
+                        .con_3_imgbox{width: 50%; height: 100%;}
+                            .con_3_imgbox:hover .eat_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                            .photo_10{background-image: url(../img/1-3.jpg); background-size: cover; background-position: center;}
+                            .photo_11{background-image: url(../img/3-1.jpg); background-size: cover; background-position: center;}
+                            .photo_12{background-image: url(../img/2-2.jpg); background-size: cover; background-position: center;}
+                            .photo_13{background-image: url(../img/4-2.jpg); background-size: cover; background-position: center;}
+
+                            .eat_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .eat_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+
+
+
+                #content_4{width: 100%; height: 490px; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/8-1.jpg); background-size: cover; background-position: center; background-attachment: fixed; margin: 0 auto; display: flex; align-items: center;}  
+                    .con_4_textbox{width: 700px; height: 300px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;} 
+                        .con_4_textbox img{width: 40px; height: 40px;}
+
+                        .choice{font-size: 20px; color: white;}
+                        .con_4_subtext{width: 500px; height: 100%; background-color: #232323; padding: 2%;}     
+                            .con_4_sub{width: 100%; height: 100%; border: 1px solid #666; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 7%;}  
+                                .con_4_sub h2{padding: 0 0 10px 0px; font-family: "GoudyOlst BT";}
+                                .con_4_sub p{font-size: 0.9rem; padding: 0 0 10px 0px;}
+                                .star_box{width: 100px; height: 20px; display: flex; justify-content: space-between;}
+                                    .star_box img{width: 18px; height: 18px;}
+
+
+                #content_5{width: 100%; height: 954px; margin: 0 auto; display: flex; justify-content: center;}
+                    .con_5_textbox{width: 100%; height: 954px; margin: 0 auto; padding: 5% 10%; text-align: center; }
+                        .con_5_sub_1{width: 100%; height: 30%; padding: 0 20%;} 
+                            .con_5_sub_1 h2{padding: 25px 0 20px 0px; font-size: 1.8rem;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_5_sub_1 p{font-size: 0.85rem; color: #666;}
+
+                        .con_5_sub_2{width: 100%; height: 10%;  display: flex; justify-content: center; text-align: center;}   
+                              
+                                .con_5_sub_2 ul{float: left;}          
+                                    .con_5_sub_2 ul li a{color: #b5a482; padding: 0 10px 0 10px; font-size: 0.9rem; font-weight: bold;} 
+                                    .con_5_sub_2 .meal{color: #b5a482; padding: 0 10px 0 10px; font-size: 0.9rem; font-weight: bold; border: none; cursor: pointer; background-color: white;}  
+
+                        .con_5_sub_3{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;  padding: 5% 0 0 0px;}
+                            .con_5_subbox{width: 100%; height: 15%; display: flex; flex-flow: row wrap; justify-content: space-evenly; margin: 0 0 2% 0px;}    
+                                .con_5_subimg{width: 70px; height: 100%; box-shadow: 1px 1px 1px 1px #eee; padding: 1%;}    
+                                    .con_5_subbox img{width: 58px; height: 58px;}    
+
+                                .con_5_subtext{width: 80%; height: 100%; text-align: left;}
+                                    .con_5_subtext p{color: #666; font-size: 0.9rem;}
+                                    .foodmenu_1:after {content: "3.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_2:after {content: "4.30$"; float: right; font-size: 1rem;}
+                                    .foodmenu_3:after {content: "5.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_4:after {content: "4.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_5:after {content: "15.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_6:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_7:after {content: "19.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_8:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_9:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_10:after {content: "14.00$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_11:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_12:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_13:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_14:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_15:after {content: "14.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_16:after {content: "5.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_17:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_18:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_19:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_20:after {content: "15.90$"; float: right; font-size: 1rem;}
+
+                                   .textline_1{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 59.5%;}
+                                   .textline_2{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 46%;}
+                                   .textline_3{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56.5%;}
+                                   .textline_4{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 54%;}
+                                   .textline_5{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 57%;}
+
+                                   .textline_6{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 64.5%;}
+                                   .textline_7{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 57%;}
+                                   .textline_8{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 53.5%;}
+                                   .textline_9{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 57%;}
+                                   .textline_10{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 54%;}
+
+                                   .textline_11{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 45%;}
+                                   .textline_12{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 62%;}
+                                   .textline_13{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56.5%;}
+                                   .textline_14{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 42%;}
+                                   .textline_15{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 49%;}
+
+                                   .textline_16{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 57.5%;}
+                                   .textline_17{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 51%;}
+                                   .textline_18{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 62%;}
+                                   .textline_19{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 63%;}
+                                   .textline_20{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 49%;}
+
+                        .con_5_sub_4{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}
+                        .con_5_sub_5{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}   
+                        .con_5_sub_6{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}    
+
+                                   
+
+                #content_6{width: 100%; height: auto; margin: 0 auto; background-color: #f9f5ec; display: flex; justify-content: center; align-items: center;}
+                    .content_6_wrap{width: 100%; height: 180vw; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between; padding: 5%;}
+                        .con_6_imgbox{width: 48%; height: 24%; transition:all 1.0s;} 
+                            
+                            .photo_14{background-image: url(../img/1-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_14:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_14:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_15{background-image: url(../img/6.jpg); background-size: cover; background-position: center;}  
+                                .photo_15:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_15:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_16{background-image: url(../img/4-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_16:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_16:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_17{background-image: url(../img/4-3.jpg); background-size: cover; background-position: center;}  
+                                .photo_17:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_17:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_18{background-image: url(../img/5.jpg); background-size: cover; background-position: center;}  
+                                .photo_18:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_18:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_19{background-image: url(../img/2-4.jpg); background-size: cover; background-position: center;}
+                                .photo_19:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}   
+                                .photo_19:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_20{background-image: url(../img/7.jpg); background-size: cover; background-position: center;} 
+                                .photo_20:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}  
+                                .photo_20:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_21{background-image: url(../img/8.jpg); background-size: cover; background-position: center;} 
+                                .photo_21:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_21:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+
+                            .plus_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .plus_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+                                @keyframes fadein{from{opacity: 0;} to {opacity: 1;}}
+                                @keyframes fadeout{from{opacity: 1;} to {opacity: 0;}}
+                                .plus{color: white; padding: 8px 15px; font-size: 1.2rem; background-color: #b5a46d; border-radius: 50%; font-weight: bold;}
+                                    .plus:hover{font-size: 1.6rem; padding:  10px 20px 12px 20px;}
+
+
+                #content_7{width: 100%; height: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center; padding: 0 2% 0 2%;}   
+                    .con_7_textbox_1{width: 100%; height: 28%; padding: 0 27%;}
+                        .con_7_textbox_1 h2{padding: 20px 0px 10px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_7_textbox_1 p{color: #666; line-height: 27px; font-size: 0.9rem;}
+
+                    .con_7_textbox_2{width: 100%; height: 30%; display: flex; justify-content: space-between;}
+                        .con_7_subtext{width: 23%; height: 100%; display: flex; flex-direction: column; align-items: center;} 
+                            .con_7_sub_img{width: 100%; height: 30%; display: flex; justify-content: flex-start; flex-direction: column; align-items: center;}
+                            .con_7_sub_imgbox {width: 55px; height: 70px; position: relative; z-index: 2;}
+                                .photo22{background-image: url(../img/medal.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo23{background-image: url(../img/open.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo24{background-image: url(../img/parking.png); background-size: 100% 90%; background-position: center; background-repeat: no-repeat;}
+                                .photo25{background-image: url(../img/chef.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                            .circle_1{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px 40px 0 0px}
+                            .circle_2{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px -40px 0 0px}
+                            .circle_3{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px 40px 0 0px}
+                            .circle_4{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px -40px 0 0px}
+
+                            .con_7_subtext h3{padding: 4% 0 2% 0px;}
+                            .con_7_subtext p{color: #666; font-size: 0.9rem;}
+
+                    .con_7_textbox_3{widtH: 100%; height: 25%; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/6_1.jpg); background-size: cover; background-position: center; display: flex; 
+                    justify-content: space-between; align-items: center; color: white;}        
+                        .con_7_subtext_5{width: 50%; height: 40%; text-align: left; padding: 0 8% 0 5%;}
+                            .con_7_subtext_5 h2{padding: 0 0 10px 0px; font-size: 1.8rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_7_subtext_5 p{font-size: 0.9rem; color: rgba(255, 255, 255, 0.7);}
+                        .con_7_subtext_6{width: 40%; height: 100%; text-align: right; display: flex; align-items: center; justify-content: flex-end; padding: 0 5% 0 0px;}
+                            .table{color: white; background-color: #b5a46d; padding: 15px 25px; border-radius: 5px;}               
+                                .table:hover{background-color: #808000;}
+
+
+                #content_8{width: 100%; height: 1000px; margin: 0 auto;}
+                    .content_8_wrap{width: 100%; height: 1000px; background-image: url(../img/5-5.jpg); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center;}  
+                        .content_8_cover{width: 100%; height: 100%; display: flex; justify-content: space-around; align-items: center;} 
+                            .content_8_textbox{width: 60%; height: 70%; background-color: white; display: flex; flex-flow: row wrap; padding: 5% 5% 0 5%;}
+                                .reservation{padding: 10px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.9rem;}
+                                .content_8_textbox h4{font-size: 0.7rem; padding: 0 0 15px 0px;}
+                                .content_8_textbox h4:after {content: "*"; color: #b5a482; padding: 0 0 0 3px;}
+
+                                .con_8_subtext_1{width: 100%; height: 25%; padding: 0 30% 0 0px;}
+                                    .con_8_subtext_1 h2 {font-size: 1.8rem; padding: 5% 0 3% 0px;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                                    .con_8_subtext_1 p {font-size: 1rem; color: rgb(35, 35, 35); line-height: 30px;}
+                                .con_8_subtext_2{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    
+                                .con_8_subtext_3{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    .con_8_subbox{width: 100%; height: 28%; display: flex; flex-direction: column;}
+                                        .search{width: 90%; height: 40%; outline:none; border: 1px solid #bebebe; border-radius: 10px; padding: 5%;}
+                                            .search::placeholder{color: #7f7f7f;}
+                                            .search:focus{outline: 1px solid #b5a482; box-shadow: 0px 0px 0px 4px rgba(181, 164, 130, 0.5);}
+                                    
+                                .con_8_subtext_4{width: 100%; height: 13%; display: flex; align-items: flex-start;} 
+                                    .book_table{background-color: black; color: white; padding: 15px 30px; font-size: 0.8rem; border-radius: 5px;}
+                                        .book_table a{color: white;}
+                                        .book_table a:hover{color: #b5a482;}    
+
+
+                #content_9{width: 100%; height: 170vw; margin: 0 auto; display: flex; }
+
+                /*머리*/
+                    .con_9_subtext_1 {width: 100%; height: 20%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 29% 0 29%; text-align: center;}
+                        .olive{color: #b5a482;}
+                        .olive_1{color: #b5a482; padding: 5px 10px; border-radius: 5px; background-color: #f7f6f0; font-size: 0.8rem;}
+                        .olive_2{color: #b5a46d; padding: 5px 10px; border-radius: 5px; background-color: white; font-size: 0.8rem;}
+                        .con_9_subtext_1 h2{ font-family: "GoudyOlst BT"; font-size: 36px; font-weight: normal; padding: 18px 0 10px 0px}
+                        .con_9_subtext_1 p{font-size: 0.9rem; color: #666; line-height: 30px;}
+                        .con_9_subtext_1 span{font-size: 0.7rem;}
+
+                    .con_9_subtext_2 {width: 100%; height: 70%; display: flex; flex-flow: row wrap; justify-content: space-between; padding: 3% 5%; align-content: space-between;} 
+
+                /*왼팔and오른팔*/        
+                        .con_9_sub_1 {width: 48%; height: 50%; display: flex; flex-direction: column; text-align: left; border: 1px solid #eee; border-radius: 10px; margin: 0 0 2% 0px;}
+                            .con_9_sub_1_img {width: 100%; height: 50%; border-top-left-radius:10px; border-top-right-radius:10px;}
+                                .con_9_sub_1_img img {width: 100%; height: 100%; border-top-left-radius:10px; border-top-right-radius:10px;}
+                            .con_9_sub_body{width: 100%; height: 40%; padding: 6% 8%;}
+                                .con_9_subbox_1{width: 100%; display: flex; justify-content: space-between; align-items: center;}
+                                    .con_9_subbox_1 h5{ font-weight: normal;}
+                                .con_9_sub_body h2{font-weight: normal; color: #666; font-size: 1.3rem; padding: 10px 0 10px 0px;}
+                                    .con_9_sub_body h2 a{color: black; font-family: "GoudyOlst BT"; }
+                                    .con_9_sub_body h2 a:hover{color: #b5a482;}
+                                .con_9_sub_body p{width: 95%; color: #666; line-height: 25px; font-size: 0.8rem;}
+                /*왼손and오른손*/
+                                .con_9_sub_min{width: 100%; height: 20%; padding: 2% 8% 4% 8%; display: flex; align-items: center;}
+                                    .sub_min_img{width: 40px; height: 40px;}
+                                        .sub_min_img img{width: 40px; height: 40px; border-radius: 50%;}
+                                    .con_9_sub_min p{padding: 0 0 0 10px;}    
+
+                /*몸통*/
+                        .con_9_sub_2 {width: 48%; height: 50%; display: flex; flex-direction: column; justify-content: space-between; background-color: #b5a46d; color: white; padding: 3%;}
+                            .con_9_subbox_2{width: 100%;}
+                                .con_9_subbox_2 img{width: 60%; height: auto; margin: 5% 0 5% 10%;}
+                                .con_9_subbox_2 h3{font-size: 1.4rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                                .con_9_subbox_2 p{padding: 20px 0 20px 0px;}
+
+                      
+                        
+                /*하반신*/
+                    .con_9_subtext_3 {width: 100%; height: 10%; display: flex; justify-content: center; align-items: center;} 
+                        .post_button{background-color: #eee; padding: 10px 15px; border-radius: 5px;}
+                            .post_button a{color: black}
+                            .post_button:hover{background-color: #d3d3d3;}                                    
+ 
+    }
+                        
+                                
+
+
+/*-------------------------------------------section motion area 3 end---------------------------------------*/  
+
+    @media(min-width:992px){
+
+        #wrap{width: 100%; height: auto;}
+
+    	section{width: 100%; height: 7753px;  margin: 0 auto;}
+        	#section_wrap{width: 100%; height: 7753px; display: flex; justify-content: center; align-content: flex-start; flex-flow: row wrap;}
+        	    .story{padding: 10px 15px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.8rem;}
+
+        	    #content_1{width: 1110px; height: 800px; display: flex; flex-flow: row wrap; position: relative; align-items: flex-start;}
+        	        .con_1_textbox{width: 50%; height: 80%; float: left; display: flex; justify-content: center; flex-direction: column; padding: 0 10% 0 0px;}
+                        .con_1_textbox span{width: 21%;}
+        	            .con_1_textbox h2{padding: 0 0 3% 0px; font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_1_textbox p{font-size: 16px; color: #666;}
+
+                        .con_1_subtext{width: 70%; height: 50px; display: flex; flex-flow: row wrap; margin: 5% 0 0 2%}
+                        	.con_1_subtext img{width: 50px; height: 50px;}
+                        	.con_1_sub{padding: 0 0 0 5%;}
+                        		.con_1_sub h3{font-size: 15px;}
+                        		.con_1_sub p{font-size: 15px;}
+
+        	        .con_1_imgbox{width: 50%; height:70%; display: flex; justify-content: space-between; align-content: space-between; flex-flow: row wrap; margin: 10% 0 0 0px;}
+        	            .con_1_img{width: 49%; height: 49%; cursor: pointer;}
+                            .con_1_img:hover{opacity: 0.9;}
+
+        	                .photo_5{background-image: url(../img/1-2.jpg); background-size: cover; background-position: center; border: none}
+        	                .photo_6{background-image: url(../img/2-1.jpg); background-size: cover; background-position: center;}
+        	                .photo_7{background-image: url(../img/3.jpg); background-size: cover; background-position: center;}
+        	                .photo_8{background-image: url(../img/4.jpg); background-size: cover; background-position: center;}
+
+
+        	    #content_2{width: 100%; height: 800px; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+        	        .con_2_textbox{width: 50%; height: 770px; background-color: #f7f6f0; padding: 2%;}
+        	            .con_2_subtext{width: 100%; height: 100%; border: 1px solid #d3d3d3; display: flex; flex-direction: column; justify-content: center; align-items: center;} 
+        	            	.con_2_subtext img{width: 80px; height: 80px;}
+        	            	.con_2_subtext h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+        	            	.con_2_subtext p{padding: 0 0 20px 0px; font-size: 0.9rem; color: #666;}
+        	            	.book{padding: 13px 20px; background-color: rgba(35, 35, 35, 1.0); color: white; font-size: 13px; border-radius: 5px;}
+
+        	        .con_2_imgbox{width: 50%; height: 770px;}        
+        	            .photo_9{background-image: url(../img/4-1.jpg); background-size: cover; background-position: center;}  
+
+
+        	    #content_3{width: 1110px; height: 965px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-start; margin: 0 auto}  
+                    .con_3_sub_1{width: 100%; height: 20%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15% 25% 10% 25%;}
+                        .con_3_sub_1 > h2{padding: 20px 0 20px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_3_sub_1 > p{line-height: 30px; font-size: 1rem;}
+
+                    .con_3_sub_2{width: 100%; height: 50%; margin: 0 auto; display: flex; flex-flow: row wrap;} 
+
+                    .con_3_box_1{width: 50%; height: 50%; display: flex; flex-flow: row wrap;}  
+                    .con_3_box_2{width: 50%; height: 50%; display: flex; flex-flow: row-reverse wrap;} 
+                    .con_3_box_3{width: 50%; height: 50%; display: flex; flex-flow: row-reverse wrap;} 
+
+                        .gold{color: #b5a482; font-size: 12px; padding: 10px 0 0 0px;}  
+                        .con_3_textbox1{width: 50%; height: 100%; text-align: center; box-shadow: 0px 0px 15px 15px rgba(238, 238, 238, 0.5), 0px 0px 10px 10px rgba(238, 238, 238, 0.7), 0px 0px 5px 5px rgba(238, 238, 238, 1); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox1 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox1 p{font-size: 0.9rem; line-height: 23px;}  
+                        .con_3_textbox2{width: 50%; height: 100%; text-align: center; box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 0.5), 0px 0px 10px 0px rgba(238, 238, 238, 0.7), 0px 0px 5px 0px rgba(238, 238, 238, 1); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}
+                            .con_3_textbox2 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox2 p{font-size: 0.9rem; line-height: 23px;}     
+                        .con_3_textbox3{width: 50%; height: 100%; text-align: center; box-shadow:  0px 5px 0px 0px rgba(238, 238, 238, 1), 0px 7px 0px 0px rgba(238, 238, 238, 0.7), 0px 10px 0px 0px rgba(238, 238, 238, 0.5); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%}  
+                            .con_3_textbox3 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox3 p{font-size: 0.9rem; line-height: 23px;}   
+                        .con_3_textbox4{width: 50%; height: 100%; text-align: center; box-shadow: 3px 3px 0px 0px rgba(211, 211, 211, 0.2),  5px 5px 0px 0px rgba(238, 238, 238, 0.8), 8px 8px 0px 0px #f1f3f5, 10px 10px 0px 0px rgba(238, 238, 238, 0.5); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10%} 
+                            .con_3_textbox4 h3{padding: 0 0 10px 0px;}
+                            .con_3_textbox4 p{font-size: 0.9rem; line-height: 23px;}    
+
+                        .con_3_imgbox{width: 50%; height: 100%;}
+                            .con_3_imgbox:hover .eat_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                            .photo_10{background-image: url(../img/1-3.jpg); background-size: cover; background-position: center;}
+                            .photo_11{background-image: url(../img/3-1.jpg); background-size: cover; background-position: center;}
+                            .photo_12{background-image: url(../img/2-2.jpg); background-size: cover; background-position: center;}
+                            .photo_13{background-image: url(../img/4-2.jpg); background-size: cover; background-position: center;}
+
+                            .eat_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .eat_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+
+        	    #content_4{width: 100%; height: 490px; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/8-1.jpg); background-size: cover; background-position: center; background-attachment: fixed; margin: 0 auto; display: flex; align-items: center;}  
+        	        .con_4_textbox{width: 900px; height: 300px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;} 
+                        .con_4_textbox img{width: 40px; height: 40px;}
+
+        	            .choice{font-size: 20px; color: white;}
+        	            .con_4_subtext{width: 600px; height: 100%; background-color: #232323; padding: 2%;} 	
+        	                .con_4_sub{width: 100%; height: 100%; border: 1px solid #666; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 7%;}	
+        	                	.con_4_sub h2{padding: 0 0 10px 0px; font-family: "GoudyOlst BT";}
+        	                	.con_4_sub p{font-size: 0.9rem; padding: 0 0 10px 0px;}
+        	                    .star_box{width: 100px; height: 20px; display: flex; justify-content: space-between;}
+        	                    	.star_box img{width: 18px; height: 18px;}
+
+
+                #content_5{width: 100%; height: 954px; margin: 0 auto; display: flex; justify-content: center; padding: 0 2% 0 2%;}
+                    .con_5_textbox{width: 100%; max-width: 1110px; height: 954px; margin: 0 auto; padding: 5% 10%; text-align: center; }
+                        .con_5_sub_1{width: 100%; height: 30%; padding: 0 20%;} 
+                            .con_5_sub_1 h2{padding: 25px 0 20px 0px; font-size: 1.8rem;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_5_sub_1 p{font-size: 0.85rem; color: #666;}
+
+                        .con_5_sub_2{width: 100%; height: 10%;  display: flex; justify-content: center; text-align: center;}   
+                              
+                                .con_5_sub_2 ul li{float: left;}          
+                                    .con_5_sub_2 ul li a{color: #b5a482; padding: 0 10px 0 10px; font-size: 0.9rem; font-weight: bold;} 
+                                    .con_5_sub_2 .meal{color: #b5a482; padding: 0 10px 0 10px; font-size: 0.9rem; font-weight: bold; border: none; cursor: pointer; background-color: white;}  
+
+                        .con_5_sub_3{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 5% 0 0 0px;}
+                            .con_5_subbox{width: 100%; height: 15%; display: flex; flex-flow: row wrap; justify-content: space-evenly; margin: 0 0 2% 0px}    
+                                .con_5_subimg{width: 10%; height: 100%; box-shadow: 1px 1px 1px 1px #eee; padding: 1%;}    
+                                    .con_5_subbox img{width: 58px; height: 58px;}    
+
+                                .con_5_subtext{width: 80%; height: 100%; text-align: left;}
+                                    .con_5_subtext p{color: #666; font-size: 0.9rem;}
+                                    .foodmenu_1:after {content: "3.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_2:after {content: "4.30$"; float: right; font-size: 1rem;}
+                                    .foodmenu_3:after {content: "5.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_4:after {content: "4.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_5:after {content: "15.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_6:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_7:after {content: "19.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_8:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_9:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_10:after {content: "14.00$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_11:after {content: "12.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_12:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_13:after {content: "14.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_14:after {content: "18.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_15:after {content: "14.50$"; float: right; font-size: 1rem;}
+
+                                    .foodmenu_16:after {content: "5.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_17:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_18:after {content: "11.00$"; float: right; font-size: 1rem;}
+                                    .foodmenu_19:after {content: "7.50$"; float: right; font-size: 1rem;}
+                                    .foodmenu_20:after {content: "15.90$"; float: right; font-size: 1rem;}
+
+                                   .textline_1{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 67.5%;}
+                                   .textline_2{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56.5%;}
+                                   .textline_3{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 64.5%;}
+                                   .textline_4{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 63%;}
+                                   .textline_5{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 65%;}
+
+                                   .textline_6{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 72.5%;}
+                                   .textline_7{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 67%;}
+                                   .textline_8{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 62.5%;}
+                                   .textline_9{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 65%;}
+                                   .textline_10{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 62%;}
+
+                                   .textline_11{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 59%;}
+                                   .textline_12{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 70%;}
+                                   .textline_13{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 64.5%;}
+                                   .textline_14{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 56%;}
+                                   .textline_15{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 61%;}
+
+                                   .textline_16{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 67.5%;}
+                                   .textline_17{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 61%;}
+                                   .textline_18{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 70%;}
+                                   .textline_19{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 71%;}
+                                   .textline_20{border: none; border-top: 3px dotted #d3d3d3; color: #fff; background-color: #fff; height: 7px; display: inline-block; width: 59%;}
+
+                        .con_5_sub_4{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}
+                        .con_5_sub_5{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}   
+                        .con_5_sub_6{width: 100%; height: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center; display: none; padding: 5% 0 0 0px;}              
+
+
+                #content_6{width: 100%; height: 743px; margin: 0 auto; background-color: #f9f5ec; display: flex; justify-content: center; align-items: center;}
+                    .content_6_wrap{width: 1110px; height: 553px; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between;}
+                        .con_6_imgbox{width: 24%; height: 49%; transition:all 1.0s;} 
+                            
+                            .photo_14{background-image: url(../img/1-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_14:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_14:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_15{background-image: url(../img/6.jpg); background-size: cover; background-position: center;}  
+                                .photo_15:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_15:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_16{background-image: url(../img/4-6.jpg); background-size: cover; background-position: center;}  
+                                .photo_16:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_16:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_17{background-image: url(../img/4-3.jpg); background-size: cover; background-position: center;}  
+                                .photo_17:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_17:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_18{background-image: url(../img/5.jpg); background-size: cover; background-position: center;}  
+                                .photo_18:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_18:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_19{background-image: url(../img/2-4.jpg); background-size: cover; background-position: center;}
+                                .photo_19:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}   
+                                .photo_19:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_20{background-image: url(../img/7.jpg); background-size: cover; background-position: center;} 
+                                .photo_20:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;}  
+                                .photo_20:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+                            .photo_21{background-image: url(../img/8.jpg); background-size: cover; background-position: center;} 
+                                .photo_21:hover .plus_box{visibility: visible; animation: fadein 0.5s; animation-timing-function: ease-in-out;} 
+                                .photo_21:not(:hover) .plus_box{animation: fadeout 2s; animation-timing-function: ease-in-out;}
+
+                            .plus_box{position: relative; width: 100%; height: 100%; text-align: center; visibility: hidden; color: white; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;}
+                                .plus_box p{font-size: 0.7rem; padding: 5% 0 5% 0px;}
+                                @keyframes fadein{from{opacity: 0;} to {opacity: 1;}}
+                                @keyframes fadeout{from{opacity: 1;} to {opacity: 0;}}
+                                .plus{color: white; padding: 8px 15px; font-size: 1.2rem; background-color: #b5a46d; border-radius: 50%; font-weight: bold;}
+                                    .plus:hover{font-size: 1.6rem; padding:  10px 20px 12px 20px;}
+
+
+                #content_7{width: 1110px; height: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center;}   
+                    .con_7_textbox_1{width: 100%; height: 28%; padding: 0 27%}
+                        .con_7_textbox_1 h2{padding: 20px 0px 10px 0px;  font-family: "GoudyOlst BT"; font-weight: normal; font-size: 2rem;}
+                        .con_7_textbox_1 p{color: #666; line-height: 27px; font-size: 0.9rem;}
+
+                    .con_7_textbox_2{width: 100%; height: 30%; display: flex; justify-content: space-between;}
+                        .con_7_subtext{width: 23%; height: 100%; display: flex; flex-direction: column; align-items: center;} 
+                            .con_7_sub_img{width: 100%; height: 30%; display: flex; justify-content: flex-start; flex-direction: column; align-items: center;}
+                            .con_7_sub_imgbox {width: 55px; height: 70px; position: relative; z-index: 2;}
+                                .photo22{background-image: url(../img/medal.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo23{background-image: url(../img/open.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                                .photo24{background-image: url(../img/parking.png); background-size: 100% 90%; background-position: center; background-repeat: no-repeat;}
+                                .photo25{background-image: url(../img/chef.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+                            .circle_1{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px 40px 0 0px}
+                            .circle_2{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -70px -40px 0 0px}
+                            .circle_3{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px 40px 0 0px}
+                            .circle_4{width: 60px; height: 60px; background-color: #b5a482; opacity: 0.5; border-radius: 50%; position: relative; z-index: 1; margin: -50px -40px 0 0px}
+
+                            .con_7_subtext h3{padding: 4% 0 2% 0px;}
+                            .con_7_subtext p{color: #666; font-size: 0.9rem;}
+
+                    .con_7_textbox_3{widtH: 100%; height: 25%; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/6_1.jpg); background-size: cover; background-position: center; display: flex; 
+                    justify-content: space-between; align-items: center; color: white;}        
+                        .con_7_subtext_5{width: 50%; height: 40%; text-align: left; padding: 0 8% 0 5%;}
+                            .con_7_subtext_5 h2{padding: 0 0 10px 0px; font-size: 1.8rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                            .con_7_subtext_5 p{font-size: 0.9rem; color: rgba(255, 255, 255, 0.7);}
+                        .con_7_subtext_6{width: 40%; height: 100%; text-align: right; display: flex; align-items: center; justify-content: flex-end; padding: 0 5% 0 0px;}
+                            .table{color: white; background-color: #b5a46d; padding: 15px 25px; border-radius: 5px;}               
+                                .table:hover{background-color: #808000;}
+
+
+                #content_8{width: 100%; height: 1000px; margin: 0 auto;}
+                    .content_8_wrap{width: 100%; height: 1000px; background-image: url(../img/5-5.jpg); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center;}  
+                        .content_8_cover{width: 1220px; height: 100%; display: flex; justify-content: flex-start; align-items: center;} 
+                            .content_8_textbox{width: 70%; height: 70%; background-color: white; display: flex; flex-flow: row wrap; padding: 5% 5% 0 5%;}
+                                .reservation{padding: 10px; color: #b5a482; background-color: #f7f6f0; border-radius: 20px; font-size: 0.9rem;}
+                                .content_8_textbox h4{font-size: 0.7rem; padding: 0 0 15px 0px;}
+                                .content_8_textbox h4:after {content: "*"; color: #b5a482; padding: 0 0 0 3px;}
+
+                                .con_8_subtext_1{width: 100%; height: 25%; padding: 0 30% 0 0px;}
+                                    .con_8_subtext_1 h2 {font-size: 1.8rem; padding: 5% 0 3% 0px;  font-family: "GoudyOlst BT"; font-weight: normal;}
+                                    .con_8_subtext_1 p {font-size: 1rem; color: rgb(35, 35, 35); line-height: 30px;}
+                                .con_8_subtext_2{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    
+                                .con_8_subtext_3{width: 50%; height: 62%; display: flex; flex-direction: column; justify-content: flex-end;}
+                                    .con_8_subbox{width: 100%; height: 28%; display: flex; flex-direction: column;}
+                                        .search{width: 90%; height: 40%; outline:none; border: 1px solid #bebebe; border-radius: 10px; padding: 5%}
+                                            .search::placeholder{color: #7f7f7f;}
+                                            .search:focus{outline: 1px solid #b5a482; box-shadow: 0px 0px 0px 4px rgba(181, 164, 130, 0.5);}
+                                    
+                                .con_8_subtext_4{width: 100%; height: 13%; display: flex; align-items: flex-start;} 
+                                    .book_table{background-color: black; color: white; padding: 15px 30px; font-size: 0.8rem; border-radius: 5px;}
+                                        .book_table a{color: white;}
+                                        .book_table a:hover{color: #b5a482;}      
+
+
+                #content_9{width: 1110px; height: 1000px; margin: 0 auto; display: flex; }
+
+                /*머리*/
+                    .con_9_subtext_1 {width: 100%; height: 30%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 29% 0 29%; text-align: center;}
+                        .olive{color: #b5a482;}
+                        .olive_1{color: #b5a482; padding: 5px 10px; border-radius: 5px; background-color: #f7f6f0; font-size: 0.8rem;}
+                        .olive_2{color: #b5a46d; padding: 5px 10px; border-radius: 5px; background-color: white; font-size: 0.8rem;}
+                        .con_9_subtext_1 h2{ font-family: "GoudyOlst BT"; font-size: 36px; font-weight: normal; padding: 18px 0 10px 0px}
+                        .con_9_subtext_1 p{font-size: 0.9rem; color: #666; line-height: 30px;}
+                        .con_9_subtext_1 span{font-size: 0.7rem;}
+
+                    .con_9_subtext_2 {width: 100%; height: 50%; display: flex; justify-content: space-between;} 
+
+                /*왼팔and오른팔*/        
+                        .con_9_sub_1 {width: 32%; height: 100%; display: flex; flex-direction: column; text-align: left; border: 1px solid #eee; border-radius: 10px;}
+                            .con_9_sub_1 img {width: 100%; height: auto; border-top-left-radius:10px; border-top-right-radius:10px;}
+                            .con_9_sub_body{width: 100%; height: 40%; padding: 6% 8%;}
+                                .con_9_subbox_1{width: 100%; display: flex; justify-content: space-between; align-items: center;}
+                                    .con_9_subbox_1 h5{ font-weight: normal}
+                                .con_9_sub_body h2{font-weight: normal; color: #666; font-size: 1.3rem; padding: 10px 0 10px 0px;}
+                                    .con_9_sub_body h2 a{color: black; font-family: "GoudyOlst BT"; }
+                                    .con_9_sub_body h2 a:hover{color: #b5a482;}
+                                .con_9_sub_body p{width: 95%; color: #666; line-height: 25px; font-size: 0.8rem;}
+                /*왼손and오른손*/
+                                .con_9_sub_min{width: 100%; height: 0%; padding: 5% 8%; display: flex; align-items: center;}
+                                    .sub_min_img{width: 60px; height: 60px;}
+                                        .sub_min_img img{width: 60px; height: 60px; border-radius: 50%;}
+                                    .con_9_sub_min p{padding: 0 0 0 10px;}    
+
+                /*몸통*/
+                        .con_9_sub_2 {width: 32%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; background-color: #b5a46d; color: white; padding: 3%; margin: 0 auto;}
+                            .con_9_subbox_2{width: 100%;}
+                                .con_9_subbox_2 img{width: 60%; height: auto; margin: 0 0 10% 10%;}
+                                .con_9_subbox_2 h3{font-size: 1.0rem; font-family: "GoudyOlst BT"; font-weight: normal;}
+                                .con_9_subbox_2 p{padding: 20px 0 20px 0px;}
+
+                      
+                        
+                /*하반신*/
+                    .con_9_subtext_3 {width: 100%; height: 20%; display: flex; justify-content: center; align-items: center;} 
+                        .post_button{background-color: #eee; padding: 10px 15px; border-radius: 5px;}
+                            .post_button a{color: black}
+                            .post_button:hover{background-color: #d3d3d3;}                                    
+ 
+    }
+
+    	

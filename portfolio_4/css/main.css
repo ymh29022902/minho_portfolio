@@ -1,0 +1,413 @@
+﻿@charset "utf-8";
+    #slider{width: 2280px; height:444px; background-color:white; margin: 0 auto;}
+	#slider img{width: 100%; height: 100%; margin: 0px 0px 30px 0px; }
+
+    section{width:100%; height:8234px; margin:0 auto;}
+
+    /*이상품 어때요?*/
+
+	  #contents1{width:1050px; height:1000px; margin:0 auto; }
+	       #contents1 h2{margin: 85px 0 0px 0px; font-size: 30px; text-align: center;}
+	       #contents1 h2 a{color: black; text-decoration: none;}
+                #contents1 > .imgbox1{width:250px; height: 265px; float:left; margin:40px 0 0 0px; overflow: hidden;}
+                    #contents1 > .imgbox1 img{width: 250px; height: 265px;}
+                    #contents1 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s; }
+
+                #contents1 > .imgbox2{width:250px; height: 265px; float: left; margin:40px 0 0 15px;  overflow:hidden;}
+                    #contents1 > .imgbox2 img{width: 250px; height: 265px;}
+                    #contents1 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents1 > .imgbox3{width:250px; height: 265px; float: left; margin:40px 0 0 15px;  overflow:hidden;}
+                    #contents1 > .imgbox3 img{width: 250px; height: 265px;}
+                    #contents1 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents1 > .imgbox4{width:250px; height: 265px; float: left; margin:40px 0 0 14px; overflow:hidden;} 
+                    #contents1 > .imgbox4 img{width: 250px; height: 265px;} 
+                    #contents1 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;} 
+
+                #contents1 > .imgbox5{width:250px; height: 265px; float: left; margin:20px 0 0 0px; overflow:hidden;} 
+                    #contents1 > .imgbox5 img{width: 250px; height: 265px;} 
+                    #contents1 > .imgbox5 img:hover{transform:scale(1.08); transition: 0.8s;}     
+                
+                #contents1 > .imgbox6{width:250px; height: 265px; float: left; margin:20px 0 0 15px; overflow:hidden;} 
+                    #contents1 > .imgbox6 img{width: 250px; height: 265px;} 
+                    #contents1 > .imgbox6 img:hover{transform:scale(1.08); transition: 0.8s;} 
+
+                #contents1 > .imgbox7{width:250px; height: 265px; float: left; margin:20px 0 0 15px; overflow:hidden;} 
+                    #contents1 > .imgbox7 img{width: 250px; height: 265px;} 
+                    #contents1 > .imgbox7 img:hover{transform:scale(1.08); transition: 0.8s;}  
+
+                #contents1 > .imgbox8{width:250px; height: 265px; float: left; margin:20px 0 0 14px; overflow:hidden;} 
+                    #contents1 > .imgbox8 img{width: 250px; height: 265px;} 
+                    #contents1 > .imgbox8 img:hover{transform:scale(1.08); transition: 0.8s;}        
+
+                #contents1 > .textbox1{width:250px; height: 180px; float: left; margin:20px 0 0 0px;}
+                #contents1 > .textbox2{width:250px; height: 180px; float: left; margin:20px 0 0 15px;}
+                #contents1 > .textbox3{width:250px; height: 180px; float: left; margin:20px 0 0 15px;}
+                #contents1 > .textbox4{width:250px; height: 180px; float: left; margin:20px 0 0 14px;}
+                #contents1 > .textbox5{width:250px; height: 180px; float: left; margin:20px 0 0 0px;}
+                #contents1 > .textbox6{width:250px; height: 180px; float: left; margin:20px 0 0 15px;}
+                #contents1 > .textbox7{width:250px; height: 180px; float: left; margin:20px 0 0 15px;}
+                #contents1 > .textbox8{width:250px; height: 180px; float: left; margin:20px 0 0 14px;}
+
+                #contents1 h5{float: left;}
+                #contents1 h5 a{color: black;}
+                #contents1 p{float: left; margin: 10px;}
+                #contents1 .production1:before{content: "15%"; color: orange; font-weight: bold; margin: 0 5px 0 0px;}
+                #contents1 .production2:before{content: "15%"; color: orange; font-weight: bold; margin: 0 5px 0 0px;}
+                #contents1 .production3:before{content: "10%"; color: orange; font-weight: bold; margin: 0 5px 0 0px;}
+                #contents1 .production4:before{content: "10%"; color: orange; font-weight: bold; margin: 0 5px 0 0px;}
+                #contents1 .production5:before{content: "10%"; color: orange; font-weight: bold; margin: 0 5px 0 0px;}
+                #contents1 .production6:before{content: "14%"; color: orange; font-weight: bold; margin: 0 5px 0 0px;}
+
+
+            #cover1{width: 100%; height: 600px; background-color:#eee;}
+		    #contents2{width:1050px; height:685px; text-align:center; margin:0 auto;}
+		        #contents2 h2{margin: 35px 0 0px 0px; font-size: 30px; text-align: center;}
+		        #contents2 h2 a{color: black;}
+
+		        #contents2 > .imgbox1{width:338px; height: 338px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+		            #contents2 > .imgbox1 img{width: 338px; height: 338px;}
+		            #contents2 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+		        #contents2 > .imgbox2{width:338px; height: 338px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+		            #contents2 > .imgbox2 img{width: 338px; height: 338px;}
+		            #contents2 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+		        #contents2 > .imgbox3{width:338px; height: 338px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+		            #contents2 > .imgbox3 img{width: 338px; height: 338px;}
+		            #contents2 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents2 > .textbox1{width:338px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents2 > .textbox2{width:338px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents2 > .textbox3{width:338px; height: 150px; float: left; margin:20px 0 0 15px;}
+		            
+
+		        #contents2 h5{font-size: 20px; margin: 10px;}  
+		        #contents2 h5 a{color: black;}  
+
+           /*놓치면 후회할 가격*/
+
+		    #contents3{width:1050px; height:1100px; text-align:center; margin: 0 auto;}
+		        #contents3 h2{margin: 35px 0 0px 0px; font-size: 30px; text-align: center;}
+		        #contents3 h2 a{color: black;}
+
+                #contents3 > .imgbox1{width:250px; height: 320px;  float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents3 > .imgbox1 img{width: 250px; height: 320px; display: inline-block;}
+                    #contents3 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox2{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents3 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents3 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox3{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents3 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents3 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox4{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;} 
+                    #contents3 > .imgbox4 img{width: 250px; height: 320px;}  
+                    #contents3 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox5{width:250px; height: 320px;  float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents3 > .imgbox5 img{width: 250px; height: 320px; display: inline-block;}
+                    #contents3 > .imgbox5 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox6{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents3 > .imgbox6 img{width: 250px; height: 320px;}
+                    #contents3 > .imgbox6 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox7{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents3 > .imgbox7 img{width: 250px; height: 320px;}
+                    #contents3 > .imgbox7 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents3 > .imgbox8{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;} 
+                    #contents3 > .imgbox8 img{width: 250px; height: 320px;}  
+                    #contents3 > .imgbox8 img:hover{transform:scale(1.08); transition: 0.8s;}    
+
+                #contents3 > .textbox1{width:250px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents3 > .textbox2{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents3 > .textbox3{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents3 > .textbox4{width:250px; height: 150px; float: left; margin:20px 0 0 14px;}                    
+                #contents3 > .textbox5{width:250px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents3 > .textbox6{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents3 > .textbox7{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents3 > .textbox8{width:250px; height: 150px; float: left; margin:20px 0 0 14px;}                    
+ 
+
+                #contents3 h5{float: left; text-align: left;}
+                #contents3 h5 a{color: black;}
+                #contents3 p{float: left; margin: 10px;}
+                #contents3 .production1:before{content: "25%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production2:before{content: "12%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production3:before{content: "25%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production4:before{content: "12%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production5:before{content: "15%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production6:before{content: "15%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production7:before{content: "23%"; color: orange; margin: 0 5px 0 0px;}
+                #contents3 .production8:before{content: "10%"; color: orange; margin: 0 5px 0 0px;}                
+
+
+		    #contents4{width:1050px; height:140px; margin: 0 auto;}
+		        #contents4 img{width:100%; height:100%;}
+
+            /*MD의 추천*/
+
+		    #contents5{width:1050px; height:1050px; margin: 0 auto; text-align:center;}
+		        #contents5 h2{margin: 75px 0 30px 0px; font-size: 30px; text-align: center;}
+		        #contents5 h2 a{color: black;}
+
+                #contents5 ul{display: inline;}
+                #contents5 ul li{text-decoration:none; display: inline-block; margin: 15px 10px 30px 10px;}
+                #contents5 ul li a{color:black; background-color:#eee; border: 10px solid #eee; border-radius: 15px;} 
+                #contents5 ul li a:hover{color: rgba(95, 0, 128, 1); background-color: #D8BFD8; border:  10px solid #D8BFD8; border-radius: 15px;}
+
+                #contents5 > .imgbox1{width:250px; height: 320px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents5 > .imgbox1 img{width: 250px; height: 320px;}
+                    #contents5 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents5 > .imgbox2{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents5 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents5 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents5 > .imgbox3{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents5 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents5 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents5 > .imgbox4{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;}       
+                    #contents5 > .imgbox4 img{width: 250px; height: 320px;}  
+                    #contents5 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents5 > .textbox1{width:250px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents5 > .textbox2{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents5 > .textbox3{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents5 > .textbox4{width:250px; height: 150px; float: left; margin:20px 0 0 14px;}                    
+                #contents5 h5{float: left;}
+                #contents5 h5 a{color: black;}
+                #contents5 p{float: left; margin: 10px;}
+                #contents5 .production1:before{content: "7%"; color: orange; margin: 0 5px 0 0px;}
+                #contents5 .production3:before{content: "17%"; color: orange; margin: 0 5px 0 0px;}           	    
+
+                button{padding: 15px 140px; background-color: white; border:4px solid #eee; margin: 15px; font-size: 18px;}
+
+
+		    #contents6{width:1050px; height:140px; margin: 0 auto;}
+		        #contents6 img{width:100%; height:100%;}
+
+
+		    #contents7{width:1050px; height:600px; border:none; margin: 0 auto;}
+		        #contents7 h2{margin: 55px 0 10px 0px; font-size: 30px; text-align: center;}
+		        #contents7 h2 a{color: black;}
+
+                #contents7 > .imgbox1{width:250px; height: 320px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents7 > .imgbox1 img{width: 250px; height: 320px;}
+                    #contents7 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents7 > .imgbox2{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents7 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents7 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents7 > .imgbox3{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents7 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents7 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents7 > .imgbox4{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;} 
+                    #contents7 > .imgbox4 img{width: 250px; height: 320px;}
+                    #contents7 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents7 > .textbox1{width:250px; height: 165px; float: left; margin:20px 0 0 0px;}
+                #contents7 > .textbox2{width:250px; height: 165px; float: left; margin:20px 0 0 15px;}
+                #contents7 > .textbox3{width:250px; height: 165px; float: left; margin:20px 0 0 15px;}
+                #contents7 > .textbox4{width:250px; height: 165px; float: left; margin:20px 0 0 14px;}
+
+                #contents7 h5{float: left;}
+                #contents7 h5 a{color: black;}
+                #contents7 p{float: left; margin: 10px;}                   
+                #contents7 .production1:before{content: "15%"; color: orange; margin: 0 5px 0 0px;} 
+                #contents7 .production2:before{content: "5%"; color: orange; margin: 0 5px 0 0px;}
+
+
+        #cover2{width: 100%; height: 1300px; background-color: #eee; margin: 30px 0 0 0px;}
+		    #contents8{width:1050px; height:550px; margin: 0 auto;}
+		        #contents8 h2{margin: 40px 0 0px 0px; font-size: 30px; text-align: center;}
+		        #contents8 h2 a{color: black;}
+
+                #contents8 > .imgbox1{width:250px; height: 320px; float: left; margin:50px 0 0 0px; overflow: hidden;}
+                    #contents8 > .imgbox1 img{width: 250px; height: 320px;}
+                    #contents8 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents8 > .imgbox2{width:250px; height: 320px; float: left; margin:50px 0 0 15px; overflow: hidden;}
+                    #contents8 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents8 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents8 > .imgbox3{width:250px; height: 320px; float: left; margin:50px 0 0 15px; overflow: hidden;}
+                    #contents8 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents8 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents8 > .imgbox4{width:250px; height: 320px; float: left; margin:50px 0 0 14px; overflow: hidden;}  
+                    #contents8 > .imgbox4 img{width: 250px; height: 320px;}  
+                    #contents8 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents8 > .textbox1{width:250px; height: 150px; float: left; margin:40px 0 0 0px;}
+                #contents8 > .textbox2{width:250px; height: 150px; float: left; margin:40px 0 0 15px;}
+                #contents8 > .textbox3{width:250px; height: 150px; float: left; margin:40px 0 0 15px;}
+                #contents8 > .textbox4{width:250px; height: 150px; float: left; margin:40px 0 0 14px;} 
+
+                #contents8 h5{float: left;}
+                #contents8 h5 a{color: black;}
+                #contents8 p{float: left; margin: 10px;}
+                #contents8 .production1:before{content: "30%"; color: orange; margin: 0 5px 0 0px;}
+                #contents8 .production2:before{content: "12%"; color: orange; margin: 0 5px 0 0px;}
+                #contents8 .production4:before{content: "30%"; color: orange; margin: 0 5px 0 0px;}    
+
+
+ 		    #contents9{width:1050px; height:550px; margin: 0 auto;}
+ 		        #contents9 h2{margin: 25px 0 0px 0px; font-size: 30px; text-align: center;}
+ 		        #contents9 h2 a{color: black;}
+
+                #contents9 > .imgbox1{width:250px; height: 320px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents9 > .imgbox1 img{width: 250px; height: 320px;}
+                    #contents9 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents9 > .imgbox2{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents9 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents9 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents9 > .imgbox3{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents9 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents9 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents9 > .imgbox4{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;}
+                    #contents9 > .imgbox4 img{width: 250px; height: 320px;}   
+                    #contents9 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents9 > .textbox1{width:250px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents9 > .textbox2{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents9 > .textbox3{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents9 > .textbox4{width:250px; height: 150px; float: left; margin:20px 0 0 14px;}                                
+                #contents9 h5{float: left;}
+                #contents9 h5 a{color: black;}
+                #contents9 p{float: left; margin: 10px;}
+                #contents9 .production1:before{content: "30%"; color: orange; margin: 0 5px 0 0px;}
+                #contents9 .production2:before{content: "20%"; color: orange; margin: 0 5px 0 0px;}
+                #contents9 .production3:before{content: "10%"; color: orange; margin: 0 5px 0 0px;}
+                #contents9 .production4:before{content: "19%"; color: orange; margin: 0 5px 0 0px;}    
+
+
+		    #contents10{width:1050px; height:600px; margin: 0 auto;}
+		        #contents10 h2{margin: 85px 0 0px 0px; font-size: 30px; text-align: center;}
+		        #contents10 h2 a{color: black;}
+		        #contents10 h4{text-align: center;}
+
+                #contents10 > .imgbox1{width:250px; height: 320px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents10 > .imgbox1 img{width: 250px; height: 320px;}
+                    #contents10 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents10 > .imgbox2{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents10 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents10 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents10 > .imgbox3{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents10 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents10 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents10 > .imgbox4{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;} 
+                    #contents10 > .imgbox4 img{width: 250px; height: 320px;}
+                    #contents10 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents10 > .textbox1{width:250px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents10 > .textbox2{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents10 > .textbox3{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents10 > .textbox4{width:250px; height: 150px; float: left; margin:20px 0 0 14px;}                   
+                #contents10 h5{float: left;}
+                #contents10 h5 a{color: black;}
+                #contents10 p{float: left; margin: 10px;}
+                #contents10 .production2:before{content:"45%"; color: orange; margin: 0 5px 0 0px;}
+                #contents10 .production3:before{content:"20%"; color: orange; margin: 0 5px 0 0px;}
+
+
+ 		    #contents11{width:1050px; height:600px; margin: 0 auto;}
+ 		        #contents11 h2{margin: 35px 0 0px 0px; font-size: 30px; text-align: center;}
+ 		        #contents11 h2 a{color: black;}
+ 		        #contents11 h4{text-align: center;}
+
+                #contents11 > .imgbox1{width:250px; height: 320px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+                    #contents11 > .imgbox1 img{width: 250px; height: 320px;}
+                    #contents11 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents11 > .imgbox2{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents11 > .imgbox2 img{width: 250px; height: 320px;}
+                    #contents11 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents11 > .imgbox3{width:250px; height: 320px; float: left; margin:30px 0 0 15px; overflow: hidden;}
+                    #contents11 > .imgbox3 img{width: 250px; height: 320px;}
+                    #contents11 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents11 > .imgbox4{width:250px; height: 320px; float: left; margin:30px 0 0 14px; overflow: hidden;}
+                    #contents11 > .imgbox4 img{width: 250px; height: 320px;}  
+                    #contents11 > .imgbox4 img:hover{transform:scale(1.08); transition: 0.8s;}   
+
+                #contents11 h5{float: left;}
+                #contents11 h5 a{color: black;}
+                #contents11 p{float: left; margin: 10px;}
+                #contents11 > .textbox1{width:250px; height: 150px; float: left; margin:20px 0 0 0px;}
+                #contents11 > .textbox2{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents11 > .textbox3{width:250px; height: 150px; float: left; margin:20px 0 0 15px;}
+                #contents11 > .textbox4{width:250px; height: 150px; float: left; margin:20px 0 0 14px;}                    
+
+		    #contents12{width:1050px; height:420px; margin: 0 auto;}
+		        #contents12 h2{margin: 30px 0 0px 0px; font-size: 30px; text-align: center;}
+		        #contents12 h2 a{color: black;}
+
+		        #contents12 > .imgbox1{width:338px; height: 225px; float: left; margin:30px 0 0 0px; overflow: hidden;}
+		            #contents12 > .imgbox1 img{width: 338px; height: 225px;}
+		            #contents12 > .imgbox1 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+		        #contents12 > .imgbox2{width:338px; height: 225px; float: left; margin:30px 0 0 13px; overflow: hidden;}
+		            #contents12 > .imgbox2 img{width: 338px; height: 225px;}
+		            #contents12 > .imgbox2 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+		        #contents12 > .imgbox3{width:338px; height: 225px; float: left; margin:30px 0 0 13px; overflow: hidden;}
+		            #contents12 > .imgbox3 img{width: 338px; height: 225px;}  
+		            #contents12 > .imgbox3 img:hover{transform:scale(1.08); transition: 0.8s;}
+
+                #contents12 h5{text-align: center;}
+                #contents12 h5 a{color: black;}
+                #contents12 p{text-align: center;}
+                #contents12 > .textbox1{width:338px; height: 80px; float: left; margin:20px 0 0 0px;}
+                #contents12 > .textbox2{width:338px; height: 80px; float: left; margin:20px 0 0 15px;}
+                #contents12 > .textbox3{width:338px; height: 80px; float: left; margin:20px 0 0 15px;}
+
+		            
+		    #contents13{width:1050px; height:500px; margin: 0 auto;}
+		        #contents13 h2{margin: 15px 0 0px 0px; font-size: 30px; text-align: center;}
+
+                #contents13 > .imgbox1{width:174px; height: 170px; float: left; margin:30px 0 40px 0px;}
+                    #contents13 > .imgbox1 img{width:174px; height: 170px;}
+                    #contents13 > .imgbox1 img a{cursor: pointer;}
+
+                #contents13 > .imgbox2{width:174px; height: 170px; float: left; margin:30px 0 40px 0px;}
+                    #contents13 > .imgbox2 img{width:174px; height: 170px;}
+                    #contents13 > .imgbox2 img a{cursor: pointer;}
+
+                #contents13 > .imgbox3{width:174px; height: 170px; float: left; margin:30px 0 40px 0px;}
+                    #contents13 > .imgbox3 img{width:174px; height: 170px;}
+                    #contents13 > .imgbox3 img a{cursor: pointer;}
+
+                #contents13 > .imgbox4{width:174px; height: 170px; float: left; margin:30px 0 40px 0px;}
+                    #contents13 > .imgbox4 img{width:174px; height: 170px;}   
+                    #contents13 > .imgbox4 img a{cursor: pointer;}
+
+                #contents13 > .imgbox5{width:174px; height: 170px; float: left; margin:30px 0 40px 0px;}
+                    #contents13 > .imgbox5 img{width:174px; height: 170px;}
+                    #contents13 > .imgbox5 img a{cursor: pointer;}
+
+                #contents13 > .imgbox6{width:174px; height: 170px; float: left; margin:30px 0 40px 0px;}   
+                    #contents13 > .imgbox6 img{width:174px; height: 170px;} 
+                    #contents13 > .imgbox6 img a{cursor: pointer;}
+
+                #contents13 >p{text-align: center; line-height: 200%;}
+                    #contents13 >p a{color: black; font-weight: bold; font-size: 18px;}
+
+
+		    #contents14{width:1050px; height:140px; margin: 0 auto;}
+		        #contents14 img{width:100%; height:100%;}

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Foxerestro</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/sub.css" rel="stylesheet">
+<!--스크립트-->	
+	<script src="https://kit.fontawesome.com/ebb77b9f77.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+		<script>
+			$(function(){
+				$(".logo_bar").click(function(){
+					$(".nav_wrap").slideToggle();					
+				});
+				
+
+				$(window).resize(function(){
+					if(window.innerWidth>=1200) {
+						$(".nav_wrap").show();
+						
+					}
+					if(window.innerWidth<=1199) {
+						$(".nav_wrap").hide();
+						
+					}
+				});
+			});
+
+			$(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 350) {
+                        $("header").css("background", "rgb(35, 35, 35, 1)");
+                    }
+                    else{
+                        $("header").css("background", "rgba(0, 0, 0, 0)")
+                    }
+                });
+            });
+
+		</script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div id="header_wrap">
+				<div class="header_content_1">
+					<div class="logo_1">
+						<a href="main.html"><div class="main_logo photo_1"></div></a>
+						<div class="logo_bar">
+							<i class="fas fa-bars"></i>
+						</div>	
+					</div>
+
+				
+					<div class="nav_wrap">
+						<nav class="menu">
+							<ul>
+								<li class="second"><a href="./main.html">HOME</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">RESTO</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">SPECIAL</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">MENU</a>
+									<ul class="side_menu">
+										<li><a href="./sub.html">MENU 2</a></li>
+										<li><a href="./sub.html">MENU DETAILED</a></li>
+									</ul>
+								</li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">GALLERY</a>
+									<ul class="side_menu">
+										<li><a href="./sub.html">GALLERY 1</a></li>
+										<li><a href="./sub.html">GALLERY 2</a></li>
+									</ul>
+								</li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">NEWS</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">PAGES</a>
+									<ul class="side_menu">
+										<li><a href="./sub.html">ABOUT</a></li>
+										<li><a href="./sub.html">BLOG</a></li>
+										<li><a href="./sub.html">SERVICES</a></li>
+										<li><a href="./sub.html">CONTACT</a></li>
+										<li><a href="./sub.html">RESERVATION</a></li>
+										<li><a href="./sub.html">404 ERROR</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						
+
+	                	<div class="header_content_2">
+	                		<div class="second_1">
+								<a href="./sub.html" class="logo_2">
+					    			<div class="logo_icon_1 photo_2"></div>
+					    		</a>	
+					    	</div>	
+							<div class="logo_phone">
+								<i class="fas fa-phone"></i>
+								<span class="phone">513-352-3209</span>
+							</div>	
+						</div>	
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<div id="slider">
+			<div id="slider_wrap">
+				<h2>Welcone To Foxeresto</h2>
+				<p>RESTAURANT · CAFE · BAR · 24/7</p>
+			</div>
+		</div>
+
+
+		<section>
+			<div id="section_wrap">
+
+				<div id="section_top">
+					<h2>We Do What We like and</h2>
+					<h1>We Like What We Do</h1>
+					<hr class="top_hr">
+					<p>Tenetur nemo, accusamus! Fugiat rerum impedit ducimus error, fuga, earum ea reprehenderit accusantium odio modi quisquam, ab rem iusto quod voluptatum providen</p>
+				</div>
+
+
+				<div id="section_main">
+
+					<div id="section_main_content_1">
+						<div class="view_figure">
+							<h5>Weil am Rhein,Germany</h5>
+							<p><span class="zaha">Zaha Hadid</span><i class="fas fa-user"></i></p>
+							<p><span class="zaha">1991 years</span><i class="fas fa-calendar-alt"></i></p>
+							<p><span class="zaha">1.1M View</span><i class="far fa-eye"></i></p>
+							<p><span class="zaha">06 comment</span><i class="fas fa-comment"></i></p>
+						</div>
+						<div class="main_box">
+							<div class="food_box main_photo_1">
+							</div>
+							<div class="main_textbox">
+								<h2>Vitra Fire Station</h2>
+								<p>The Vitra Fire Department is the first work of Zaha Hadid, completed in 1993. Because of its unique design, it was not built, but only drawn up. The building is well-symmetrical.</p>
+								<span class="main_view">View More</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="section_main_content_2">
+						<div class="view_figure">
+							<h5>Weil am Rhein,Germany</h5>
+							<p><span class="zaha">Zaha Hadid</span><i class="fas fa-user"></i></p>
+							<p><span class="zaha">2000 years</span><i class="fas fa-calendar-alt"></i></p>
+							<p><span class="zaha">1.5M View</span><i class="far fa-eye"></i></p>
+							<p><span class="zaha">21 comment</span><i class="fas fa-comment"></i></p>
+						</div>
+						<div class="main_box">
+							<div class="food_box main_photo_2">
+							</div>
+							<div class="main_textbox">
+								<h2>Heydra Aliyev Center</h2>
+								<p>It is a public facility in Baku, the capital of Azerbaijan. The elegantly curved curves that flow through the wind are very impressive, with libraries, international conference halls, and so on.</p>
+								<span class="main_view">View More</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="section_main_content_3">
+						<div class="view_figure">
+							<h5>Weil am Rhein,Germany</h5>
+							<p><span class="zaha">Zaha Hadid</span><i class="fas fa-user"></i></p>
+							<p><span class="zaha">2010 years</span><i class="fas fa-calendar-alt"></i></p>
+							<p><span class="zaha">1.1M View</span><i class="far fa-eye"></i></p>
+							<p><span class="zaha">06 comment</span><i class="fas fa-comment"></i></p>
+						</div>
+						<div class="main_box">
+							<div class="food_box main_photo_3">
+							</div>
+							<div class="main_textbox">
+								<h2>Messner Mountain Museum Corones</h2>
+								<p>The museum is located 2,275m above sea level on the Crohnplatz mountain in Tyrol. The scenery surrounded by the surrounding mountains is impressive. Design inspired by mountain caves.</p>
+								<span class="main_view">View More</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="section_main_content_4">
+						<div class="view_figure">
+							<h5>Weil am Rhein,Germany</h5>
+							<p><span class="zaha">Zaha Hadid</span><i class="fas fa-user"></i></p>
+							<p><span class="zaha">2017 years</span><i class="fas fa-calendar-alt"></i></p>
+							<p><span class="zaha">0.9M View</span><i class="far fa-eye"></i></p>
+							<p><span class="zaha">03 comment</span><i class="fas fa-comment"></i></p>
+						</div>
+						<div class="main_box">
+							<div class="food_box main_photo_4">
+							</div>
+							<div class="main_textbox">
+								<h2>VDDP</h2>
+								<p>t's the last piece of work she completed before she passed away. Opened in 2014, DDP is an aluminum outer wall that changes its appearance according to light and shows its true value at night.</p>
+								<span class="main_view">View More</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="section_main_content_5">
+						<div class="view_figure">
+							<h5>Weil am Rhein,Germany</h5>
+							<p><span class="zaha">Zaha Hadid</span><i class="fas fa-user"></i></p>
+							<p><span class="zaha">1991 years</span><i class="fas fa-calendar-alt"></i></p>
+							<p><span class="zaha">1.1M View</span><i class="far fa-eye"></i></p>
+							<p><span class="zaha">06 comment</span><i class="fas fa-comment"></i></p>
+						</div>
+
+						<div class="main_con_5_sub">
+							<div class="menu_sample">
+								<div class="menu_box main_photo_5"></div>
+								<div class="menu_textbox">
+									<div class="menu_sub">
+										<h3>Fruit Smoothie</h3>
+										<hr class="spiderweb">
+										<span class="spider">$5.00$</span>
+									</div>
+									<p>Organic raw/vegan/vegetarian chocolate smoothie, you'll enjoy it.</p>
+								</div>
+							</div>
+
+							<div class="menu_sample">
+								<div class="menu_box main_photo_6"></div>
+								<div class="menu_textbox">
+									<div class="menu_sub">
+										<h3>Tropical Smoothie</h3>
+										<hr class="spiderweb">
+										<span class="spider">$7.50</span>
+									</div>
+									<p>Organic raw/vegan/vegetarian chocolate smoothie, you'll enjoy it.</p>
+								</div>
+							</div>
+
+							<div class="menu_sample">
+								<div class="menu_box main_photo_7"></div>
+								<div class="menu_textbox">
+									<div class="menu_sub">
+										<h3>Café Latte</h3>
+										<hr class="spiderweb">
+										<span class="spider">$11.00</span>
+									</div>
+									<p>Organic raw/vegan/vegetarian chocolate smoothie, you'll enjoy it.</p>
+								</div>
+							</div>
+
+							<div class="menu_sample">
+								<div class="menu_box main_photo_8"></div>
+								<div class="menu_textbox">
+									<div class="menu_sub">
+										<h3>Café Mocha</h3>
+										<hr class="spiderweb">
+										<span class="spider">$7.50$</span>
+									</div>
+									<p>Organic raw/vegan/vegetarian chocolate smoothie, you'll enjoy it.</p>
+								</div>
+							</div>
+
+							<div class="menu_sample">
+								<div class="menu_box main_photo_9"></div>
+								<div class="menu_textbox">
+									<div class="menu_sub">
+										<h3>Hot Fudge Sundae</h3>
+										<hr class="spiderweb">
+										<span class="spider">$15.90$</span>
+									</div>
+									<p>Organic raw/vegan/vegetarian chocolate smoothie, you'll enjoy it.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		<!----------------------section_main끝--------------------------------->		
+
+				<div id="section_sub">
+
+					<div id="section_sub_content_1">
+						<div class="search_box">
+							<input type="text" class="search" placeholder="Search Here !">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+
+					<div id="section_sub_content_2">
+						<div class="sub_con_2_imgbox sub_photo_1">
+						</div>
+						<div class="sub_con_2_textbox">
+							<h2>Benaissa Ghrib</h2>
+							<h5>DBE, October 31, 1968 ~ October 10, 2021</h5>
+							<p>Chef from italy and currently active in New York. Born in Rome, he served as a chef under the direct control of the Italian president for 10 years.</p>
+						</div>
+					</div>
+
+					<div id="section_sub_content_3">
+						<table class="history">
+							<tr>
+								<th>Date</th>
+								<th>Award</th>
+							</tr>
+							<tr>
+								<td>2004</td>
+								<td>Oscar for Cooking and Best Woman Chef Cookbook in German</td>
+							</tr>
+							<tr>
+								<td>2007</td>
+								<td>Goremand World Cookbook Awards 2007 Best Asian Cookbook</td>
+							</tr>
+							<tr>
+								<td>2009</td>
+								<td>A la Carte 2009, 4 stars and 90 points</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="section_sub_content_4">
+						<div class="tag_list">
+							<ul>
+								<li><a href="./sub.html" style="color:white">design</a></li>
+								<li><a href="./sub.html" style="color:white">curve</a></li>
+								<li><a href="./sub.html" style="color:white">Atypical building</a></li>
+								<li><a href="./sub.html" style="color:white">Compelling to the appearance</a></li>
+								<li><a href="./sub.html" style="color:white">Space</a></li>
+								<li><a href="./sub.html" style="color:white">Postmodemism</a></li>
+								<li><a href="./sub.html" style="color:white">Abstract</a></li>
+								<li><a href="./sub.html" style="color:white">Fluid</a></li>
+								<li><a href="./sub.html" style="color:white">Borderless design</a></li>
+								<li><a href="./sub.html" style="color:white">Ideas optimized for modern architecture</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div id="section_sub_content_5">
+						<div class="sub_iconbox">
+							<a href="./sub.html" class="sub_icon"><img src="img/sub/facebook.png" alt="icon"></a>
+							<a href="./sub.html" class="sub_icon"><img src="img/sub/twitter.png" alt="icon"></a>
+							<a href="./sub.html" class="sub_icon"><img src="img/sub/youtube.png" alt="icon"></a>
+							<a href="./sub.html" class="sub_icon"><img src="img/sub/instagram.png" alt="icon"></a>
+						</div>
+						<span class="groggery">GROGGERY</span>	
+					</div>
+
+					<div id="section_sub_content_6">
+						<table class="museum">
+							<tr>
+								<th>Date</th>
+								<th>Exhibition</th>
+							</tr>
+							<tr>
+								<td>1991</td>
+								<td>Retrospective at the Architectural Association</td>
+							</tr>
+							<tr>
+								<td>2000</td>
+								<td>San Francisco Museum of Modern Art</td>
+							</tr>
+							<tr>
+								<td>2006</td>
+								<td>Venetian Biennale British Pavilion</td>
+							</tr>
+							<tr>
+								<td>2010</td>
+								<td>Applied Art Museum</td>
+							</tr>
+							<tr>
+								<td>2017</td>
+								<td>London Design Museum</td>
+							</tr>
+							<tr>
+								<td>2020</td>
+								<td>Hermitage Museum</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="section_sub_content_7">
+						<div class="sub_con_7_box">
+							
+							<div class="reservation_box">
+								<span class="reservation">Reservation</span>
+								<div class="reservation_area">
+									<h2>NAME</h2>
+									<input type="text" class="reservation_text" placeholder="Your name">
+									<h2>PHONE</h2>
+									<input type="text" class="reservation_text" placeholder="Your phone">
+									<h2>DATE</h2>
+									<input type="text" class="reservation_text" placeholder="(ex:mm/dd/yy)">
+								</div>
+								<div class="reservation_area">
+									<h2>EMAIL</h2>
+									<input type="text" class="reservation_text" placeholder="Your email">
+									<h2>PERSONS</h2>
+									<input type="text" class="reservation_text" placeholder="Person number">
+									<h2>TIME</h2>
+									<input type="text" class="reservation_text" placeholder="(ex:9:30PM)">
+								</div>
+								<span class="book"><a href="./sub.html">Book A TABLE</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div id="section_sub_content_8">
+					</div>
+
+				</div>
+			</div>
+		</section>	
+
+
+		<footer>
+			<div id="footer_wrap">
+				<div class="footer_button">
+				</div>
+				<div class="footer_deco">
+				</div>
+
+				<div class="footer_textbox">
+					<div class="footer_text_1">
+						<div class="ft1_imgbox_1">
+							<img src="img/logo-light.png" alt="logo">
+						</div>
+						<div class="ft1_textbox">
+							<p>Dear guests, you are welcomed to dine with us at Foxe restaurant. Have a pleasant dining experience.</p>
+						</div>
+						<div class="ft1_imgbox_2">
+							<img src="img/signature.png" alt="signature">
+						</div>
+					</div>
+
+					<div class="footer_text_2">
+						<h2>Address</h2>
+						<div class="ft2_textbox">
+							<ul>
+								<li>+1(513)352-3209</li>
+								<li><a href="./sub.html">support@yoursite.com</a></li>
+								<li>3805 Edwards Rd, Cincinnati, Ohio 45209 USA</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_text_3">
+						<h2>Hours of opening</h2>
+						<div class="ft3_textbox">
+							<ul>
+								<li>Monday<hr class="textline_21"><span class="time">10:00 - 22:00</span></li>
+								<li>Thuesday<hr class="textline_22"><span class="time">10:00 - 22:00</span></li>
+								<li>Wednesay<hr class="textline_23"><span class="time">10:00 - 22:00</span></li>
+								<li>Thurday<hr class="textline_24"><span class="time">10:00 - 22:00</span></li>
+								<li>Friday<hr class="textline_25"><span class="time">10:00 - 22:00</span></li>
+								<li>Saturday<hr class="textline_26"><span class="time">10:00 - 22:00</span></li>
+								<li>Sunday<hr class="textline_27"><span class="time">Closed</span></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_text_4">
+						<h2>Tags</h2>
+						<div class="ft4_textbox">
+							<ul>
+								<li><a href="./sub.html">#Cooking</a></li>
+								<li><a href="./sub.html">#Dish</a></li>
+								<li><a href="./sub.html">#Moroccan</a></li>
+								<li><a href="./sub.html">#Moroccan dish</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_text_5">
+						<div class="ft5_iconbox">
+							<ul>
+								<li><a href="./sub.html"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="./sub.html"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="./sub.html"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="./sub.html"><i class="fab fa-pinterest-p"></i></a></li>
+							</ul>
+						</div>
+						<div class="ft5_companybox">
+							<p>© 2019 Foxeresto by webRedox | All rights reserved.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+
+

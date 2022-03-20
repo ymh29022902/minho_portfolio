@@ -1,0 +1,96 @@
+@charset "utf-8"; 
+
+    @media(max-width: 699px) {
+
+    #homepage_wrap h1 {font-family: 'Lato', sans-serif; font-weight:300; letter-spacing: 2px; font-size:80px; font-weight: bolder; background: linear-gradient(to right, white 69%, #669acc 5%, white); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        .inner-header h1:first{margin-left: 0; margin-bottom: -70px; color: red;}
+        .inner-header h1:nth-of-type(2){margin-left: 0;} 
+
+    #homepage_wrap p{font-family: 'Lato', sans-serif; letter-spacing: 1px;}
+        .content > p{font-size:20px; color: #669acc;}
+        .inner-header > p{color: white; font-size: 15px;}
+
+    .header {position:relative; text-align:center; background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); color:white;}
+
+    .inner-header {height:65vh; width:100%; margin: 0; padding: 0;}
+
+    .flex {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;}
+
+    .waves {position:relative; width: 100%; height:15vh; margin-bottom:-7px; /*Fix for safari gap*/ min-height:100px; max-height:150px;}
+
+    .content {position:relative; height:23%; text-align:center; background-color: white;}
+
+    /* Animation */
+
+    .parallax > use {animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)  infinite;}
+
+    .parallax > use:nth-child(1) {animation-delay: -2s; animation-duration: 7s;}
+    .parallax > use:nth-child(2) {animation-delay: -3s; animation-duration: 10s;}
+    .parallax > use:nth-child(3) {animation-delay: -4s; animation-duration: 13s;}
+    .parallax > use:nth-child(4) {animation-delay: -5s; animation-duration: 20s;}
+    
+    @keyframes move-forever {
+        0% {
+            transform: translate3d(-90px,0,0);
+        }
+        100% { 
+          transform: translate3d(85px,0,0);
+        }
+    }
+    /*Shrinking for mobile*/
+      @media (max-width: 768px) {
+          .waves{height:40px; min-height:40px;}
+    
+          .content {height:30vh;}
+    
+          h1 {font-size:24px;}
+      }
+
+}      
+
+    @media(min-width: 700px) {
+
+        #homepage_wrap h1 {font-family: 'Lato', sans-serif; font-weight:300; letter-spacing: 2px; font-size:150px; font-weight: bolder; background: linear-gradient(to right, white 69%, #669acc 5%, white); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+
+
+        #homepage_wrap p{font-family: 'Lato', sans-serif; letter-spacing: 1px;}
+            .content > p{font-size:40px; color: #669acc;}
+            .inner-header > p{color: white; font-size: 15px;}
+
+        .header {position:relative; text-align:center; background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); color:white;}
+
+        .inner-header {height:65vh; width:100%; margin: 0; padding: 0;}
+
+        .flex {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;}
+
+        .waves {position:relative; width: 100%; height:15vh; margin-bottom:-7px; /*Fix for safari gap*/ min-height:100px; max-height:150px;}
+
+        .content {position:relative; height:23%; text-align:center; background-color: white;}
+
+        /* Animation */
+
+        .parallax > use {animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)  infinite;}
+
+        .parallax > use:nth-child(1) {animation-delay: -2s; animation-duration: 7s;}
+        .parallax > use:nth-child(2) {animation-delay: -3s; animation-duration: 10s;}
+        .parallax > use:nth-child(3) {animation-delay: -4s; animation-duration: 13s;}
+        .parallax > use:nth-child(4) {animation-delay: -5s; animation-duration: 20s;}
+        
+        @keyframes move-forever {
+            0% {
+                transform: translate3d(-90px,0,0);
+            }
+            100% { 
+              transform: translate3d(85px,0,0);
+            }
+        }
+        /*Shrinking for mobile*/
+          @media (max-width: 768px) {
+              .waves{height:40px; min-height:40px;}
+        
+              .content {height:30vh;}
+        
+              h1 {font-size:24px;}
+          }
+
+    }      

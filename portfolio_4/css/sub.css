@@ -1,0 +1,270 @@
+@charset "utf-8";
+#slider{width:100%; height: 1100px; border: 5px solid transparent; background-image: linear-gradient(white, white), linear-gradient(to right, gray, white); margin:0 auto;}
+
+        #slider_sub{width:1050px; height: 1000px; background-color: white; margin:0 auto;}
+        #slider_sub > .imgbox{width: 466px; height: 600px; float: left; color: gold;}
+            #slider_sub > .imgbox img{width: 420px; height: 535px; float: left; margin: 20px 0 0 0px;}
+
+        #slider_sub > .textarea{width: 570px; height: 630px; float: left; margin: 0 0 0 14px;}
+        #slider_sub > .textarea h1{font-size: 23px; margin: 20px 0 8px 0px;}
+        #slider_sub > .textarea h2{margin: 20px 0 10px 0px; text-align: left;}
+        #slider_sub > .textarea h4{font-size: 13px; margin:0 0 0px 0px;}
+        #slider_sub > .textarea img {float: right; margin: -33px 0 0 0px;}
+
+            .b1 {border-bottom:1px solid #dedcdc; height:150px;}
+
+            table{float: left; margin:0; border-collapse:collapse; line-height:160%;}
+                .table1 tr{border-bottom: 1px solid #eee;}
+                .table1 td{padding: 9px 0px; font-size: 14px;}
+                .table1 td:first-child {width: 150px; height: 20px;}
+                .table1 tr:last-child {border-bottom: none; margin: 0;}
+
+                .count_box{display: flex; width: 22%; align-items: center; border: 1px solid #d7d7d7; height: 25px; justify-content: space-between;}
+                    .count_box span{width: 25px; height: 25px; display: inline; padding: 0; font-weight: bolder;}
+                    .count_box span:nth-of-type(2){margin-left: 10px;}
+                    .plus_button{margin-bottom: -70px;}
+                    .minus_button{margin-bottom: -70px;}
+                    .count_box span img{width: 25px; height: 25px; cursor: pointer; clear:both}
+
+                .bonus:before{content:"적립"; background-color: gold; color: white; padding: 1px 5px 2px 5px; border-radius: 8px;}
+                
+                .table2 p{text-align: right;}
+
+            .textarea .alarm_button{padding: 15px 50px; border-radius: 7px; border: 3px solid #eee;
+             background-color: white; color: gray; float: left; margin: 5px 0 0 -5px;}
+            .textarea .cart_button{padding: 15px 110px; border-radius: 7px; border:none; font-size: 16px; color: white;
+                background-color: rgba(95, 0, 128, 1); float: left; margin: 5px 0 0 20px;}
+            
+        #slider_sub > .related{width: 1050px; height: 420px; display: inline-block; margin: 50px 0 0 0px;}
+
+            .related h4{margin: 10px 0 0 0px;}
+
+            .related .left img{float:left; margin: 120px 0 0 0px;}
+            .related .right img{float: right; margin: 120px 0 0 0px;}
+
+            .related > .imgbox1{width: 170px; height: 300px; border: 1px solid #eee; float: left; margin: 20px 0 0 70px; text-align: center;}
+                .imgbox1 img{width: 150px; height: 193px; margin: 30px 0 0 0px;}  
+                .imgbox1 h3 {text-align:left; font-size: 13px; margin:  7px 0 0 10px;}
+                .imgbox1 p {text-align: left; font-size: 12px; margin: -7px 0 0 10px;}
+
+            .related > .imgbox2{width: 170px; height: 300px; border: 1px solid #eee; float: left; margin: 20px 0 0 10px; text-align: center;}
+                .imgbox2 img{width: 150px; height: 193px; margin: 30px 0 0 0px;}
+                .imgbox2 h3 {text-align:left; font-size: 13px; margin:  7px 0 0 10px;}
+                .imgbox2 p {text-align: left; font-size: 12px; margin: -7px 0 0 10px;}
+
+            .related > .imgbox3{width: 170px; height: 300px; border: 1px solid #eee; float: left; margin: 20px 0 0 10px; text-align: center;}
+                .imgbox3 img{width: 150px; height: 193px; margin: 30px 0 0 0px;}
+                .imgbox3 h3 {text-align:left; font-size: 13px; margin:  7px 0 0 10px;}
+                .imgbox3 p {text-align: left; font-size: 12px; margin: -7px 0 0 10px;}
+
+            .related > .imgbox4{width: 170px; height: 300px; border: 1px solid #eee; float: left; margin: 20px 0 0 10px; text-align: center;}
+                .imgbox4 img{width: 150px; height: 193px; margin: 30px 0 0 0px;} 
+                .imgbox4 h3 {text-align:left; font-size: 13px; margin:  7px 0 0 10px;}
+                .imgbox4 p {text-align: left; font-size: 12px; margin: -7px 0 0 10px;}
+
+            .related > .imgbox5{width: 170px; height: 300px; border: 1px solid #eee; float: left; margin: 20px 0 0 10px; text-align: center;} 
+                .imgbox5 img{width: 150px; height: 193px; margin: 30px 0 0 0px;} 
+                .imgbox5 h3 {text-align:left; font-size: 13px; margin:  7px 0 0 10px;}
+                .imgbox5 p {text-align: left; font-size: 12px; margin: -7px 0 0 10px;}
+
+
+    section{width:1050px; height:8856px; margin:0 auto;}
+
+        #sub_section1{width: 1050px; height: 1420px; background-color: white; border: none;}
+            .sub_href {width: 1050px; height: 40px; float: left;}
+            .sub_href > a{text-decoration:none; display: inline-block;}
+            .sub_href > ul{display: inline; font-weight: bold;}
+            .sub_href > ul > li {width: 262.5px; height: 50px; padding: 10px 0px; text-align: center; background-color: #eee; 
+                             border:1px solid #d3d3d3; float: left; display: inline-block;}
+            .sub_href > ul > li > a{color: gray;}
+            .sub_href > ul > li > a:hover{background-color: white; color: rgba(95, 0, 128, 1); display:block;}
+
+            #sub_section1 img{width:1050px; height: 697px; margin: 50px 0 70px 0px;}
+
+            #sub_section1 .textbox h2{text-align: center; color: #4A4F5A;}
+            #sub_section1 .textbox h1{text-align: center; color: #4A4F5A; font-size: 36px; margin: 20px 0 50px 0px;}
+            #sub_section1 .textbox p{margin: 20px 0 0 0px; color: #4A4F5A;}
+
+        #sub_section2{width: 1050px; height: 600px; background-color: white; border: none;}
+            #sub_section2 img{width: 1050px; height: 305px; margin: 50px 0 0 0px;}
+        
+        #sub_section3{width:1050px; height:520px;}
+            #sub_section3 h2{font-size: 30px; margin: 120px 0 50px 0px;}
+            #sub_section3 li {list-style-type : disc; margin: 0 0 0 30px;}
+     
+        #sub_section4{width:1050px; height:600px;}
+            #sub_section4 img{width: 1050px; height: 74px; margin: 80px 0 0 0px;}
+            #sub_section4 .textbox{width: 1050px; height: 500px; margin: 60px 0 0 0px; color: #4A4F5A;}
+
+        #sub_section5{width:1050px; height:1500px;}
+            #sub_section5 table{float: left; margin:0; border-collapse: collapse; line-height: 160%; width: 525px; height: 420px;} 
+                .table3 tr{border-bottom: none;}
+                .table3 td{padding: 7px 5px 7px 0px; font-size: 12px;}
+                .table3 td:first-child {width: 160px; height: 20px; background-color: #eee;}
+                .table3 tr:last-child {border-bottom: none; margin: 0;}
+
+                .table4 tr{border-bottom: none;}
+                .table4 td{padding: 7px 5px 7px 0px; font-size: 12px;}
+                .table4 td:first-child {width: 160px; height: 20px; background-color: #eee;}
+                .table4 tr:last-child {border-bottom: none; margin:0;}
+
+        #sub_section6{width:1050px; height:830px;}   
+            #sub_section6 .textarea{width: 1050px; height: 1000px;}
+                .textarea h2{font-family: "arial"; font-size:40px; text-align: center; color: #4A4F5A;}    
+
+                .why_kurly_1{width: 300px; height: 360px; float: left; margin: 70px 0 0 0px;} 
+                    .why_kurly_1 > .imgbox{width: 300px; height: 40px; margin: 30px 0 30px 0px; }
+                    .why_kurly_1 > .imgbox img{width: 40px; height: 40px; display: block; margin:0 0px 0 130px; }
+
+                .why_kurly_2{width: 300px; height: 360px; float: left; margin: 70px 0 0 75px;}
+                    .why_kurly_2 > .imgbox{width: 300px; height: 40px; margin: 30px 0 30px 0px;}
+                    .why_kurly_2 > .imgbox img{width: 40px; height: 40px; display: block; margin:0 0 0 130px; }
+
+                .why_kurly_3{width: 300px; height: 360px; float: left; margin: 70px 0 0 50px;}
+                    .why_kurly_3 > .imgbox{width: 300px; height: 40px; margin: 30px 0 30px 35px;}
+                    .why_kurly_3 > .imgbox img{width: 40px; height: 40px; display: block; margin:0 0 0 130px;}
+
+                .why_kurly_4{width: 330px; height: 250px; float: left; margin: 0px 40px 0 156px;}
+                    .why_kurly_4 > .imgbox{width: 300px; height: 40px; margin: 30px 0 30px 0px;}
+                    .why_kurly_4 > .imgbox img{width: 40px; height: 40px; display: block; margin:0 0 0 130px;}
+
+                .why_kurly_5{width: 330px; height: 250px; float: left; margin: 0px 0px 0 20px;}
+                    .why_kurly_5 > .imgbox{width: 300px; height: 40px; margin: 30px 0 30px 0px;}
+                    .why_kurly_5 > .imgbox img{width: 40px; height: 40px; display: block; margin:0 0 0 130px;}
+
+                .textarea .textbox{width: 300px; height: 200px; margin: 0 auto; text-align: center;}
+                    .textarea h4{font-size: 20px; color:rgba(95, 0, 128, 1); margin: 20px 0 20px 0px}
+                    .textarea p{ color: #4A4F5A; font-size: 16px;} 
+                    .textarea span{font-size: 14px;}
+
+                    .why_kurly_3 .textbox{width: 360px; height: 200px; margin: 0 auto; text-align: center;}
+                    .why_kurly_4 .textbox{width: 320px; height: 150px; margin: 0 auto; text-align: center;}
+                    .why_kurly_5 .textbox{width: 320px; height: 150px; margin: 0 auto; text-align: center;}
+
+        #sub_section7{width: 1050px; height: 1600px; margin: 0 auto;} 
+            #sub_section7 > .textarea1{width: 1050px; height: 180px; margin: 100px 0 0 0px;}
+                .textarea1 h2{font-size:30px; color: #4A4F5A; margin: 0 0 30px 0px;}
+                .textarea1 h4{font-weight: bold; color: #4A4F5A; margin: 0 0 15px 0px;}
+                
+
+            #sub_section7 > .textarea2{width: 1050px; height: 270px;}
+                .textarea2 h4{color: rgba(95, 0, 128, 1); font-weight: bold; font-size: 20px; margin: 0 0 20px 0px;}
+                .textarea2 p{margin: 0 0 14px 0px;}
+                .call_question{width: 350px; height: 200px; float: left;}
+                .kakao_question{width: 260px; height: 200px; float: left; margin: 0 90px 0 0px;}
+                .home_question{width: 260px; height: 200px; float: left; margin: 0 90px 0 0px;}
+
+            #sub_section7 > .textarea3{margin: 0 auto;}
+                 .texarea3 > table{float: left; margin:0; border-collapse:collapse; line-height:160%; width: 1050px; height: 1500px;}
+                    .table5 tr{border-bottom: 1px solid #eee;}
+                    .table5 td{padding: 9px 0px 9px 15px; font-size: 14px;}
+                    .table5 td:first-child {width: 245px; height: 20px;}
+                    .table5 tr:last-child {border-bottom: none; margin: 0;}
+                    .table5 li {list-style-type : disc; margin: 0 0 0 20px;} 
+
+                        .about1{border: 1px solid #eee;}
+                            .about1 h3{padding: 5px; display: inline; float: left; color: rgba(95, 0, 128, 1);}
+                            .about1 p{padding: 5px 0 5px 30px; display: inline; float: left;}
+                            .about1 button{float: right; color: rgba(95, 0, 128, 1); border: none; background-color: white; 
+                                margin: 5px 10px 0 0px; font-weight: bold;}
+
+                        .about2{border: 1px solid #eee;}
+                            .about2 h3{padding: 5px; display: inline; float: left; color: rgba(95, 0, 128, 1);}
+                            .about2 p{padding: 5px 0 5px 30px; display: inline; float: left;}
+                            .about2 button{float: right; color: rgba(95, 0, 128, 1); border: none; background-color: white; 
+                                margin:  30px 10px 0 0px; font-weight: bold;}
+
+                        .about3{border: 1px solid #eee;}
+                            .about3 h3{padding: 5px; display: inline; float: left; color: rgba(95, 0, 128, 1);}
+                            .about3 p{padding: 5px 0 5px 30px; display: inline; float: left;}
+
+            #sub_section8{width: 1050px; height: 800px;}  
+                #sub_section8 > table{float: left; margin:0; border-collapse:collapse; line-height:110%; width: 100%; height: 700px;}
+                    .table7 tr{border-bottom: 1px solid #eee;}
+                    .table7 td{padding: 12px 0px 12px 15px; font-size: 14px;}
+                    .table7 ul{display: inline; float: left;}
+                    .table7 li{list-style-type: disc; font-size: 12px; float: left; list-style-position:inside; display: inline;}
+
+                    .table7 .td_1:hover{background-color:#eee;}
+                    .table7 .td_2:hover{background-color:#eee;}
+                    .table7 .td_3:hover{background-color:#eee;}
+                    .table7 .td_4:hover{background-color:#eee;}
+                    .table7 .td_5:hover{background-color:#eee;}
+                    .table7 .td_6:hover{background-color:#eee;}
+                    .table7 .td_7:hover{background-color:#eee;}
+
+                    .table7 colgroup col:nth-of-type(1){width: 9%;}
+                    .table7 colgroup col:nth-of-type(2){width: 53%;}
+                    .table7 colgroup col:nth-of-type(3){width: 10%;}
+                    .table7 colgroup col:nth-of-type(4){width: 10%;}
+                    .table7 colgroup col:nth-of-type(5){width: 8%;}
+                    .table7 colgroup col:nth-of-type(6){width: 10%;}
+                    
+                    .customer1:before{content: "프렌즈";padding: 2px 5px; border: none; border-radius: 7px; color: white; background-color: #DCCBED; margin: 0px 10px 0px -62px;}
+                    .customer2:before{content: "퍼플";padding: 2px 12px; border: none; border-radius: 7px; color: white; background-color: rgba(95, 0, 128, 1); margin: 0px 10px 0px -62px;}
+                    .customer3:before{content: "화이트";padding: 2px 5px; border: none; border-radius: 7px; color: white; background-color: #9979C1; margin: 0px 10px 0px -62px;}
+
+                    .table7 h4{float: left;} 
+                    .table7 select{float: right; margin: -45px 10px 13px 0px; padding: 8px 0px; display: inline; color: #58595B;}
+                    .table7 button{float: right; padding: 7px 30px; border: none; color: white;
+                     background-color: #8977AD; margin: 10px 0 10px 0px;}
+
+                    .pagebutton{width: 700px; height: 80px; margin: 40px 0 0 300px;}
+                    .pagebutton a {text-decoration: none; display: inline-block;} 
+                    .pagebutton ul {display: inline; font-weight: bold;}
+                    .pagebutton ul li {text-align: center; font-size: 20px; list-style-type: none;
+                        padding: 5px 10px; border: 1px solid #eee; background-color: white;}
+                    .pagebutton ul li a{color: black;}    
+                    .pagebutton ul li a:hover{background-color: #eee; color:rgba(95, 0, 128, 1);}
+
+
+            #sub_section9{width: 1050px; height: 800px; margin: 0 auto;}  
+                #sub_section9 > table{float: left; margin:0; border-collapse:collapse; line-height:110%; width: 100%; 
+                        height: 800px;}   
+
+                    .table9 colgroup col:nth-of-type(1){width: 70%;}   
+                    .table9 colgroup col:nth-of-type(2){width: 10%;}
+                    .table9 colgroup col:nth-of-type(3){width: 10%;} 
+                    .table9 colgroup col:nth-of-type(4){width: 10%;}
+
+                    .table9 h4{float: left; color: black;}
+                          
+                    .table9 tr{border-top: 1px solid #eee;}   
+                    .table9 th{padding: 12px 12px 12px 12px; font-size: 14px;} 
+                    .table9 th a{color: black;}
+                    .table9 td{padding: 12px 0px 12px; font-size: 14px; color: gray; text-align: center;}
+                    .table9 ul{display: inline; float: left;}
+                    .table9 li{list-style-type: disc; font-size: 12px; float: left; list-style-position:inside; display: inline;}  
+                    
+                    .table9 th .type5:after{content:"lock"; background-color: gray; color: #eee; padding: 2px 4px; border: none; border-radius: 3px; ; margin: 0 0 0 10px;}
+                    .table9 #update:before{content: "공지"; background-color: #eee; color: gray; padding: 2px 4px; border: none; border-radius: 3px; float: left; margin: -2px 10px 0 0px;}
+
+                    .table9 .button_box1{width: 100px; height: 50px; display:inline-block; margin: 0 0 0 40px;}
+                        .button_box1 button{padding: 10px 12px; background-color: white; color: gray; border: 3px solid #eee; display: inline;}
+
+                    .table9 .button_box2{float: right;}
+                        .button_box2 button{padding: 10px 30px; display: inline; background-color: rgba(95, 0, 128, 1); color: white; border: none; border-radius: 5px;}
+
+
+
+
+                      
+         /*span용 폰트 스타일 */
+
+  
+      
+        .line{display: flex; flex-basis: 100%; align-items: center;
+            color: #4A4F5A; font-size: 40px; margin: 5px 0px; font-family: "arial"; font-weight: bold;}   
+
+        .line::before{content: ""; flex-grow: 1; margin: 0px 16px 0 0px; background:#4A4F5A;
+            height: 1px; font-size: 0px; line-height: 0px;}    
+
+        .line::after{content: ""; flex-grow: 1; margin: 0px 0px 0 16px; background:#4A4F5A;
+            height: 1px; font-size: 0px; line-height: 0px;}       
+
+        hr{background-color: #4A4F5A;}   
+
+        .strong{font-weight: bold; font-size: 16px}   
+        .type4{float: left; padding: 12px 0px 12px 15px;}      
+        .type5{float: left; padding: 12px 0px 12px 15px; color: #eee;}     
+        .type6{color: rgba(95, 0, 128, 1); font-weight: bold;}          

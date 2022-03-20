@@ -1,0 +1,99 @@
+﻿@charset "utf-8";
+a{text-decoration:none;}
+
+	header{width: 100%; height:198px; margin:0 auto;}
+		    #headercover{width: 1050px; height:198px; margin:0 auto;}
+		    #header-top{width:100%; height:40px; background-color: purple; color:white; text-align:center; display:block; margin:0px 0 0 0px;}
+		        .container{position:relative;}
+
+		        
+		    #delivery{width:242px; height:44px; background-color:white; float:left; margin:20px;}
+		        #delivery > img{width:50%; height:50%; float:left; margin:-10px 0 0 -20px;}
+
+		    #login{width:300px; height:100px; float: right; margin: 10px;}
+		        #login a {text-decoration: none; display: inline-block;}
+		        #login ul {font-size: 12px; color: black; display: inline;}
+		        #login li {float: left; margin: 0 5px;}
+		        #login li a{text-decoration:none; color:black; display:block;}
+		        #login li a:hover{cursor:pointer;}
+
+                #login ul li{display: inline-block;}
+		        #login ul li:hover ul{display:block;}
+
+		        #login ul li a {text-decoration:none; color:#000;}
+		        #login ul li a:hover {color:blue; display: block;}
+
+		        ul li ul {position: absolute; width: 120px; display:none; }
+		        ul li ul li {background:white; display: block;}
+		        ul li ul li a{display: block !important;}
+		        ul li ul li:hover {background: white;}
+
+
+		    #logo{width:206px; height:158px; margin:0 auto;}
+		        #logo img{width: 50%; height:50%; margin: 17px 0 0 51px;}
+
+
+		    nav{width:600px; height:40px; margin:-40px 0 0 0px; float:left; }
+
+                nav a{text-decoration: none; display: inline-block;}
+		        nav > ul{font-size:15px; font-weight:bold; display: inline;}
+		        nav > ul > li{float:left; margin:0 20px; display: inline-block;}
+		        nav > ul > li:hover ul{display:block;}
+                nav > ul > li img{margin: 0 10px 0 0px;}
+
+		        nav > ul > li > a {text-decoration:none; color:#000;}
+		        nav > ul > li > a:hover {color:purple; display: block;}
+
+		        ul li ul {position: absolute; width: 200px; display:none; }
+		        ul li ul li {background:  white; display: block;}
+		        ul li ul li a{display: block !important;}
+		        ul li ul li:hover {background: white;}
+
+
+            #grad1{height: 200px; background-image: linear-gradient(to right, #eee, gray); padding: 10px 0 0 0px;}
+             .search-container{width: 400px; height:40px; float: right; border: 10px solid white; position: relative; margin: -70px 0 0 0px;}  
+             .search-container img{float: left; width: 35px; height: 35px;} 
+            
+            input{width: 250px; height:40px; float:left; margin:0 0 0 20px; color:gray; font-size:10px; outline:none; border:none; border-radius:20px; background-color: #eee; opacity: 0.7;}
+
+
+		footer{width:100%; height:420px; border: 1px solid #eee; margin:0 auto;}
+
+            footer .footer_section{width:1050px; height:400px; margin: 0 auto;}
+                    footer .footer_section > .f_view1{width: 500px; height: 370px; float: left; margin: 15px 0 0 0px; line-height: 150%;}
+                         .f_view1 .call_number{width: 120px; height: 40px; float: left; text-align: center; font-size: 23px; margin: 10px 13px 4px 0px; padding: 12px 0 0 0px; }
+                         .f_view1 .kakao{width: 120px; height: 40px; border: 2px solid #eee; float: left; text-align: center; font-size: 15px; margin: 10px 13px 5px 0px; padding: 5px 0 0 0px; color: black;}
+                         .f_view1 .request1{width: 120px; height: 40px; border: 2px solid #eee; float: left; text-align: center; font-size: 15px; margin: 10px 13px 5px 0px; padding: 5px 0 0 0px; color: black;}
+                         .f_view1 .request2{width: 120px; height: 40px; border: 2px solid #eee; float: left; text-align: center; font-size: 15px; margin: 10px 13px 0px 0px; padding: 5px 0 0 0px; color: black;}
+
+                         .f_view1 .footer1{font-size: 19px;}
+                         .f_view1 .list{font-size: 13px; margin: 2px 0 0px 10px; padding: 0 0 0 10px;}
+                             .list dt{margin: 0 0 0 10px; padding: 5px 0 0 0px;}
+                             .list dd{margin: 0 0 0 10px; padding: 0px 0 0 0px;}
+
+                    footer .footer_section > .f_view2{width: 530px; height: 250px; float: left; margin: 15px 0 0 20px;}
+                        .f_view2 ul {font-size: 14px; color: black; display: inline;}
+                        .f_view2 li {float: left; margin:10px 0 0 10px;}
+                        .f_view2 li a{color:  black;}
+
+                    footer .footer_section > .f_view2 > .f_view2_company{width: 530px; height: 220px; margin: 20px 0 0 10px; font-size: 11px; line-height: 200%;}    
+
+                        .f_view2 > .f_icon{width: 530px; height: 50px; float: left; margin: -10px 0 0 0px;}
+                            .f_view2 > .f_icon img{width: 40px; height: 40px; margin:  0 0 0 10px; float: left;}
+
+
+                    footer .f_banner {width: 1050px; height: 70px; margin: 0 auto;}
+                    footer .f_banner > .banner_box1{width: 250px; height: 50px; float: left; margin: 20px 0 0 0px;}
+                        footer .f_banner > .banner_box1 img{width: 30px; height: 30px; float: left; margin: -12px 10px 0 0px;}
+                        .banner_box1 p{float: left; font-size: 8px; margin: -12px 0 0 0px;}
+    
+                    footer .f_banner > .banner_box2{width: 250px; height: 50px; margin:20px 0 0 5px; float: left;}
+                        footer .f_banner > .banner_box2 img{width: 30px; height: 30px; float: left; margin: -12px 10px 0 0px;}
+                        .banner_box2 p{float: left; font-size: 8px; margin: -12px 0 0 0px;}
+
+                    footer .f_banner > .banner_box3{width: 470px; height: 50px; margin: 20px 0 0 525px;}
+                        footer .f_banner > .banner_box3 img{width: 100px; height: 30px; float: left; margin: 0 10px 0 0px;}    
+                        .banner_box3 p{float: left; font-size: 8px;}
+
+        .type1{color: rgba(95, 0, 128, 1);}
+        .type2{color: gray;}

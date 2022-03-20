@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Foxerestro</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+<!--스크립트-->	
+	<script src="https://kit.fontawesome.com/ebb77b9f77.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+		<script>
+			$(function(){
+				$(".logo_bar").click(function(){
+					$(".nav_wrap").slideToggle();					
+				});
+				
+
+				$(window).resize(function(){
+					if(window.innerWidth>=1200) {
+						$(".nav_wrap").show();
+						
+					}
+					if(window.innerWidth<=1199) {
+						$(".nav_wrap").hide();
+						
+					}
+				});
+
+				$(".meal:nth-of-type(1)").click(function() {
+					$(".con_5_sub_3").fadeIn();
+					$(".con_5_sub_4").hide();
+					$(".con_5_sub_5").hide();
+					$(".con_5_sub_6").hide();
+				});
+
+				$(".meal:nth-of-type(2)").click(function() {
+					$(".con_5_sub_4").fadeIn();
+					$(".con_5_sub_3").hide();
+					$(".con_5_sub_5").hide();
+					$(".con_5_sub_6").hide();
+				});
+
+				$(".meal:nth-of-type(3)").click(function() {
+					$(".con_5_sub_5").fadeIn();
+					$(".con_5_sub_3").hide();
+					$(".con_5_sub_4").hide();
+					$(".con_5_sub_6").hide();
+				});
+
+				$(".meal:nth-of-type(4)").click(function() {
+					$(".con_5_sub_6").fadeIn();
+					$(".con_5_sub_3").hide();
+					$(".con_5_sub_4").hide();
+					$(".con_5_sub_5").hide();
+				});
+			});
+
+			$(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 820) {
+                        $("header").css("background", "rgb(35, 35, 35, 1)");
+                    }
+                    else{
+                        $("header").css("background", "rgba(0, 0, 0, 0)")
+                    }
+                });
+            });
+
+		</script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div id="header_wrap">
+				<div class="header_content_1">
+					<div class="logo_1">
+						<a href="main.html"><div class="main_logo photo_1"></div></a>
+						<div class="logo_bar">
+							<i class="fas fa-bars"></i>
+						</div>	
+					</div>
+
+				
+					<div class="nav_wrap">
+						<nav class="menu">
+							<ul>
+								<li class="second"><a href="./main.html">HOME</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">RESTO</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">SPECIAL</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">MENU</a>
+									<ul class="side_menu">
+										<li><a href="./sub.html">MENU 2</a></li>
+										<li><a href="./sub.html">MENU DETAILED</a></li>
+									</ul>
+								</li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">GALLERY</a>
+									<ul class="side_menu">
+										<li><a href="./sub.html">GALLERY 1</a></li>
+										<li><a href="./sub.html">GALLERY 2</a></li>
+									</ul>
+								</li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">NEWS</a></li>
+								<li class="wave"><a href="./sub.html">~</a></li>
+								<li class="second"><a href="./sub.html">PAGES</a>
+									<ul class="side_menu">
+										<li><a href="./sub.html">ABOUT</a></li>
+										<li><a href="./sub.html">BLOG</a></li>
+										<li><a href="./sub.html">SERVICES</a></li>
+										<li><a href="./sub.html">CONTACT</a></li>
+										<li><a href="./sub.html">RESERVATION</a></li>
+										<li><a href="./sub.html">404 ERROR</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						
+
+	                	<div class="header_content_2">
+	                		<div class="second_1">
+								<a href="./sub.html" class="logo_2">
+					    			<div class="logo_icon_1 photo_2"></div>
+					    		</a>	
+					    	</div>	
+							<div class="logo_phone">
+								<i class="fas fa-phone"></i>
+								<span class="phone">513-352-3209</span>
+							</div>	
+						</div>	
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="slider">
+			<div id="slider_wrap">
+				<h2>Welcone To Foxeresto</h2>
+				<h4>RESTAURANT&nbsp;·&nbsp;CAFE&nbsp;·&nbsp;BAR&nbsp;·&nbsp;24/7</h4>
+			</div>
+
+			<div class="slider_button">
+                <div class="button_box">    
+					<button></button>
+					<button></button>
+				</div>	
+			</div>
+		</div>
+
+		<section>
+			<div id="section_wrap">
+
+
+				<div id="content_1">
+					<div class="con_1_textbox">
+						<span class="story">Our Story</span>
+						<h2>A joyous eatery inspired by the culture of italian cuisine</h2>
+						<p>The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.Now that your brand is all dressed up and ready to party.</p>
+
+						<div class="con_1_subtext">
+							<img src="img/1-10-150x150.jpg" alt="chef">
+							<div class="con_1_sub">
+								<h3>Benaissa Ghrib</h3>
+								<p>Master Chef</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="con_1_imgbox">
+						<div class="con_1_img photo_5"></div>
+						<div class="con_1_img photo_6"></div>
+						<div class="con_1_img photo_7"></div>
+						<div class="con_1_img photo_8"></div>
+					</div>
+				</div>
+
+
+				<div id="content_2">
+					<div class="con_2_textbox">
+						<div class="con_2_subtext">
+							<img src="img/serving-dish.png" alt="dinner">
+							<h2>Make a Reservation</h2>
+							<p>Opens 8:00 AM - 10:00 PM, every day of the week</p>
+							<a href="./sub.html"><span class="book">BOOK A TABLE</span></a>
+						</div>
+					</div>
+					<div class="con_2_imgbox photo_9"></div>
+				</div>
+
+
+				<div id="content_3">
+					<div class="con_3_sub_1">
+						<span class="story">OurSpecials</span>
+						<h2>Today's Special</h2>
+						<p>The time has come to bring those ideas and plans to life. This is where we really begin to visualize.</p>
+					</div>
+
+					<div class="con_3_sub_2">
+						<div class="con_3_box_1">
+							<div class="con_3_textbox1">
+								<h3>Tomato Cheese Pasta</h3>
+								<p>Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
+								<a href="./sub.html"><span class="gold">VIEW FULL MENU</span></a>
+							</div>
+							<div class="con_3_imgbox photo_10">
+								<div class="eat_box">
+									<h3>Tomato Cheese Pasta</h3>
+									<p>Enjoy Special!</p>
+									<span class="plus">+</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="con_3_box_1">
+							<div class="con_3_textbox2">
+								<h3>Grilled Meat Steack</h3>
+								<p>Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
+								<a href="./sub.html"><span class="gold">VIEW FULL MENU</span></a>
+							</div>
+							<div class="con_3_imgbox photo_11">
+								<div class="eat_box">
+									<h3>Grilled Meat Steack</h3>
+									<p>Enjoy Special!</p>
+									<span class="plus">+</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="con_3_box_2">
+							<div class="con_3_textbox3">
+								<h3>Meatballs With Tomato</h3>
+								<p>Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
+								<a href="./sub.html"><span class="gold">VIEW FULL MENU</span></a>
+							</div>	
+							<div class="con_3_imgbox photo_12">
+								<div class="eat_box">
+									<h3>Meatballs With Tomato</h3>
+									<p>Enjoy Special!</p>
+									<span class="plus">+</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="con_3_box_3">
+							<div class="con_3_textbox4">
+								<h3>Spaghetti Meatballs</h3>
+								<p>Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
+								<a href="./sub.html"><span class="gold">VIEW FULL MENU</span></a>
+							</div>
+							<div class="con_3_imgbox photo_13">
+								<div class="eat_box">
+									<h3>Spaghetti Meatballs</h3>
+									<p>Enjoy Special!</p>
+									<span class="plus">+</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+
+				<div id="content_4">
+					<div class="con_4_textbox">
+						<a href="./sub.html"><img src="img/pointer_left1.png" class="pointer" alt="pointer"></a>
+						<div class="con_4_subtext">
+							<div class="con_4_sub">
+								<h2>MAGAZIN RESTAURANT</h2>
+								<p>"Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq."</p>
+								<div class="star_box">
+									<img src="img/star_icon.png" alt="icon">
+									<img src="img/star_icon.png" alt="icon">
+									<img src="img/star_icon.png" alt="icon">
+									<img src="img/star_icon.png" alt="icon">
+									<img src="img/star_icon.png" alt="icon">
+								</div>
+							</div>
+						</div>
+						<a href="./sub.html"><img src="img/pointer_right1.png" class="pointer" alt="pointer"></a>
+					</div>
+				</div>
+
+				<div id="content_5">
+					<div class="con_5_textbox">
+						<div class="con_5_sub_1">
+							<span class="story">Our Menu</span>
+							<h2>Foxeresto Menu</h2>
+							<p>The time has come to bring those ideas and plans to life. This is where we really begin to visualize.</p>
+						</div>
+						<div class="con_5_sub_2">
+							<ul>
+								<li>
+									<button class="meal">BLEAKFAST &nbsp;~</button>
+									
+									<button class="meal">LUNCH &nbsp;~</button>
+
+									<button class="meal">DESSERT &nbsp;~</button>
+
+									<button class="meal">DRINKS &nbsp;~</button>
+								</li>
+							</ul>
+						</div>
+						<div class="con_5_sub_3">
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/1-5.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_1">Waffle Brunch<span class="textline_1"></span></h3>   <!--나중에 글자 사이에 마름표 모양이 반복되는 줄을 삽입하는 방법을 알게 된다면 수정+hr 형식이 오류로 떠서 span으로 바꿈-->
+									<p>French Toast / Bacon / Strawberries</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/2-4.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_2">Farmhouse Omelette<span class="textline_2"></span></h3>
+									<p>Sauteed Potatoes / Bacon / Grilled Onions</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/3-4.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_3">Chef's Omelette<span class="textline_3"></span></h3>
+									<p>Avocado / Mushrooms / Green Onion / Tomato</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/4-4.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_4">Waffles Benedict<span class="textline_4"></span></h3>
+									<p>French Toast / Bacon / Strawberries</p>
+								</div>	
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/5-1.jpg" alt="food">
+								</div>	
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_5">Belgian Waffle<span class="textline_5"></span></h3>
+									<p>Maple Butter / Syrup</p>
+								</div>	
+							</div>
+						</div>	
+
+							<!--아침----------------->
+
+						<div class="con_5_sub_4">
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/1-6.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_6">Crabcakes<span class="textline_6"></span></h3>   <!--나중에 글자 사이에 마름표 모양이 반복되는 줄을 삽입하는 방법을 알게 된다면 수정-->
+									<p>Mustard / Tartar Sauce</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/2-5.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_7">Buffalo Wings<span class="textline_7"></span></h3>
+									<p>Hot Sauce / Blue Cheese Dressing</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/3-5.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_8">Quesadilla Pizza<span class="textline_8"></span></h3>
+									<p>Melted Cheese / Green Onions</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/4-5.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_9">Lunch Salmon<span class="textline_9"></span></h3>
+									<p>Herb Crusted / Filet of Salmon / Miso Salmon</p>
+								</div>	
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/5-2.jpg" alt="food">
+								</div>	
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_10">Tex Mex Eggrolls<span class="textline_10"></span></h3>
+									<p>Corn / Black Beans / Peppers / Onions and Melted</p>
+								</div>	
+							</div>
+						</div>	
+							<!--점심--------->
+						<div class="con_5_sub_5">
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/1-7.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_11">Original Cheesecake<span class="textline_11"></span></h3>   <!--나중에 글자 사이에 마름표 모양이 반복되는 줄을 삽입하는 방법을 알게 된다면 수정-->
+									<p>Creamy Cheesecake / Graham Cracker Crust</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/2-6.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_12">Carrot Cake<span class="textline_12"></span></h3>
+									<p>Moist Layers of Carrot Cake / Our Famous Cream.</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/3-6.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_13">Black-Out Cake<span class="textline_13"></span></h3>
+									<p>Deepest / Richest Chocolate Cake / Chocolate Chips</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/4-6.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_14">Low Carb Cheesecake<span class="textline_14"></span></h3>
+									<p>Smooth / Creamy / Walnut Crust Sweetened with Stevia</p>
+								</div>	
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/4-3.jpg" alt="food">
+								</div>	
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_15">Hot Fudge Sundae<span class="textline_15"></span></h3>
+									<p>Whipped Cream / Almonds</p>
+								</div>	
+							</div>
+						</div>	
+							<!--디저트--------->
+						<div class="con_5_sub_6">
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/5-4.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_16">Fruit Smoothie<span class="textline_16"></span></h3>   <!--나중에 글자 사이에 마름표 모양이 반복되는 줄을 삽입하는 방법을 알게 된다면 수정-->
+									<p>Strawberries / Orange / Pineapple / Banana</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/2-7.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_17">Tropical Smoothie<span class="textline_17"></span></h3>
+									<p>Mango / Passion Fruit / Pineapple / Coconut</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/3-7.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_18">Café Latte<span class="textline_18"></span></h3>
+									<p>Double Espresso / Extra Steamed Milk</p>
+								</div>
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/4-7.jpg" alt="food">
+								</div>
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_19">Café Mocha<span class="textline_19"></span></h3>
+									<p>Espresso / Chocolate / Steamed Milk</p>
+								</div>	
+							</div>
+
+							<div class="con_5_subbox">
+								<div class="con_5_subimg">
+									<img src="img/5-4.jpg" alt="food">
+								</div>	
+								<div class="con_5_subtext">
+									<h3 class="foodmenu_20">Hot Fudge Sundae<span class="textline_20"></span></h3>
+									<p>Whipped Cream / Almonds</p>
+								</div>	
+							</div>
+						</div>
+							<!--음료------>
+					</div>
+				</div>
+
+				<div id="content_6">
+					<div class="content_6_wrap">
+						<a href="./sub.html" class="con_6_imgbox photo_14">
+							<div class="plus_box">
+								<h3>Lunch Salmon</h3>
+								<p>Herb Crusted / Filet of Salmon / Miso Salmon</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_15">
+							<div class="plus_box">
+								<h3>Quesadilla Pizza</h3>
+								<p>Melted Cheese / Green Onions</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_16">
+							<div class="plus_box">
+								<h3>ORIGINAL CHEESECAKE</h3>
+								<p>CREAMY CHEESECAKE / GRAHAM CRACKER CRUST</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_17">
+							<div class="plus_box">
+								<h3>Carrot Cake</h3>
+								<p>Moist Layers of Carrot Cake / Our Famous Cream.</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_18">
+							<div class="plus_box">
+								<h3>Black-Out Cake</h3>
+								<p>Deepest / Richest Chocolate Cake / Chocolate Chips</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_19">
+							<div class="plus_box">
+								<h3>Tex Mex Eggrolls</h3>
+								<p>Corn / Black Beans / Peppers / Onions and Melted</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_20">
+							<div class="plus_box">
+								<h3>Hot Fudge Sundae</h3>
+								<p>Whipped Cream / Almonds</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+						<a href="./sub.html" class="con_6_imgbox photo_21">
+							<div class="plus_box">
+								<h3>Hot Fudge Sundae</h3>
+								<p>Whipped Cream / Almonds</p>
+								<span class="plus">+</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div id="content_7">
+					<div class="con_7_textbox_1">
+						<span class="story">Our Services</span>
+						<h2>Customers Services</h2>
+						<p>The time has come to bring those ideas and plans to life. This is where we really begin to visualize.</p>
+					</div>
+					<div class="con_7_textbox_2">
+						<div class="con_7_subtext">
+							<div class="con_7_sub_img">
+								<div class="con_7_sub_imgbox photo22"></div>
+								<div class="circle_1"></div>	
+							</div>									
+							<h3>Quality Check</h3>
+							<p>Web development refers to the tasks of developing websites for hosting via intranet or internet.</p>
+						</div>
+						<div class="con_7_subtext">
+							<div class="con_7_sub_img">
+								<div class="con_7_sub_imgbox photo23"></div>
+								<div class="circle_2"></div>	
+							</div>								
+							<h3>Opens 24/7</h3>
+							<p>Web design require many different skills and disciplines in the production and maintenance of websites.</p>
+						</div>
+						<div class="con_7_subtext">
+							<div class="con_7_sub_img">
+								<div class="con_7_sub_imgbox photo24"></div>
+								<div class="circle_3"></div>	
+							</div>									
+							<h3>Free Parking</h3>
+							<p>Web design require many different skills and disciplines in the production and maintenance of websites.</p>
+						</div>
+
+						<div class="con_7_subtext">
+							<div class="con_7_sub_img">
+								<div class="con_7_sub_imgbox photo25"></div>
+								<div class="circle_4"></div>	
+							</div>						
+							<h3>Food Meets Style</h3>
+							<p>Web development refers to the tasks of developing websites for hosting via intranet or internet.</p>
+						</div>
+
+					</div>
+					<div class="con_7_textbox_3">
+						<div class="con_7_subtext_5">
+							<h2>Dear guests</h2>
+							<p>You are welcomed to dine with us at Foxe restaurant. Have a pleasant dining experience.</p>
+						</div>
+						<div class="con_7_subtext_6">
+							<a href="./sub.html"><span class="table">BOOK A TABLE</span></a>
+						</div>
+					</div>	
+
+					
+				</div>
+
+				<div id="content_8">
+					<div class="content_8_wrap">
+						<div class="content_8_cover">
+							<div class="content_8_textbox">
+								<div class="con_8_subtext_1">
+									<span class="reservation">Reservation</span>
+									<h2>Book a Table</h2>
+									<p>Please choose your reservation date with specific time and number of people to book a table</p>
+								</div>
+
+								<div class="con_8_subtext_2">
+									<div class="con_8_subbox">
+										<h4>NAME</h4>
+										<input type="text" class="search" placeholder="Your name">
+									</div>
+									<div class="con_8_subbox">
+										<h4>PHONE</h4>
+										<input type="text" class="search" placeholder="Your phone">
+									</div>
+									<div class="con_8_subbox">
+										<h4>DATE</h4>
+										<input type="text" class="search" placeholder="(ex:mm/dd/yy)">
+									</div>
+								</div>
+
+								<div class="con_8_subtext_3">
+									<div class="con_8_subbox">
+										<h4>EMAIL</h4>
+										<input type="text" class="search" placeholder="Your email">
+									</div>
+									<div class="con_8_subbox">
+										<h4>PERSONS</h4>
+										<input type="text" class="search" placeholder="Person numbr">
+									</div>
+									<div class="con_8_subbox">
+										<h4>TIME</h4>
+										<input type="text" class="search" placeholder="(ex:9:30PM)">
+									</div>
+								</div>
+
+								<div class="con_8_subtext_4">
+									<span class="book_table"><a href="./sub.html">BOOK A TABLE</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="content_9">
+					<div class="con_9_textbox">
+
+				<!--머리-->
+						<div class="con_9_subtext_1">
+							<span class="reservation">From The Blog</span>
+							<h2>Delicious Recipies</h2>
+							<p>The time has come to bring those ideas and plans to life. This is where we really begin to visualize.</p>
+						</div>
+                <!--상반신-->
+
+						<div class="con_9_subtext_2">
+
+				<!--왼팔-->			
+
+							<div class="con_9_sub_1">
+
+				<!--어깨-->				
+								<a href="./sub.html" class="con_9_sub_1_img">
+									<img src="img/2-8.jpg" alt="food">
+								</a>
+                <!--팔-->
+								<div class="con_9_sub_body">
+									<div class="con_9_subbox_1">
+										<h5><span class="olive">Cooking</span>,<span class="olive">Soup</span> August 19, 2019</h5>
+										<span class="olive_1"><i class="fas fa-comments"></i>4</span>
+									</div>
+
+									<h2><a href="./sub.html">Garlic Roasted Risoto</a></h2>
+									<p>Morocco produces a large range of Mediterranean fruits, vegetables and even some tropical</p>
+								</div>	
+                <!--손목-->
+								<div class="con_9_sub_min">
+									<div class="sub_min_img">
+										<img src="img/1-10-150x150.jpg" alt="chef">
+									</div>
+									<div class="sib_min_text">
+										<p><span style="color:#666">By</span> Benaissa Ghrib</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="con_9_sub_2">
+								<div class="con_9_subbox_1">
+									<h5>Quote July 19, 2019</h5>
+									<span class="olive_2"><i class="fas fa-comments"></i>2</span>
+								</div>	
+								<div class="con_9_subbox_2">
+									<img src="img/1-10-150x150.jpg" alt="chef">
+									<h3>"It’s an unlikely setting for an exquisite dining experience served up by a couple straight out of a rom-com plot. "</h3>
+									<p>- Benaissa Ghrib</p>
+								</div>
+							</div>
+
+							<div class="con_9_sub_1">
+								<a href="./sub.html" class="con_9_sub_1_img">
+									<img src="img/8-2.png" alt="food">
+								</a>
+
+								<div class="con_9_sub_body">
+									<div class="con_9_subbox_1">
+										<h5><span class="olive">Dessert</span>,<span class="olive">Soup</span> June 19, 2019</h5>
+										<span class="olive_1"><i class="fas fa-comments"></i>2</span>
+									</div>	
+									<h2><a href="./sub.html">Chocolate Coconut Balls</a></h2>
+									<p>Morocco produces a large range of Mediterranean fruits, vegetables and even some tropical</p>
+								</div>
+									
+								<div class="con_9_sub_min">
+									<div class="sub_min_img">
+										<img src="img/1-10-150x150.jpg" alt="chef">
+									</div>
+									<div class="sub_min_text">
+										<p><span style="color:#666">By</span> Benaissa Ghrib</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="con_9_subtext_3">
+							<span class="post_button"><a href="./sub.html">All BLOG POSTS</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div id="footer_wrap">
+				<div class="footer_button">
+				</div>
+				<div class="footer_deco">
+				</div>
+
+				<div class="footer_textbox">
+					<div class="footer_text_1">
+						<div class="ft1_imgbox_1">
+							<img src="img/logo-light.png" alt="logo">
+						</div>
+						<div class="ft1_textbox">
+							<p>Dear guests, you are welcomed to dine with us at Foxe restaurant. Have a pleasant dining experience.</p>
+						</div>
+						<div class="ft1_imgbox_2">
+							<img src="img/signature.png" alt="signature">
+						</div>
+					</div>
+
+					<div class="footer_text_2">
+						<h2>Address</h2>
+						<div class="ft2_textbox">
+							<ul>
+								<li>+1(513)352-3209</li>
+								<li><a href="./sub.html">support@yoursite.com</a></li>
+								<li>3805 Edwards Rd, Cincinnati, Ohio 45209 USA</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_text_3">
+						<h2>Hours of opening</h2>
+						<div class="ft3_textbox">
+							<ul>
+								<li>Monday<hr class="textline_21"><span class="time">10:00 - 22:00</span></li>
+								<li>Thuesday<hr class="textline_22"><span class="time">10:00 - 22:00</span></li>
+								<li>Wednesay<hr class="textline_23"><span class="time">10:00 - 22:00</span></li>
+								<li>Thurday<hr class="textline_24"><span class="time">10:00 - 22:00</span></li>
+								<li>Friday<hr class="textline_25"><span class="time">10:00 - 22:00</span></li>
+								<li>Saturday<hr class="textline_26"><span class="time">10:00 - 22:00</span></li>
+								<li>Sunday<hr class="textline_27"><span class="time">Closed</span></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_text_4">
+						<h2>Tags</h2>
+						<div class="ft4_textbox">
+							<ul>
+								<li><a href="./sub.html">#Cooking</a></li>
+								<li><a href="./sub.html">#Dish</a></li>
+								<li><a href="./sub.html">#Moroccan</a></li>
+								<li><a href="./sub.html">#Moroccan dish</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_text_5">
+						<div class="ft5_iconbox">
+							<ul>
+								<li><a href="./sub.html"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="./sub.html"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="./sub.html"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="./sub.html"><i class="fab fa-pinterest-p"></i></a></li>
+							</ul>
+						</div>
+						<div class="ft5_companybox">
+							<p>© 2019 Foxeresto by webRedox | All rights reserved.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

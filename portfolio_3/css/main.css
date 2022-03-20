@@ -1,0 +1,949 @@
+@charset "utf-8";
+*{margin: 0; box-sizing: border-box; font-family: "Arial";}
+            ul, ol, li{list-style: none;}
+            a{text-decoration: none;}
+
+            
+
+    /*slider 시작*/
+
+            @media(max-width: 768px) {
+            
+            #wrap{width: 100%; height: auto;}
+
+            #slider{width: 100%; height: 80vw; margin: 0 auto; background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/maroon5.jpg"); background-size: 100% 80vw; background-position: center; background-repeat: no-repeat; text-align: center; color:white; 
+                margin: 0 auto; background-attachment: fixed; }
+                #slider h5{padding: 20% 0 2% 0px; letter-spacing: 5px;}
+                #slider h1{display: none;}
+                #slider p{display: none;}
+                .slider_log{width: 140px; height: 70px; margin: 0 auto; padding: 20% 0 0 0px;}
+                .slider_log img{width: 100%}
+                .player{width: 80px; height: 80px; margin: 0 auto;}
+                    .player img{width: 80px; height: 80px;padding: 1%; border: 3px solid white; border-radius: 50%;}
+                    .player img:hover{background-color: #e83b4b; border: 3px solid #e83b4b; background-blend-mode: multiply;}
+            
+            }
+
+            @media(min-width: 769px) {
+
+            #wrap{width: 100%; height: auto;}    
+
+            #slider{width: 100%; height: 900px; background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/maroon5.jpg"); background-size: 100% 90vw; background-position: center; text-align: center; color:white; 
+                margin: 0 auto; background-attachment: fixed; }
+                #slider h5{margin: 100px 0 0 0px; letter-spacing: 5px;}
+                #slider h1{font-size: 60px; letter-spacing: 5px; padding: 10px;}
+                #slider p{padding:10px 0px 40px 0px;}
+                .slider_log{width: 140px; height: 70px; margin: 0 auto; padding: 250px 0 0 0px;}
+                .slider_log img{width: 100%}
+                .player{width: 80px; height: 80px; margin: 0 auto;}
+                    .player img{width: 80px; height: 80px;padding: 1%; border: 3px solid white; border-radius: 50%;}
+                    .player img:hover{background-color: #e83b4b; border: 3px solid #e83b4b; background-blend-mode: multiply;}
+            
+            }
+
+            @media(min-width: 1200px) {
+
+            #wrap{width: 100%; height: auto;}    
+
+            #slider{width: 100%; height: 900px; background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/maroon5.jpg"); background-size: cover; background-position: center; text-align: center; color:white; 
+                margin: 0 auto; background-attachment: fixed; }
+                #slider h5{margin: 100px 0 0 0px; letter-spacing: 5px;}
+                #slider h1{font-size: 60px; letter-spacing: 5px; padding: 10px;}
+                #slider p{padding:10px 0px 40px 0px;}
+                .slider_log{width: 140px; height: 70px; margin: 0 auto; padding: 250px 0 0 0px;}
+                .slider_log img{width: 100%}
+                .player{width: 80px; height: 80px; margin: 0 auto;}
+                    .player img{width: 80px; height: 80px;padding: 1%; border: 3px solid white; border-radius: 50%;}
+                    .player img:hover{background-color: #e83b4b; border: 3px solid #e83b4b; background-blend-mode: multiply;}
+            
+            }
+ 
+    /*slider끝 section시작*/
+
+            @media(max-width: 768px) {
+            
+            #wrap{width: 100%; height: auto;}
+                section{width: 100%; height: auto; margin: 0 auto;} 
+
+            }
+
+            @media(min-width: 769px) {
+
+            #wrap{width: 100%; height: auto;}
+                section{width: 100%; height: auto; margin: 0 auto;} 
+
+            }
+
+            @media(min-width: 1200px) {
+
+            #wrap{width: 100%; height: auto;}
+                section{width: 100%; height: 9040px; margin: 0 auto;} 
+
+            }
+   
+            /*content1*/
+
+            @media(max-width: 768px) {
+                #contents_1{width: 100%; height: auto; text-align: center; display:flex; justify-content:center; align-items:center; flex-flow:row wrap; margin: 0 auto;}
+                    .background_cover1{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center; flex-direction: column; } 
+                        .incredible_text{width: 100%; height: auto; padding: 60px 0px ; margin: 0 auto;}
+                        
+                            .incredible_text h2{font-size: 35px; padding: 25px; font-weight:normal;}
+                            .incredible_text h4{color: #666; padding: 10px;}
+                            .incredible_text p{color: #666; padding: 10px;}
+                    
+                        .incredible_box1{width: 100%; height:50vw; background-color: #eee; text-align: left; padding: 2%;}
+                            .incredible_box1 h3{padding: 10% 0 0 10%; color: #666;}
+                            .incredible_box1 h2{padding: 1% 0 0 10%; color: #333333;}
+                            .incredible_box1 p{padding: 10% 10% 20% 10%; color: #666;}
+
+                        .incredible_box2{width: 100%; height:50vw; text-align: left; padding: 2%;}
+                            .incredible_box2 h3{padding: 10% 0 0 10%; color: #666;}
+                            .incredible_box2 h2{padding: 1% 0 0 10%; color: #333333;}
+                            .incredible_box2 p{padding: 10% 10% 20% 10%; color: #666;}
+
+                        .incredible_box3{width: 100%; height:50vw; background-color: #eee; text-align: left; padding: 2%;}
+                            .incredible_box3 h3{padding: 10% 0 0 10%; color: #666;}
+                            .incredible_box3 h2{padding: 1% 0 0 10%; color: #333333;}
+                            .incredible_box3 p{padding: 10% 10% 20% 10%; color: #666;}
+
+                        .incredible_icon{width: 70px; height: 70px; float: right; margin: -15% 40% 2% 0px;}     
+
+            }                
+  
+
+            @media(min-width: 769px) {
+                #contents_1{width: 100%; height: auto; text-align: center; display:flex; justify-content:center; align-items:center; flex-flow:row wrap; margin: 0 auto;}
+                    .background_cover1{width: 100%; height: 450px; margin: 0 auto; display: flex; justify-content: center;} 
+                        .incredible_text{width: 1143px; height: auto; padding: 60px 0px ; margin: 0 auto;}
+                            .incredible_text h2{font-size: 35px; padding: 45px 0 25px 0px; font-weight:normal;}
+                            .incredible_text h4{color: #666; padding: 10px;}
+                            .incredible_text p{color: #666; padding: 30px 0 10px 0px;}
+                    
+                        .incredible_box1{width: 33%; height:300px; background-color: #eee; text-align: left; padding: 2%;}
+                            .incredible_box1 h3{padding: 7% 0 0 10%; color: #666;}
+                            .incredible_box1 h2{padding: 1% 0 0 10%; color: #333333;}
+                            .incredible_box1 p{padding: 5% 40% 20% 10%; color: #666; font-size: 13px; line-height: 22px;}
+
+                        .incredible_box2{width: 33%; height:300px; text-align: left; padding: 2%;}
+                            .incredible_box2 h3{padding: 7% 0 0 10%; color: #666;}
+                            .incredible_box2 h2{padding: 1% 0 0 10%; color: #333333;}
+                            .incredible_box2 p{padding: 5% 40% 20% 10%; color: #666; font-size: 13px; line-height: 22px;}
+
+                        .incredible_box3{width: 33%; height:300px; background-color: #eee; text-align: left; padding: 2%;}
+                            .incredible_box3 h3{padding: 7% 0 0 10%; color: #666;}
+                            .incredible_box3 h2{padding: 1% 0 0 10%; color: #333333;}
+                            .incredible_box3 p{padding: 5% 40% 20% 10%; color: #666; font-size: 13px; line-height: 22px;}
+
+                        .incredible_icon{width: 70px; height: 70px; float: right; margin: -12% 40% 10% 5%; display: inline;}    
+
+            }                
+  
+            /*content2*/
+
+            @media(max-width: 768px) {
+                #contents_2{background-color: rgba(35, 35, 35, 1); width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; }
+                    .fresh_container{width: 100%; height: 50vw; display: flex; justify-content: center;}
+                    .fresh_imgbox {width: 100%; height: auto;}
+                    .fresh_imgbox:hover{}
+                    .fresh_imgbox:hover .fresh_sub{display: block;}
+
+                    .photo1{background-image: url("../img/fresh-1.jpg"); background-size: cover; background-position: center;}
+                    .photo2{background-image: url("../img/fresh-2.jpg"); background-size: cover; background-position: center;}
+                    .photo3{background-image: url("../img/fresh-3.jpg"); background-size: cover; background-position: center;}
+                    .photo4{background-image: url("../img/fresh-4.jpg"); background-size: cover; background-position: center;}
+   
+                    .fresh_textbox{width: 100%; height: 50%; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; padding: 10%}
+                        .fresh_textbox h2{color: #eee; font-size: 30px; padding: 5%}
+                        .fresh_textbox p{color: #eee; font-size: 20px; line-height: 26px;}
+                        .fresh_textbox img{padding: 20px 0 0 0px}
+                        .fresh_textbox span{color: #666}
+                    .fresh_sub{position: relative; bottom: -40%; left: 0; display: none; width: 90%; padding:5%; }
+                        .fresh_sub h3{color: white; padding: 0 0 3% 0px}
+                        .fresh_sub p{color: white; padding: 0 0 3% 0px}
+                        .fresh_sub span{color: white;}    
+
+            }            
+
+            @media(min-width: 769px) {
+                #contents_2{background-color: rgba(35, 35, 35, 1); width: 100%; height: 760px; margin: 0 auto; display: flex; flex-flow: row wrap; align-content: center; }
+                    .fresh_container{width: 50%; height: 50%; display:flex; flex-flow: row wrap; }
+                    .fresh_imgbox {width: 50%; height: 100%;}
+                    .fresh_imgbox:hover .fresh_sub{display: block;}
+
+                    .photo1{background-image: url("../img/fresh-1.jpg"); background-size: cover; background-position: center;}
+                        .photo1:hover{background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/fresh-1.jpg"); background-size: cover; background-position: center;}
+                    .photo2{background-image: url("../img/fresh-2.jpg"); background-size: cover; background-position: center;}
+                        .photo2:hover{background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/fresh-2.jpg"); background-size: cover; background-position: center;}
+                    .photo3{background-image: url("../img/fresh-3.jpg"); background-size: cover; background-position: center;}
+                        .photo3:hover{background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/fresh-3.jpg"); background-size: cover; background-position: center;}
+                    .photo4{background-image: url("../img/fresh-4.jpg"); background-size: cover; background-position: center;}
+                        .photo4:hover{background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/fresh-4.jpg"); background-size: cover; background-position: center;}
+   
+                    .fresh_textbox{width: 50%; height: 50%; display: flex; justify-content: center; align-items: stretch; flex-direction: column; text-align: center; padding: 10%;}
+                        .fresh_textbox h2{color: #eee; font-size: 30px; padding: 70% 0 10% 0px}
+                        .fresh_textbox p{color: #eee; font-size: 20px; line-height: 26px;}
+                        .fresh_textbox img{padding: 20px 0 0 0px}
+                        .fresh_textbox span{color: #666}
+                    .fresh_sub{position: relative; bottom: -60%; left: 0; display: none; width: 60%; padding:5%; }
+                        .fresh_sub h3{color: #eee; padding: 0 0 3% 0px}
+                        .fresh_sub p{color: white; padding: 0 0 3% 0px}
+                        .fresh_sub span{color: #eee;}
+            }            
+
+            /*content3*/
+
+            @media(max-width: 768px) {
+
+                #contents_3{width: 100%; height: auto; margin: 0 auto; display: flex; }
+                    .background-cover2{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; flex-flow:  row wrap; flex-direction: column;} 
+                     
+                    .ultimate_video{width: 100%;}
+                    .ultimate_video:hover{}
+                        .ultimate_video video{width: 100%; height: auto;}
+                    
+                    .ultimate_box{width: 100%; display: flex; justify-content: flex-end; flex-direction: column; padding: 5%; text-align: center;}
+                        .ultimate_box h2{font-size: 30px; text-align: center; width: 100%; padding: 0px 0px 30px 0px; display: block;}
+                        .ultimate_box p{color: #666; line-height: 20px; font-size: 18px; padding: 0 15% 0 15%;}
+                    .ultimate_text3{margin: 20px 0 0 0px;}    
+                        .ultimate_button{padding: 6px 10px; border: none; background-color: rgba(35, 35, 35, 1);}
+                        .ultimate_button a{color: #eee;}
+                        .ultimate_button:hover{background-color: #e83b4b}
+
+            }            
+
+            @media(min-width: 769px) {
+
+                #contents_3{width: 100%; height: 550px; margin: 0 auto; display: flex; align-items: center;}
+                    .background-cover2{width: 1143px; height: 450px; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; flex-flow:  row wrap;} 
+                     
+                    .ultimate_video{width: 50%;}
+                    .ultimate_video:hover{width: 100%; height: auto;}
+                        .ultimate_video video{width: 100%; height: auto;}
+                    
+                    .ultimate_box{width: 50%; display: flex; justify-content: flex-end; flex-direction: column; padding: 5%; text-align: center;}
+                        .ultimate_box h2{font-size: 30px; text-align: center; width: 100%; padding: 0px 0px 30px 0px; display: block;}
+                        .ultimate_box p{color: #666; line-height: 20px; font-size: 18px; padding: 0 15% 0 15%;}
+                    .ultimate_text3{margin: 20px 0 0 0px;}    
+                        .ultimate_button{padding: 6px 10px; border: none; background-color: rgba(35, 35, 35, 1);}
+                        .ultimate_button a{color: #eee;}
+                        .ultimate_button:hover{background-color: #e83b4b}
+
+            }            
+
+            /*content4*/
+
+            @media(max-width: 768px) {
+
+                #contents_4{width: 100%; height: auto; display: flex; flex-direction: column;}  
+                    .con4_img{width: 100%; height: 80vw;}
+
+                    .photo5{background-image: url("../img/hero-half-1.jpg"); background-size: cover; background-position: center;}
+
+                    .con4_textbox{width: 100%; height: 70vw; padding: 8%; background-color: rgba(35, 35, 35, 1); color: #666; text-align: left; display: flex; flex-direction: column; justify-content: center;}
+                    .con4_textbox h2{padding: 0 0 10% 0px;}
+                    .con4_textbox p{color: #eee; line-height: 25px;}
+         
+            }
+            @media(min-width: 769px) {
+
+                #contents_4{width: 100%; height: 450px; display: flex; justify-content: space-between;}  
+                    .con4_img{width: 34%; height: 450px;}
+
+                    .photo5{background-image: url("../img/hero-half-1.jpg"); background-size: cover; background-position: center;}
+
+                    .con4_textbox{width: 66%; height: 450px; padding: 8%; background-color: rgba(35, 35, 35, 1); color: #666; text-align: left; display: flex; flex-direction: column; justify-content: center;}
+                    .con4_textbox h2{padding: 0 0 5% 0px; font-size: 30px;}
+                    .con4_textbox p{color: #eee; line-height: 25px; width: 80%; padding: 0 0 5% 0px}
+         
+            }
+            
+            /*content5*/
+
+            @media(max-width: 768px) {  
+
+                #contents_5{width: 100%; height: auto; margin: 0 auto; display: flex;}
+                    .background-cover3{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: space-around; align-items: center; flex-flow: row wrap; flex-direction: column; padding: 0 0 10% 0px;}    
+                    .oasis{width: 100%; display: block; padding: 8% 3% 3% 5.5%; text-align: left; font-size: 30px;}   
+
+                    .oasis_box{width: 90%; height: 60vw; display: flex; color: rgba(35, 35, 35, 1); font-size: 18px; flex-direction: column; justify-content: center; box-shadow: 4px 4px 4px 4px #eee; padding: 2%; text-align: center;}  
+                    .oasis_box1{width: 90%; height: 60vw; display: flex; color: rgba(35, 35, 35, 1); font-size: 18px; flex-direction: column; justify-content: center; box-shadow: 4px 4px 4px 4px #eee; padding: 2%; text-align: center; margin: 6% auto 0;}  
+                        .oasis_imgbox1{width: 100%; height: 75%; background-image: url("../img/camp2.jpg"); background-size: cover; background-position: center;}
+                        .oasis_imgbox2{width: 100%; height: 75%; background-image: url("../img/camp13.jpg"); background-size: cover; background-position: center;}
+                        .oasis_imgbox3{width: 100%; height: 75%; background-image: url("../img/oasis2.jpg"); background-size: cover; background-position: center;}
+                                      
+
+                        .oasis_text1{width: 100%; height: 25%; padding: 5% 2% 5% 2%;}
+                        .oasis_text2{width: 100%; height: 25%;padding: 5% 2% 0 2%;}
+                        .oasis_text3{width: 100%; height: 25%;padding: 5% 2% 0 2%;}
+
+                        .oasis_button{padding: 5px 13px; border: none; background-color: rgba(35, 35, 35, 1); font-size: 14px;}
+                        .oasis_button a{color: #eee;}
+                        .oasis_button:hover{background-color: #e83b4b}
+
+            }
+            
+            @media(min-width: 769px) {  
+
+                #contents_5{width: 100%; height: 550px; margin: 0 auto; display: flex;}
+                    .background-cover3{width: 1143px; height: 450px; margin: 0 auto; display: flex; justify-content: space-around; align-items: center; flex-flow: row wrap; }    
+                    .oasis{width: 100%; display: block; padding: 50px 20px 20px 30px; text-align: left; font-size: 30px;}   
+
+                    .oasis_box{width: 30%; height: 300px; display: flex; color: rgba(35, 35, 35, 1); font-size: 18px; flex-direction: column; justify-content: center; box-shadow: 4px 4px 4px 4px #eee; padding: 2%; text-align: center;}  
+                    .oasis_box1{width: 30%; height: 300px; display: flex; color: rgba(35, 35, 35, 1); font-size: 18px; flex-direction: column; justify-content: center; box-shadow: 4px 4px 4px 4px #eee; padding: 2%; text-align: center; margin: 6% auto 0;}  
+                        .oasis_imgbox1{width: 100%; height: 300px; background-image: url("../img/camp2.jpg"); background-size: cover; background-position: center;}
+                        .oasis_imgbox2{width: 100%; height: 300px; background-image: url("../img/camp13.jpg"); background-size: cover; background-position: center;}
+                        .oasis_imgbox3{width: 100%; height: 300px; background-image: url("../img/oasis2.jpg"); background-size: cover; background-position: center;}
+                                      
+
+                        .oasis_text1{width: 100%; height: 50%; padding: 5% 2% 5% 2%;}
+                        .oasis_text2{width: 100%; height: 50%;padding: 5% 2% 0 2%;}
+                        .oasis_text3{width: 100%; height: 50%;padding: 5% 2% 0 2%;}
+
+                        .oasis_button{padding: 5px 13px; border: none; background-color: rgba(35, 35, 35, 1); font-size: 14px;}
+                        .oasis_button a{color: #eee;}
+                        .oasis_button:hover{background-color: #e83b4b}
+
+            }                        
+
+            /*content6*/   
+
+            @media(max-width: 768px) {         
+
+                #contents_6{width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; flex-direction: column;}    
+                    .river1{width: 100%; height: 60vw;}
+                        .photo6{background-image: url("../img/hero-half-2.jpg"); background-size: cover; background-position: center;}
+
+                    .river2{width: 100%; height: 60vw; background-color: rgba(35, 35, 35, 1); padding: 20% 10%;}
+                        .river2 h2{color: white; margin: -10% 0 2% 0px;}
+                        .river2 h3{color: white; margin: 0 0 4% 0px;}
+                        .river2 p{color: #666; padding: 0 0 3% 0px;}
+                        .river_button{padding: 6px 10px; border: none; background-color: #e83b4b;}
+                            .river_button a{color: #eee; }
+                            .river_button:hover{border: 2px solid white;}
+                        
+                    .river3{width: 100%; height: 80vw; padding: 5%; display: flex; flex-direction: column; color: #666;}
+                        .concert1{width: 100%; height: 100%; background-image: url("../img/concert6.png"); background-size: cover; background-position: center;}
+                        .river3 p{padding: 4% 2% 0% 2%;}
+                        
+
+                    .river4{width: 100%; height: 80vw;}    
+                        .photo7{background-image: url("../img/hero-half-3.jpg"); background-size: cover; background-position: center;}
+
+            }     
+
+            @media(min-width: 769px) {         
+
+                #contents_6{width:  100%; height: 1300px; margin: 0 auto; display: flex; flex-flow: row wrap; }    
+                    .river1{width: 50%; height: 40%;}
+                        .photo6{background-image: url("../img/hero-half-2.jpg"); background-size: cover; background-position: center;}
+
+                    .river2{width: 50%; height: 40%; background-color: rgba(35, 35, 35, 1); padding: 10%;}
+                        .river2 h2{color: white; margin: -10% 0 2% 0px;}
+                        .river2 h3{color: white; margin: 0 0 4% 0px;}
+                        .river2 p{color: #666; padding: 0 0 3% 0px;}
+                        .river_button{padding: 6px 10px; border: none; background-color: #e83b4b;}
+                            .river_button a{color: #eee; }
+                            .river_button:hover{border: 2px solid white;}
+                        
+                    .river3{width: 50%; height: 60%; padding: 5%; display: flex; flex-direction: column; color: #666; padding: 7% 9%;}
+                        .concert1{width: 100%; height: 100%; background-image: url("../img/concert6.png"); background-size: cover; background-position: center;}
+                        .river3 p{padding: 8% 2% 0% 2%;}
+                        
+
+                    .river4{width: 50%; height: 60%;}    
+                        .photo7{background-image: url("../img/hero-half-3.jpg"); background-size: cover; background-position: center;}
+
+            }            
+
+             /*content7*/ 
+
+            @media(max-width: 768px) {  
+
+                #contents_7{width: 100%; height: auto; margin: 0 auto; display: flex; align-items: center;}
+                    .background-cover4{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; flex-flow: row wrap; flex-direction: column;} 
+                    .influential{width: 100%; display: block; padding: 40px 20px 0px 30px; text-align: left; font-size: 30px;}  
+                    .background-cover4 .influential_box{width: 100%; display: flex; padding: 3% 0 3% 8%; color: #666;}        
+                    .influential_img{width: 100%; height: 100vw; display: flex;  flex-direction: column; overflow: hidden;}
+                    .influential_text1{width: 100%; padding:5%;}
+                        .influential_text1 h4{font-size: 25px; color: #666; padding: 0 0 5% 0px;}
+                        .influential_text1 p{padding: 0 0 4% 0px;}
+
+                        .group1{width: 100%; height: 50vw;;}
+                        .people1{background-image: url("../img/group1.jpg"); background-size: cover; background-position: center; transform: scale(1.0); transition: 0.4s ease-in-out; }
+                            .people1:hover{transform: scale(1.2);}
+                        .group2{width: 100%; height: 50vw; overflow: hidden; transform: scale(1.0);}
+                        .people2{background-image: url("../img/group2.jpg"); background-size: cover; background-position: center; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .people2:hover{transform: scale(1.2);}
+                        
+            }     
+
+            @media(min-width: 769px) {  
+
+                #contents_7{width: 100%; height: 550px; margin: 0 auto; display: flex; align-items: center;}
+                    .background-cover4{width: 100%; height: 450px; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; flex-flow: row wrap;} 
+                    .influential{width: 100%; display: block; padding: 40px 20px 0px 30px; text-align: left; font-size: 30px;}  
+                    .background-cover4 .influential_box{width: 55%; display: flex; padding: 3% 0 3% 8%; color: #666;}        
+                    .influential_img{width: 45%; height: 300px; display: flex;  overflow: hidden;}
+                    .influential_text1{padding: 0 35% 5% 0px;}
+                        .influential_text1 h4{font-size: 25px; color: #666; padding: 0 0 5% 0px;}
+                        .influential_text1 p{padding: 0 0 4% 0px;}
+
+                        .group1{width: 100%; height: 200px; margin: 0 0 0 30px;}
+                        .people1{background-image: url("../img/group1.jpg"); background-size: cover; background-position: center; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .people1:hover{transform: scale(1.2);}
+                        .group2{width: 50%; overflow: hidden; transform: scale(1.0);}
+                        .people2{background-image: url("../img/group2.jpg"); background-size: cover; background-position: center; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .people2:hover{transform: scale(1.2);}
+                        
+            } 
+
+            @media(min-width: 1200px) {  
+
+                #contents_7{width: 100%; height: 550px; margin: 0 auto; display: flex; align-items: center;}
+                    .background-cover4{width: 1143px; height: 450px; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; flex-flow: row wrap;} 
+                    .influential{width: 100%; display: block; padding: 40px 20px 0px 30px; text-align: left; font-size: 30px;}  
+                    .background-cover4 .influential_box{width: 55%; display: flex; padding: 3% 0 3% 8%; color: #666;}        
+                    .influential_img{width: 45%; height: 300px; display: flex;  overflow: hidden;}
+                    .influential_text1{padding: 0 35% 5% 0px;}
+                        .influential_text1 h4{font-size: 25px; color: #666; padding: 0 0 5% 0px;}
+                        .influential_text1 p{padding: 0 0 4% 0px;}
+
+                        .group1{width: 100%; height: 200px; margin: 0 0 0 30px;}
+                        .people1{background-image: url("../img/group1.jpg"); background-size: cover; background-position: center; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .people1:hover{transform: scale(1.2);}
+                        .group2{width: 50%; overflow: hidden; transform: scale(1.0);}
+                        .people2{background-image: url("../img/group2.jpg"); background-size: cover; background-position: center; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .people2:hover{transform: scale(1.2);}
+                        
+            }           
+                        
+        /*content8*/
+
+                @media(max-width: 768px) {
+    
+                #contents_8{width: 100%; height: auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap; flex-direction: column-reverse;}  
+                    .con8_img{width: 100%; height: 550px;}
+
+                    .photo8{background-image: url("../img/hero-half-4.jpg"); background-size: cover; background-position: center;}
+
+                    .con8_box{width: 100%; height: auto; padding: 5%; background-color: rgba(35, 35, 35, 1); color: #eee; margin: 0 auto;}
+                        .con8_textbox {width: 90%; height: auto; float: right; padding: 5%; line-height: 30px;}
+                        .con8_textbox h2{padding: 20px 0px 15px 0px; font-size: 30px;}
+                        .con8_textbox h3{padding: 20px 0px; font-size: 17px; width: 100%; color: #eee;}
+                        .con8_textbox p{padding: 10px 0 0 0px; color: #666;}
+
+                }        
+            
+
+                @media(min-width: 769px) {
+    
+                #contents_8{width: 100%; height: auto; display: flex; justify-content: space-between;}  
+                    .con8_img{width: 50%; height: auto;}
+
+                    .photo8{background-image: url("../img/hero-half-4.jpg"); background-size: cover; background-position: center;}
+
+                    .con8_box{width: 50%; height: auto; padding: 5%; background-color: rgba(35, 35, 35, 1); color: #eee;}
+                        .con8_textbox {width: 100%; height: auto; float: right; padding: 5%; line-height: 30px;}
+                        .con8_textbox h2{padding: 20px 0px 15px 0px; font-size: 30px;}
+                        .con8_textbox h3{padding: 20px 0px; font-size: 17px; width: 100%; color: #eee;}
+                        .con8_textbox p{padding: 10px 0 0 0px; color: #666;}
+
+                }  
+
+                @media(min-width: 1200px) {
+    
+                #contents_8{width: 100%; height: 550px; display: flex; justify-content: space-between;}  
+                    .con8_img{width: 50%; height: 550px;}
+
+                    .photo8{background-image: url("../img/hero-half-4.jpg"); background-size: cover; background-position: center;}
+
+                    .con8_box{width: 50%; height: 550px; padding: 5%; background-color: rgba(35, 35, 35, 1); color: #eee;}
+                        .con8_textbox {width: 560px; height: 550px; float: right; padding: 5%; line-height: 30px;}
+                        .con8_textbox h2{padding: 20px 0px 15px 0px; font-size: 30px;}
+                        .con8_textbox h3{padding: 20px 0px; font-size: 17px; width: 100%; color: #eee;}
+                        .con8_textbox p{padding: 10px 0 0 0px; color: #666;}
+
+                }        
+
+        /*content9*/
+
+            @media(max-width: 768px) {   
+
+                #contents_9{width: 100%; height: auto; margin: 0 auto; display: flex; }
+                    .background-cover5{width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; color: black; justify-content: space-around; flex-direction: column;} 
+                        .trip_head{width: 100%; display: block; padding: 0px 20px 0px 0px; text-align: left; font-size: 30px; margin: 10% 0 3% 0px;}   
+                        .trip_sub_head{width: 100%; display: block; text-align: left; color: #666; font-size: 18px; line-height: 20px; padding: 0 30% 2% 0px}
+
+                        .trip_content1{width: 90%; height: auto; margin: 0 auto; } 
+                        .trip_content2{width: 90%; height: auto; margin: 0 auto; display: none;} 
+                        .trip_content3{width: 90%; height: auto; margin: 0 auto; display: none;} 
+                            .trip_content_box{width: 100%; height: auto; display: flex; justify-content: space-between; flex-flow: row wrap; margin: 0 auto;}
+                                .trip_content1 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+                                .trip_content2 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+                                .trip_content3 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+
+                                .tripbox{width: 100%; height: 30%; display: flex; flex-flow: row wrap; flex-direction: column; justify-content: center; align-items: center; background-color: #D3D3D3; margin: 2% 0 0 0px} 
+                                    .tripbox h3{color: rgba(35, 35, 35, 1.0); margin: -4% 0 0 0px; line-height: 30px; font-size: 25px; display: block; padding: 4%;}
+
+                                    .trip_imgbox1{width: 90%; height: 300px;}
+                                    .trip_img1{background-image: url("../img/shop1.jpg"); background-size: cover; background-position: center;}
+                                    .trip_text1{width: 90%; height: 80px;}
+                                        .trip_text1 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}
+
+                                    .trip_imgbox2{width: 90%; height: 300px; background-color: white;} 
+                                    .trip_img2{background-image: url("../img/shop2.png"); background-size: cover; background-position: center;}
+                                    .trip_text2{width: 90%; height: 80px;}
+                                        .trip_text2 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}
+
+                                    .trip_imgbox3{width: 90%; height: 300px;} 
+                                    .trip_img3{background-image: url("../img/sub/camping-square-16.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text3{width: 90%; height: 80px;}
+                                        .trip_text3 p{ font-size: 15px;padding: 5% 0 0 0px; color:#666;}    
+
+                                    .trip_imgbox4{width: 90%; height: 300px;} 
+                                    .trip_img4{background-image: url("../img/camp5.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text4{width: 90%; height: 80px;}
+                                        .trip_text4 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}      
+
+                                    .trip_imgbox5{width: 90%; height: 300px;} 
+                                    .trip_img5{background-image: url("../img/camp6.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text5{width: 90%; height: 80px;}
+                                        .trip_text5 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}      
+
+                                    .trip_imgbox6{width: 90%; height: 300px;} 
+                                    .trip_img6{background-image: url("../img/camp10.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text6{width: 90%; height: 80px;}
+                                        .trip_text6 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}      
+
+                                    .trip_imgbox7{width: 90%; height: 300px;} 
+                                    .trip_img7{background-image: url("../img/sub/camping-square-18.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text7{width: 90%; height: 80px;}
+                                        .trip_text7 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}  
+                                        
+                                    .trip_imgbox8{width: 90%; height: 300px;} 
+                                    .trip_img8{background-image: url("../img/sub/camping-square-17.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text8{width: 90%; height: 80px;}
+                                        .trip_text8 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}          
+
+                                    .trip_imgbox9{width: 90%; height: 300px;} 
+                                    .trip_img9{background-image: url("../img/camp9.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text9{width: 90%; height: 80px;}
+                                        .trip_text9 p{ font-size:15px; padding: 5% 0 0 0px; color:#666;}           
+
+                        .trip_button{width: 100%; height: 50px; margin: 0 auto; display: flex; justify-content: space-between; margin: 2% 0 8% 0px;}    
+                            .trip_button button {width: 30%; height: 100%; border: none; color: white; background-color: rgba(35, 35, 35, 1);}    
+
+            }            
+
+            @media(min-width: 769px) {  
+
+                #contents_9{width: 100%; height: 900px; margin: 0 auto; display: flex; }
+                    .background-cover5{width: 100%; height: 700px; margin: 0 auto; display: flex; flex-flow: row wrap; color: black; justify-content: space-around; } 
+                        .trip_head{width: 100%; display: block; padding: 0px 20px 0px 0px; text-align: left; font-size: 30px; margin: 10% 0 3% 0px;}   
+                        .trip_sub_head{width: 100%; display: block; text-align: left; color: #666; font-size: 18px; line-height: 20px; padding: 0 30% 2% 0px}
+
+                        .trip_content1{width: 100%; height: 550px; margin: 0 auto; } 
+                        .trip_content2{width: 100%; height: 550px; margin: 0 auto; display: none;} 
+                        .trip_content3{width: 100%; height: 550px; margin: 0 auto; display: none;} 
+                            .trip_content_box{width: 100%; height: 540px; display: flex; justify-content: space-between; flex-flow: row wrap; margin: 0 auto;}
+                                .trip_content1 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+                                .trip_content2 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+                                .trip_content3 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+
+                                .tripbox{width: 30%; height: 440px; display: flex; flex-flow: row wrap; flex-direction: column; justify-content: center; align-items: center; background-color: #D3D3D3;} 
+                                    .tripbox h3{color: rgba(35, 35, 35, 1.0); margin: -4% 0 0 0px; line-height: 30px; font-size: 25px; display: block; padding: 4%;}
+
+                                    .trip_imgbox1{width: 90%; height: 300px;}
+                                    .trip_img1{background-image: url("../img/shop1.jpg"); background-size: cover; background-position: center;}
+                                    .trip_text1{width: 90%; height: 80px;}
+                                        .trip_text1 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}
+
+                                    .trip_imgbox2{width: 90%; height: 300px; background-color: white;} 
+                                    .trip_img2{background-image: url("../img/shop2.png"); background-size: cover; background-position: center;}
+                                    .trip_text2{width: 90%; height: 80px;}
+                                        .trip_text2 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}
+
+                                    .trip_imgbox3{width: 90%; height: 300px;} 
+                                    .trip_img3{background-image: url("../img/sub/camping-square-16.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text3{width: 90%; height: 80px;}
+                                        .trip_text3 p{ font-size: 15px;padding: 5% 0 0 0px; color:#666;}    
+
+                                    .trip_imgbox4{width: 90%; height: 300px;} 
+                                    .trip_img4{background-image: url("../img/camp5.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text4{width: 90%; height: 80px;}
+                                        .trip_text4 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}      
+
+                                    .trip_imgbox5{width: 90%; height: 300px;} 
+                                    .trip_img5{background-image: url("../img/camp6.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text5{width: 90%; height: 80px;}
+                                        .trip_text5 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}      
+
+                                    .trip_imgbox6{width: 90%; height: 300px;} 
+                                    .trip_img6{background-image: url("../img/camp10.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text6{width: 90%; height: 80px;}
+                                        .trip_text6 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}      
+
+                                    .trip_imgbox7{width: 90%; height: 300px;} 
+                                    .trip_img7{background-image: url("../img/sub/camping-square-18.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text7{width: 90%; height: 80px;}
+                                        .trip_text7 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}  
+                                        
+                                    .trip_imgbox8{width: 90%; height: 300px;} 
+                                    .trip_img8{background-image: url("../img/sub/camping-square-17.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text8{width: 90%; height: 80px;}
+                                        .trip_text8 p{ font-size: 15px; padding: 5% 0 0 0px; color:#666;}          
+
+                                    .trip_imgbox9{width: 90%; height: 300px;} 
+                                    .trip_img9{background-image: url("../img/camp9.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text9{width: 90%; height: 80px;}
+                                        .trip_text9 p{ font-size:15px; padding: 5% 0 0 0px; color:#666;}           
+
+                        .trip_button{width: 100%; height: 50px; margin: 0 auto; display: flex; justify-content: space-between; margin: -30px 0 0 0px;}    
+                            .trip_button button {width: 30%; height: 100%; border: none; color: white; background-color: rgba(35, 35, 35, 1);}       
+
+            }                
+
+            @media(min-width: 1200px) {    
+
+                #contents_9{width: 100%; height: 900px; margin: 0 auto; display: flex; }
+                    .background-cover5{width: 1143px; height: 700px; margin: 0 auto; display: flex; flex-flow: row wrap; color: black; justify-content: space-around; } 
+                        .trip_head{width: 100%; display: block; padding: 0px 20px 0px 0px; text-align: left; font-size: 30px; margin: 10% 0 3% 0px;}   
+                        .trip_sub_head{width: 100%; display: block; text-align: left; color: #666; font-size: 18px; line-height: 20px; padding: 0 30% 2% 0px}
+
+                        .trip_content1{width: 100%; height: 550px; margin: 0 auto;} 
+                        .trip_content2{width: 100%; height: 550px; margin: 0 auto; display: none;} 
+                        .trip_content3{width: 100%; height: 550px; margin: 0 auto; display: none;} 
+                            .trip_content_box{width: 100%; height: 540px; display: flex; justify-content: space-between; flex-flow: row wrap; margin: 0 auto;}
+                                .trip_content1 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+                                .trip_content2 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+                                .trip_content3 > h2{padding: 20px 0 10px 0px; font-size: 25px;}
+
+                                .tripbox{width: 30%; height: 480px; display: flex; flex-flow: row wrap; flex-direction: column; justify-content: center; align-items: center; background-color: #D3D3D3;} 
+                                    .tripbox h3{color: rgba(35, 35, 35, 1.0); margin: -4% 0 0 0px; line-height: 30px; font-size: 25px; display: block; padding: 4%;}
+
+                                    .trip_imgbox1{width: 90%; height: 300px;}
+                                    .trip_img1{background-image: url("../img/shop1.jpg"); background-size: cover; background-position: center;}
+                                    .trip_text1{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text1 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}
+
+                                    .trip_imgbox2{width: 90%; height: 300px; background-color: white;} 
+                                    .trip_img2{background-image: url("../img/shop2.png"); background-size: cover; background-position: center;}
+                                    .trip_text2{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text2 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}
+
+                                    .trip_imgbox3{width: 90%; height: 300px;} 
+                                    .trip_img3{background-image: url("../img/sub/camping-square-16.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text3{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text3 p{ font-size: 15px;padding: 5% 0 5% 0px; color:#666; text-align: left}    
+
+                                    .trip_imgbox4{width: 90%; height: 300px;} 
+                                    .trip_img4{background-image: url("../img/camp5.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text4{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text4 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}      
+
+                                    .trip_imgbox5{width: 90%; height: 300px;} 
+                                    .trip_img5{background-image: url("../img/camp6.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text5{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text5 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}      
+
+                                    .trip_imgbox6{width: 90%; height: 300px;} 
+                                    .trip_img6{background-image: url("../img/camp10.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text6{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text6 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}      
+
+                                    .trip_imgbox7{width: 90%; height: 300px;} 
+                                    .trip_img7{background-image: url("../img/sub/camping-square-18.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text7{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text7 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}  
+                                        
+                                    .trip_imgbox8{width: 90%; height: 300px;} 
+                                    .trip_img8{background-image: url("../img/sub/camping-square-17.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text8{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text8 p{ font-size: 15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}          
+
+                                    .trip_imgbox9{width: 90%; height: 300px;} 
+                                    .trip_img9{background-image: url("../img/camp9.jpg"); background-size: cover; background-position: center; }
+                                    .trip_text9{width: 90%; height: 80px; text-align: center;}
+                                        .trip_text9 p{ font-size:15px; padding: 5% 0 5% 0px; color:#666; text-align: left;}           
+
+                        .trip_button{width: 100%; height: 50px; margin: 0 auto; display: flex; justify-content: space-between; margin: 5px 0 0 0px;}    
+                            .trip_button button {width: 30%; height: 100%; border: none; color: white; background-color: rgba(35, 35, 35, 1);}
+
+                        .trip_sub_button{padding: 5px 20px; color: white; background-color: rgb(35, 35, 35);}
+                            .trip_sub_button:hover{background-color:#e83b4b;}                  
+            }            
+
+        /*content10*/ 
+
+                @media(max-width: 768px) {
+
+                #content_10{width: 100%; height: auto; margin: 0 auto; display: flex;} 
+    
+                    .con10{width: 100%; height: auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap; text-align: center;}  
+                        .vip{width: 100%; display: block; padding: 20px 0px 0px 0px; text-align: left; margin: 4% 0 4% 0px;}
+                        .con10 h2{font-size: 15px;}  
+                        .con10 ul{list-style-position: inside; margin-left:20px; margin-right: 10px;}
+                        .con10 li{list-style-image:url("../img/icon6.png"); line-height: 20px; margin: 20px 0px; padding: 0 15px 0 15px; margin-left:-10px;}
+
+                        .package_box1{width: 95%; display: flex; justify-content: center; align-items: center; flex-direction: column; border: 1px solid #eee;}
+                            .package_box1 > h2 {width: 100%; padding: 30px 0px; background-color: #eee;}
+
+                        .package_box2{width: 95%; display: flex; flex-direction: column; box-shadow: 0px 5px 5px 5px #eee;}
+                            .package_box2 > h2 {padding: 40px 30px; border: none; color: #eee; background-color: rgba(35, 35, 35, 1);}
+
+                        .select_area{width: 100%; padding: 40px 0px; margin: 0 auto;}    
+
+                        .cancel{color: #666; text-decoration:line-through;}
+
+                        .currency{margin-right:.25px;font-size:15px; position:relative;top:-25px;}
+
+                        .package_price{font-size: 50px; }
+                        .package_price:after{content: "/+FEES"; font-size: 15px;}
+                        
+                    .all{width: 100%; display: block; margin: 0 auto; padding: 50px 0 100px 0px;} 
+                        .ticket{padding: 8px 15px; background-color: rgba(35, 35, 35, 1); border: none; color: white;}
+                        .ticket:hover {background-color: #D94844; transition: 0.3s ease-in-out;}
+
+                        .ticket1{padding: 15px 15px; background-color: rgba(35, 35, 35, 1); border: none; color: white;}
+                        .ticket1:hover {background-color: #D94844; transition: 0.3s ease-in-out;}
+
+                }    
+
+                @media(min-width: 769px) {
+
+                #content_10{width: 100%; height: auto; margin: 0 auto; display: flex;} 
+    
+                    .con10{width: 100%; height: auto; display: flex; justify-content: space-around; align-items: center; flex-flow: row wrap; margin: 0 auto; text-align: center;}  
+                        .vip{width: 100%; display: block; padding: 20px 0px 0px 0px; text-align: left; margin: 4% 0 4% 0px;}
+                        .con10 h2{font-size: 15px;}  
+                        .con10 ul{list-style-position: inside; margin-left:20px; margin-right: 10px;}
+                        .con10 li{list-style-image:url("../img/icon6.png"); line-height: 20px; margin: 20px 0px; padding: 0 15px 0 15px; margin-left:-10px;}
+
+                        .package_box1{width: 45%; display: flex; justify-content: center; align-items: center; flex-direction: column; border: 1px solid #eee;}
+                            .package_box1 > h2 {width: 100%; padding: 30px 0px; background-color: #eee;}
+
+                        .package_box2{width: 45%; display: flex; flex-direction: column; box-shadow: 0px 5px 5px 5px #eee;}
+                            .package_box2 > h2 {padding: 40px 30px; border: none; color: #eee; background-color: rgba(35, 35, 35, 1);}
+
+                        .select_area{width: 100%; padding: 40px 0px; margin: 0 auto;}    
+
+                        .cancel{color: #666; text-decoration:line-through;}
+
+                        .currency{margin-right:.25px;font-size:15px; position:relative;top:-25px;}
+
+                        .package_price{font-size: 50px; }
+                        .package_price:after{content: "/+FEES"; font-size: 15px;}
+                        
+                    .all{width: 100%; display: block; margin: 0 auto; padding: 50px 0 100px 0px;} 
+                        .ticket{padding: 8px 15px; background-color: rgba(35, 35, 35, 1); border: none; color: white;}
+                        .ticket:hover {background-color: #D94844; transition: 0.3s ease-in-out;}
+
+                        .ticket1{padding: 15px 15px; background-color: rgba(35, 35, 35, 1); border: none; color: white;}
+                        .ticket1:hover {background-color: #D94844; transition: 0.3s ease-in-out;}
+
+                }        
+
+                @media(min-width: 1200px) {
+
+                #content_10{width: 100%; height: 1000px; margin: 0 auto; display: flex;} 
+    
+                    .con10{width: 1000px; height: 1000px; display: flex; justify-content: space-between; align-items: center; flex-flow: row wrap; margin: 0 auto; text-align: center;}  
+                        .vip{width: 100%; display: block; padding: 20px 0px 0px 0px; text-align: left; margin: 4% 0 0 0px;}
+                        .con10 h2{font-size: 15px;}  
+                        .con10 ul{list-style-position: inside; margin-left:20px; margin-right: 10px;}
+                        .con10 li{list-style-image:url("../img/icon6.png"); line-height: 20px; margin: 20px 0px; padding: 0 15px 0 15px; margin-left:-10px;}
+
+                        .package_box1{width: 25%; display: flex; justify-content: center; align-items: center; flex-direction: column; border: 1px solid #eee;}
+                            .package_box1 > h2 {width: 100%; padding: 30px 0px; background-color: #eee;}
+
+                        .package_box2{width: 25%; display: flex; flex-direction: column; box-shadow: 0px 5px 5px 5px #eee;}
+                            .package_box2 > h2 {padding: 40px 30px; border: none; color: #eee; background-color: rgba(35, 35, 35, 1);}
+
+                        .select_area{width: 100%; padding: 40px 0px; margin: 0 auto;}    
+
+                        .cancel{color: #666; text-decoration:line-through;}
+
+                        .currency{margin-right:.25px;font-size:15px; position:relative;top:-25px;}
+
+                        .package_price{font-size: 50px; }
+                        .package_price:after{content: "/+FEES"; font-size: 15px;}
+                        
+                    .all{width: 100%; display: block; margin: 0 auto; padding: 0px 0 100px 0px;} 
+                        .ticket{padding: 8px 15px; background-color: rgba(35, 35, 35, 1); border: none; color: white;}
+                        .ticket:hover {background-color: #D94844; transition: 0.3s ease-in-out;}
+
+                        .ticket1{padding: 15px 15px; background-color: rgba(35, 35, 35, 1); border: none; color: white;}
+                        .ticket1:hover {background-color: #D94844; transition: 0.3s ease-in-out;}
+
+                }        
+
+        /*content11*/          
+
+                @media(max-width: 768px) {
+
+                #content_11{width: 100%; height: 80vw; margin: 0 auto;}
+                    .con11{width: 100%; height: 100%;}
+                        .photo9{background-image: url("../img/hero-1.jpg"); background-size: contain; background-position: center;}
+                        .con11_textbox{width: 100%; position: relative; left: 0; bottom: 400px; margin:0 auto; text-align: center;}
+                            .rated{font-size:  30px; color: white; padding: 2% 0px;}
+                            .rated:after {content: "★★★★★"; color: white; font-size: 15px;  letter-spacing: 10px; padding: 10px;}
+                            .con11_textbox span{display: none;}
+
+                }
+                    
+                @media(min-width: 769px) {
+
+                #content_11{width: 100%; height: 600px; margin: 0 auto;}
+                    .con11{width: 100%; height: 100%;}
+                        .photo9{background-image: url("../img/hero-1.jpg"); background-size: contain; background-position: center;}
+                        .con11_textbox{width: 100%; position: relative; left: 0; bottom: 400px; margin:0 auto;}
+                            .rated{font-size:  30px; color: white; padding: 2% 0px;}
+                            .rated:after {content: "★★★★★"; color: white; font-size: 15px;  letter-spacing: 10px; padding: 10px;}
+                            .con11_textbox span{color: #D4D4D4; font-weight: bold; font-style: oblique;}
+
+                }
+
+                @media(min-width: 1200px) {
+
+                #content_11{width: 100%; height: 600px; margin: 0 auto;}
+                    .con11{width: 100%; height: 100%;}
+                        .photo9{background-image: url("../img/hero-1.jpg"); background-size: contain; background-position: center;}
+                        .con11_textbox{width: 1132px; position: relative; left: 0; bottom: 400px; margin:0 auto;}
+                            .rated{font-size:  30px; color: white; padding: 2% 0px;}
+                            .rated:after {content: "★★★★★"; color: white; font-size: 15px;  letter-spacing: 10px; padding: 10px;}
+                            .con11_textbox span{color: #D4D4D4; font-weight: bold; font-style: oblique;}
+
+                }
+                
+        /*content12*/
+
+                /*share*/  
+                            .photo10{background-image: url("../img/38-special.jpg"); background-size: cover; background-position: center;} 
+                                
+                            .photo11{background-image: url("../img/skillet.jpg"); background-size: cover; background-position: center;}   
+                            
+                            .photo12{background-image: url("../img/black-label-society.jpg"); background-size: cover; background-position: center;}  
+
+                            .band_button{width: 115px; padding: 6px 10px; border: 1px solid #eee; background-color: rgba(35, 35, 35, 1); font-size: 14px; color: #eee;}
+                            .band_button a{color: #eee;}
+                            .band_button:hover{background-color: #e83b4b}
+
+                            .musician_text{ position: relative; left: 0; bottom: 150px; color: white; padding: 10%;}
+                            .musician_text > p{color: white;}
+                            .sleep {font-style: oblique;}
+
+
+                @media(max-width:768px)  {
+
+                #content_12{width: 100%; height: auto; background-color: rgba(35, 35, 35, 1); display: flex; justify-content: center; flex-flow: row wrap;} 
+                    .con12_box{width: 100%; height: auto; padding: 5% 0px;}
+                        .con12_textbox{width: 90%; height: auto; display: flex; justify-content: center; flex-direction: column; margin: 0 auto;}
+                            .con12_textbox h2{color: white; padding: 0px 0px 4% 0px; text-align: center; font-size: 33px;}
+                            .con12_textbox p{width: 100%; color: #B2B2B2; font-size: 15px; margin: 0 auto; line-height: 20px;}
+
+                        .con12_imgbox{width: 100%; height: 250vw; display: flex; justify-content: center; align-items: center; flex-direction: column; margin: 12% 0 0 0px;}   
+                            .musician_box{width: 90%; height: 90%; overflow: hidden; margin: 4% 0 0 0px;}
+
+                            .musician{width: 100%; height: 100%; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .musician:hover {transform: scale(1.2);}
+
+                }  
+
+                @media(min-width:769px)  {
+
+                #content_12{width: 100%; height: 127vw; background-color: rgba(35, 35, 35, 1); display: flex; justify-content: center; flex-flow: row wrap;} 
+                    .con12_box{width: 100%; height: 100%; padding: 5%;}
+                        .con12_textbox{width: 80%; height: 30%; }
+                            .con12_textbox h2{color: white; padding: 0 0px 4% 0px; font-size: 33px;}
+                            .con12_textbox p{width: 82%; color: #B2B2B2; font-size: 15px; line-height: 20px; padding: 0 0 2% 0px;}
+
+                        .con12_imgbox{width: 100%; height: 70%; display: flex; flex-direction: row; flex-flow: row wrap;}   
+                            .musician_box{width: 50%; height: 50%; overflow: hidden;}
+
+                            .musician{width: 100%; height: 100%; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .musician:hover {transform: scale(1.2);}
+
+                } 
+
+                @media(min-width:1200px)  {
+
+                #content_12{width: 100%; height: 790px; background-color: rgba(35, 35, 35, 1); display: flex; justify-content: center; flex-flow: row wrap;} 
+                    .con12_box{width: 1143px; height: 100%; padding: 2% 0 5% 0px;}
+                        .con12_textbox{width: 80%; height: 40%; }
+                            .con12_textbox h2{color: white; padding: 0 0px 4% 0px; font-size: 33px;}
+                            .con12_textbox p{width: 82%; color: #B2B2B2; font-size: 15px; line-height: 20px; padding: 0 0 4% 0px;}
+
+                        .con12_imgbox{width: 100%; height: 60%; display: flex; justify-content: center; }   
+                            .musician_box{width: 381px; height: 420px; overflow: hidden;}
+
+                            .musician{width: 100%; height: 100%; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                            .musician:hover {transform: scale(1.2);}
+
+                }                       
+
+        /*content13*/   
+
+                @media(max-width:768px)  {  
+
+                #content_13{width: 100%; height: 60vw; margin: 0 auto; text-align: center; display: flex; } 
+                    
+                    .background-cover7{width: 100%; height: 60vw; margin: 0 auto; text-align: center; display: flex; justify-content: center; flex-direction: column; }
+                        .background-cover7 h2{margin: 50px 0 -70px 0px; font-size: 28px;}
+
+                        .our{width: 100%; height: 50vw; margin: 0 auto; text-align: center; display: flex; justify-content: space-between; align-items: center; flex-direction: column; flex-flow: row wrap;}
+                            .left{background-color: black; color: white; font-size: 30px; padding:8px 15px 11px 15px; border: none; border-radius: 0px 4px 4px 0px; float: left;
+                            position: relative; left:0; bottom: 180px; } 
+                            .right{background-color: black; color: white; font-size: 30px; padding:8px 15px 11px 15px; border: none; border-radius: 4px 0px 0px 4px; float: right; 
+                            position: relative; left: 0; bottom: 180px;}  
+
+                            #content_13 span a:hover{background-color: #666;}
+
+                            .sponsor{width: 100%; height: 60%; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}
+                            .sponsor img{width: 15%; height: 60%; padding: 2%;}
+                            
+                }
+
+                @media(min-width:769px)  {  
+
+                #content_13{width: 100%; height: 350px; margin: 0 auto; text-align: center; display: flex; } 
+                    
+                    .background-cover7{width: 100%; height: 350px; margin: 0 auto; text-align: center; display: flex; justify-content: center; flex-direction: column; }
+                        .background-cover7 h2{margin: 50px 0 -70px 0px; font-size: 28px;}
+
+                        .our{width: 100%; height: 350px; margin: 0 auto; text-align: center; display: flex; justify-content: space-between; align-items: center; flex-direction: column; flex-flow: row wrap;}
+                            .left{background-color: black; color: white; font-size: 30px; padding:8px 15px 11px 15px; border: none; border-radius: 0px 4px 4px 0px; float: left;
+                            position: relative; left:0; bottom: 180px; } 
+                            .right{background-color: black; color: white; font-size: 30px; padding:8px 15px 11px 15px; border: none; border-radius: 4px 0px 0px 4px; float: right; 
+                            position: relative; left: 0; bottom: 180px;}  
+
+                            #content_13 span a:hover{background-color: #666;}
+
+                            .sponsor{width: 100%; height: 60%; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}
+                            .sponsor img{width: 60%; height: 60%; padding: 2%;}
+                            
+                }
+
+                @media(min-width:1200px)  {  
+
+                #content_13{width: 100%; height: 350px; margin: 0 auto; text-align: center; display: flex; } 
+                    
+                    .background-cover7{width: 1143px; height: 350px; margin: 0 auto; text-align: center; display: flex; justify-content: center; flex-direction: column; }
+                        .background-cover7 h2{margin: 50px 0 -70px 0px; font-size: 28px;}
+
+                        .our{width: 100%; height: 350px; margin: 0 auto; text-align: center; display: flex; justify-content: space-between; align-items: center; flex-direction: column; flex-flow: row wrap;}
+                            .left{background-color: black; color: white; font-size: 30px; padding:8px 15px 11px 15px; border: none; border-radius: 0px 4px 4px 0px; float: left;
+                            position: relative; left:0; bottom: 180px; } 
+                            .right{background-color: black; color: white; font-size: 30px; padding:8px 15px 11px 15px; border: none; border-radius: 4px 0px 0px 4px; float: right; 
+                            position: relative; left: 0; bottom: 180px;}  
+
+                            #content_13 span a:hover{background-color: #666;}
+
+                            .sponsor{width: 100%; height: 60%; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}
+                            .sponsor img{width: 60%; height: 60%; padding: 2%;}
+                            
+                }
+
+    /*section끝 */
+ 
+    

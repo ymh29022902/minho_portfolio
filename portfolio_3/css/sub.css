@@ -1,0 +1,583 @@
+@charset "utf-8";
+*{margin: 0; box-sizing: border-box; font-family: "Arial";}
+            ul, ol, li{list-style: none;}
+            a{text-decoration: none;}
+
+           
+        @media(max-width: 768px) {
+            #wrap{width: 100%; height: auto;}
+
+            #slider{width: 100%; height: 60vw; background-image:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),url("../img/sub/camping-square-19.jpg"); background-size: cover; background-position: center; text-align: center; color:white; 
+                margin: 0 auto; background-attachment: fixed; }
+                #slider h5{padding: 20% 0 2% 0px; letter-spacing: 5px;}
+                #slider h1{display: none;}
+                #slider p{display: none;}
+                .slider_log{width: 140px; height: 70px; margin: 0 auto; padding: 20% 0 0 0px;}
+                .slider_log img{width: 100%}
+
+        }        
+        
+        @media(min-width: 769px) {
+
+            #wrap{width: 100%; height: auto;}
+            #slider{width: 100%; height: 500px; background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../img/sub/camping-square-19.jpg"); background-size: cover; background-position: center; text-align: center; color:white; 
+                margin: 0 auto; background-attachment: fixed; }
+                #slider h5{margin: 10px 0 0 0px; letter-spacing: 5px;}
+                #slider h1{font-size: 60px; letter-spacing: 5px; padding: 10px;}
+                #slider p{padding: 10px 0px 40px 0px;}
+                .slider_log{width: 140px; height: 70px; margin: 0 auto; padding: 150px 0 100px 0px;}
+                .slider_log img{width: 100%}
+
+        }        
+
+        @media(min-width: 1200px) {
+
+            #wrap{width: 100%; height: auto;}
+            #slider{width: 100%; height: 500px; background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../img/sub/camping-square-19.jpg"); background-size: cover; background-position: center; text-align: center; color:white; 
+                margin: 0 auto; background-attachment: fixed; }
+                #slider h5{margin: 10px 0 0 0px; letter-spacing: 5px;}
+                #slider h1{font-size: 60px; letter-spacing: 5px; padding: 10px;}
+                #slider p{padding: 10px 0px 40px 0px;}
+                .slider_log{width: 140px; height: 70px; margin: 0 auto; padding: 150px 0 100px 0px;}
+                .slider_log img{width: 100%}
+
+        }   
+
+    /*슬라이더 끝 섹션 시작*/  
+
+        @media(max-width: 768px) {
+
+            section{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center; margin: 0 auto; background-attachment: fixed; flex-direction: column;}
+            #section_cover{width: 100%; height: auto; display: flex; flex-direction: column; }
+
+                .tag_button{padding: 10px 15px; background-color: #666; margin:0 0 0 0.5%; color: white; font-size: 13px; font-style: oblique;}
+                    .tag_button:hover{background-color: #C4302B; color: white;}
+                    
+                .read_button{padding: 10px 20px; background-color: #C4302B; margin:0 0 0 1%; color: white; font-size: 13px;}
+                    .read_button:hover{background-color: white; color: #C4302B;}
+                .read_button1{padding: 10px 20px; background-color: red; margin:0 0 0 1%; color: white; font-size: 13px;}
+                    .read_button1:hover{opacity: 0.7;}    
+
+                .view{ width: 100%; height: 40px; float: right; display: flex; justify-content: center; align-items: center; flex-flow: row wrap; color: #666}
+                    .view img{width: 15px; height: 15px;}
+                    .view .see{padding: 0 20px 0 0px;}
+                    
+
+                .name_font{color: #ED0086;}    
+
+                #sub_1{width: 100%; height: auto; display: flex; flex-direction: column; padding: 120px 2% 0 2%;}
+
+                    #sub_1 h2{color: black; font-size: 26px; padding: 0 0 2% 0px;}
+
+
+                    #content_1{width: 100%; height: auto;; margin: 0 auto; text-align: left; display: flex; flex-direction: column; align-items: flex-start;}
+                        .content_1_text1{width: 100%; height: auto; color: black;}
+
+                        .content_1_imgbox{width: 100%; height: 523px; background-color: white;}
+                            .photo1{background-image: url("../img/sub/camping-square-6.jpg"); background-size: cover; background-position: center;}
+
+                        .content_1_text2{width: 100%; height: auto; padding: 2% 0px;;}
+                            .content_1_text2 h4{color: black; padding: 2% 0px;}
+                            .content_1_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_1_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+
+
+                    #content_2{width: 100%; height: auto; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; background-color: white; padding: 80px 0 0 0px;}
+                        #content_2 h2{color: black;}
+                        .content_2_text1{width: 100%; height: auto; color: black;}
+
+                        .content_2_imgbox{width: 100%; height: 523px; background-color: white;}
+                            .photo2{background-image: url("../img/camp6.jpg"); background-size: cover; background-position: center;}
+
+                        .content_2_text2{width: 100%; height: auto; padding: 2% 0px;}
+                            .content_2_text2 h4{color: black; padding: 2% 0px;}
+                            .content_2_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_2_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+
+
+                    #content_3{width: 100%; height: auto; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; padding: 140px 0 0 0px;}
+                        .content_3_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_3_imgbox{width: 100%; height: 523px;}
+                            .photo3{background-image: url("../img/camp9.jpg"); background-size: cover; background-position: center;}
+
+                        .content_3_text2{width: 100%; height: auto; padding: 2% 0px;}
+                            .content_3_text2 h4{color: black; padding: 2% 0px;}
+                            .content_3_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_3_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+                                
+
+                    #content_4{width: 100%; height: auto; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; background-color: white; padding: 140px 0 0 0px;}
+                        #content_4 h2{color: black;}
+                        .content_4_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_4_imgbox{width: 100%; height: 523px; }
+                            .photo4{background-image: url("../img/concert4.jpg"); background-size: cover; background-position: center;}
+
+                        .content_4_text2{width: 100%; height: auto; padding: 2% 0px;}
+                            .content_4_text2 h4{color: black; padding: 2% 0px;}
+                            .content_4_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_4_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+                                
+    /*sub1끝 sub2시작*/
+
+                #sub_2{width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column; justify-content: flex-start; text-align: center; background-color: white;  padding: 120px 2% 0 2%;}
+
+                    #sub_content1{width: 100%; height: 100px; position: relative;}
+                        .search{border: none; width: 100%; background-color: #e9ecef; height: 50%; padding: 0 4%; outline: none}
+                        .i{width: 20px; height: 20px; position: absolute; top: 15%; right: 4%;}
+                            .search::placeholder {color: #666;}
+                         
+                         
+                    #sub_content2{width: 100%; height: 400px; display: flex; flex-flow: row wrap; align-items: flex-start; color: black; }
+                        #sub_content2 h2{color: black; font-size: 20px; padding: 0 0 2% 0px;}
+                        .sub_2_imgbox{width: 100%; height: 240px;} 
+                            .photo5{background-image: url("../img/sub/rockin-the-rivers-22.jpg"); background-size: cover; background-position: center;}
+                        .sub_2_textbox{width: 100%; height: 130px; padding: 2% 0px; line-height: 20px;}
+                            .sub_2_textbox p{line-height: 18px; font-size: 13px; color: #C1C1C3;}
+
+
+                    #sub_content3{width: 100%; height: 200px; color: white; display: flex; flex-flow: row wrap; align-content: flex-start; justify-content: space-between;}
+                        #sub_content3 h2{padding: 0 0 0 0px; width: 100%;}
+                        .sub3_iconbox{width: 100%; display: flex; justify-content: space-between; flex-flow: row;  align-items: center;}                       
+                        .sub3_iconbox img{width: 90%; height: 50%;}
+                            .icon1{background-color: #00ACEE;}
+                            .icon2{background-color: #3B5998;}
+                            .icon3{background-color: #DC4E41;}
+                            .icon4{background-color: #00AFF0;}
+                            .icon5{background-color: pink;}
+                            .icon6{background-color: #fbc433;}
+
+                            .icon1:hover{border-radius: 50%; background-color: #00ACEE; transition: 0.5s ease-in-out;}
+                            .icon2:hover{border-radius: 50%; background-color: #3B5998; transition: 0.5s ease-in-out}
+                            .icon3:hover{border-radius: 50%; background-color: #dc4e41; transition: 0.5s ease-in-out}
+                            .icon4:hover{border-radius: 50%; background-color: #00AFF0; transition: 0.5s ease-in-out}
+                            .icon5:hover{border-radius: 50%; background-color: pink; transition: 0.5s ease-in-out}
+                            .icon6:hover{border-radius: 50%; background-color: #fbc433; transition: 0.5s ease-in-out}
+                        
+
+
+                    #sub_content4{width: 100%; height: 600px; display: flex; flex-direction: column; align-content: space-between; color: black; background-color: white;}
+                        .categories{width: 100%; line-height: 40px; margin: 7% 0 0 0px;}
+                        .categories hr{border: 1px solid #e9ecef;}
+                        .categories ul{width: 105%; margin-left: -6%; text-align: left;}
+                        .categories li{list-style: none; display: block; width: 100%; }
+                        .categories li a{color: black;}
+                        .categories li a:hover{color: #C4302B; font-weight: bold;} 
+                            .category_sub{float: right; color: black;}
+                        
+
+
+                    #sub_content5{width: 100%; height: 300px; margin: 0 auto; color: black;}
+                        .sub_5_textbox{width: 100%; height: 250px; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+                            .sub_5_textbox img{width: 50px; height: 50px;}
+                            .sub_5_textbox p{color: #808080;}
+
+
+                    #sub_content6{width: 100%; height: auto; display: flex; flex-direction: column; background-color: white;}
+                        .popular{width:100%; height: 30px; color: black;}
+                        .sub_6_box{width: 100%; height: auto; display: flex; flex-flow: row wrap; flex-direction: column; margin: 2% auto 0; }
+                            .sub_6_box img{width: 100%; height: 400px; margin: 0 auto;}
+                            .sub_6_textbox{width: 100%; height: 130px; padding: 2%}
+                                .sub_6_textbox h2{font-size: 15px;}
+                                .sub_6_textbox p{font-size: 12px; line-height: 30px; color: #666;}
+                                .sub_6_textbox span{font-size: 12px; color: black;}
+                                .sub_6_textbox a{color: black;}
+                                    .sub_6_textbox a:hover{color: #C4302B;}
+
+
+                    #sub_content7{width: 100%; height: 250px;}
+                        #sub_content7 h2{padding: 20px 0 0 0px; color: black}
+
+                        .tags{width: 100%; text-align: center; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+                        .tags ul{display: inline; margin: 0 4% 0 0px;}
+                        .tags ul li{display: inline-block; line-height: 40px;}
+                        .tags ul li a{color: white; background-color: #666; padding: 7px 14px; font-size: 15px;}
+                        .tags ul li a:hover{background-color: #C4302B; color: #eee;}
+
+
+                    #sub_content8{width: 100%; height: 180px; padding: 20px 0 60px 0px; position: relative;}
+                        #sub_content8 h2{color: black; font-size: 20px; padding: 0 0 20px 0px;}
+                        .in{width: 20px; height: 20px; position: absolute; top: 43%; right: 5%;}
+
+
+
+                    #sub_content9{width: 100%; height: auto; color: black;}
+                        .sub_9_box{width: 100%; height: auto; display: flex; justify-content: space-between; align-content: space-around; flex-flow: row wrap;}
+                            .sub_9_imgbox{width: 100%; height: 80vw; overflow: hidden; position: relative; margin: 0 auto; margin: 0 0 2% 0px;}
+                                .photo6{background-image: url("../img/oasis3.jpg"); background-size: cover; background-position: center;} 
+                                .photo7{background-image: url("../img/oasis4.jpg"); background-size: cover; background-position: center;}
+                                .photo8{background-image: url("../img/fresh-7.jpg"); background-size: cover; background-position: center;}
+                                .photo9{background-image: url("../img/sub/camping-square-8.jpg"); background-size: cover; background-position: center;}
+                                .photo10{background-image: url("../img/sub/camping-square-5.jpg"); background-size: cover; background-position: center;}
+                                .photo11{background-image: url("../img/camp8.jpg"); background-size: cover; background-position: center;}
+
+                                .sub_9_img{width: 101%; height: 100%; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                                .sub_9_img:hover{transform: scale(1.2); opacity: 0.5;}
+                                .sub_9_imgbox:hover .instagram{display: block;}
+
+                                    .instagram{width: 20vw; height: 20vw; position: absolute; top: 40%; left: 40%; display: none;}
+                                    
+        }           
+           
+       
+
+        /*sub2*/
+
+        @media(min-width: 769px) and (max-width:1199px) {
+
+           section{width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center; margin: 0 auto; background-attachment: fixed; }
+            #section_cover{width: 100%; height: auto; display: flex; justify-content:space-between; flex-direction: column;}
+
+                .tag_button{padding: 10px 15px; background-color: #666; margin:0 0 0 0.5%; color: white; font-size: 13px; font-style: oblique;}
+                    .tag_button:hover{background-color: #C4302B; color: white;}
+                    
+                .read_button{padding: 10px 20px; background-color: #C4302B; margin:0 0 0 1%; color: white; font-size: 13px;}
+                    .read_button:hover{background-color: white; color: #C4302B;}
+                .read_button1{padding: 10px 20px; background-color: red; margin:0 0 0 1%; color: white; font-size: 13px;}
+                    .read_button1:hover{opacity: 0.7;}    
+
+                .view{ width: 25%; height: 40px; float: right; display: flex; justify-content: center; align-items: center; flex-flow: row wrap; color: #666}
+                    .view img{width: 15px; height: 15px;}
+                    .view .see{padding: 0 20px 0 0px;}
+                    
+
+                .name_font{color: #ED0086;}    
+
+                #sub_1{width: 100%; height: auto; display: flex; flex-direction: column; padding: 120px 2% 0 2%;}
+
+                    #sub_1 h2{color: black; font-size: 30px; padding: 0 0 2% 0px;}
+
+
+                    #content_1{width: 100%; height: 985px;; margin: 0 auto; text-align: left; display: flex; flex-direction: column; align-items: flex-start;}
+                        .content_1_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_1_imgbox{width: 100%; height: 523px; background-color: white;}
+                            .photo1{background-image: url("../img/sub/camping-square-6.jpg"); background-size: cover; background-position: center;}
+
+                        .content_1_text2{width: 100%; height: 248px;; padding: 2% 0px;;}
+                            .content_1_text2 h4{color: black; padding: 2% 0px;}
+                            .content_1_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_1_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+
+
+                    #content_2{width: 100%; height: 985px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; background-color: white; padding: 80px 0 0 0px;}
+                        #content_2 h2{color: black;}
+                        .content_2_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_2_imgbox{width: 100%; height: 523px; background-color: white;}
+                            .photo2{background-image: url("../img/camp6.jpg"); background-size: cover; background-position: center;}
+
+                        .content_2_text2{width: 100%; height: 248px; padding: 2% 0px;}
+                            .content_2_text2 h4{color: black; padding: 2% 0px;}
+                            .content_2_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_2_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+
+
+                    #content_3{width: 100%; height: 985px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; padding: 140px 0 0 0px;}
+                        .content_3_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_3_imgbox{width: 100%; height: 523px;}
+                            .photo3{background-image: url("../img/camp9.jpg"); background-size: cover; background-position: center;}
+
+                        .content_3_text2{width: 100%; height: 248px; padding: 2% 0px;}
+                            .content_3_text2 h4{color: black; padding: 2% 0px;}
+                            .content_3_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_3_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+                                
+
+                    #content_4{width: 100%; height: 985px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; background-color: white; padding: 140px 0 0 0px;}
+                        #content_4 h2{color: black;}
+                        .content_4_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_4_imgbox{width: 100%; height: 523px; }
+                            .photo4{background-image: url("../img/concert4.jpg"); background-size: cover; background-position: center;}
+
+                        .content_4_text2{width: 100%; height: 248px; padding: 2% 0px;}
+                            .content_4_text2 h4{color: black; padding: 2% 0px;}
+                            .content_4_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_4_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+                                
+    /*sub1끝 sub2시작*/
+
+                #sub_2{width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column; justify-content: flex-start; text-align: left; background-color: white;  padding: 120px 2% 0 2%;}
+
+                    #sub_content1{width: 100%; height: 100px; position: relative;}
+                        .search{border: none; width: 100%; background-color: #e9ecef; height: 50%; padding: 0 2%; outline: none}
+                        .i{width: 20px; height: 20px; position: absolute; top: 15%; right: 2%;}
+                            .search::placeholder {color: #666;}
+                         
+                         
+                    #sub_content2{width: 100%; height: 400px; display: flex; flex-flow: row wrap; align-items: flex-start; color: black; }
+                        #sub_content2 h2{color: black; font-size: 20px; padding: 0 0 2% 0px;}
+                        .sub_2_imgbox{width: 100%; height: 240px;} 
+                            .photo5{background-image: url("../img/sub/rockin-the-rivers-22.jpg"); background-size: cover; background-position: center;}
+                        .sub_2_textbox{width: 100%; height: 130px; padding: 2% 0px; line-height: 20px;}
+                            .sub_2_textbox p{line-height: 18px; font-size: 13px; color: #C1C1C3;}
+
+
+                    #sub_content3{width: 100%; height: 200px; color: white; display: flex; flex-flow: row wrap; align-content: flex-start; justify-content: space-between;}
+                        #sub_content3 h2{padding: 0 0 0 0px; width: 100%;}
+                        .sub3_iconbox{width: 100%; display: flex; justify-content: space-between; flex-flow: row;  align-items: center;}                       
+                        .sub3_iconbox img{width: 90%; height: 50%;}
+                            .icon1{background-color: #00ACEE;}
+                            .icon2{background-color: #3B5998;}
+                            .icon3{background-color: #DC4E41;}
+                            .icon4{background-color: #00AFF0;}
+                            .icon5{background-color: pink;}
+                            .icon6{background-color: #fbc433;}
+
+                            .icon1:hover{border-radius: 50%; background-color: #00ACEE; transition: 0.5s ease-in-out;}
+                            .icon2:hover{border-radius: 50%; background-color: #3B5998; transition: 0.5s ease-in-out}
+                            .icon3:hover{border-radius: 50%; background-color: #dc4e41; transition: 0.5s ease-in-out}
+                            .icon4:hover{border-radius: 50%; background-color: #00AFF0; transition: 0.5s ease-in-out}
+                            .icon5:hover{border-radius: 50%; background-color: pink; transition: 0.5s ease-in-out}
+                            .icon6:hover{border-radius: 50%; background-color: #fbc433; transition: 0.5s ease-in-out}
+                        
+
+
+                    #sub_content4{width: 100%; height: 600px; display: flex; flex-direction: column; align-content: space-between; color: black; background-color: white;}
+                        .categories{width: 100%; line-height: 40px;}
+                        .categories ul{width: 104%; margin-left: -4%}
+                        .categories li{list-style: none; display: block; width: 100%;}
+                        .categories li a{color: black;}
+                        .categories li a:hover{color: #C4302B; font-weight: bold;} 
+                        .categories li hr{border: 1px solid #e9ecef;}
+                            .category_sub{float: right; color: black;}
+                        
+
+
+                    #sub_content5{width: 100%; height: 300px; margin: 0 auto; color: black;}
+                        .sub_5_textbox{width: 100%; height: 250px; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+                            .sub_5_textbox img{width: 50px; height: 50px;}
+                            .sub_5_textbox p{color: #808080; text-align: center;}
+
+
+                    #sub_content6{width: 100%; height: auto; display: flex; flex-flow: row wrap; background-color: white;}
+                        .popular{width:100%; height: 30px; color: black;}
+                        .sub_6_box{width: 100%; height: 30vw; display: flex; flex-flow: row wrap; margin: 2% auto 0; }
+                            .sub_6_box img{width: 50%; height: 30vw;}
+                            .sub_6_textbox{width: 50%; height: 130px; padding: 2%}
+                                .sub_6_textbox h2{font-size: 18px;}
+                                .sub_6_textbox p{font-size: 14px; line-height: 30px; color: #666;}
+                                .sub_6_textbox span{font-size: 14px; color: black;}
+                                .sub_6_textbox a{color: black;}
+                                    .sub_6_textbox a:hover{color: #C4302B;}
+
+
+                    #sub_content7{width: 100%; height: 250px; }
+                        #sub_content7 h2{padding: 20px 0px; color: black}
+
+                        .tags{width: 100%; text-align: center; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+                        .tags ul{display: inline;  margin-left: -8%;}
+                        .tags ul li{display: inline-block; line-height: 50px; margin: 0 0 0 2%;}
+                        .tags ul li a{color: white; background-color: #666; padding: 7px 11px; font-size: 15px;}
+                        .tags ul li a:hover{background-color: #C4302B; color: #eee;}
+
+
+                    #sub_content8{width: 100%; height: 140px; padding: 20px 0 20px 0px; position: relative;}
+                        #sub_content8 h2{color: black; font-size: 20px; padding: 0 0 20px 0px;}
+                        .in{width: 20px; height: 20px; position: absolute; top: 56%; right: 5%;}
+
+
+
+                    #sub_content9{width: 100%; height: auto; color: black;}
+                        .sub_9_box{width: 100%; height: auto; display: flex; justify-content: space-between; align-content: space-around; flex-flow: row wrap;}
+                            .sub_9_imgbox{width: 49%; height: 30vw; overflow: hidden; position: relative; margin: 0 auto; margin: 0 0 2% 0px;}
+                                .photo6{background-image: url("../img/oasis3.jpg"); background-size: cover; background-position: center;} 
+                                .photo7{background-image: url("../img/oasis4.jpg"); background-size: cover; background-position: center;}
+                                .photo8{background-image: url("../img/fresh-7.jpg"); background-size: cover; background-position: center;}
+                                .photo9{background-image: url("../img/sub/camping-square-8.jpg"); background-size: cover; background-position: center;}
+                                .photo10{background-image: url("../img/sub/camping-square-5.jpg"); background-size: cover; background-position: center;}
+                                .photo11{background-image: url("../img/camp8.jpg"); background-size: cover; background-position: center;}
+
+                                .sub_9_img{width: 101%; height: 100%; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                                .sub_9_img:hover{transform: scale(1.2); opacity: 0.5;}
+                                .sub_9_imgbox:hover .instagram{display: block;}
+
+                                    .instagram{width: 8vw; height: 8vw; position: absolute; top: 37%; left: 42%; display: none;}
+                                    
+        } 
+
+
+
+    /*sub3*/
+
+        @media(min-width: 1200px) {
+
+           section{width: 100%; height: 4300px; margin: 0 auto; display: flex; justify-content: center; margin: 0 auto; background-attachment: fixed; }
+            #section_cover{width: 1143px; height: 4300px; display: flex; justify-content:space-between; }
+
+                .tag_button{padding: 10px 15px; background-color: #666; margin:0 0 0 0.5%; color: white; font-size: 13px; font-style: oblique;}
+                    .tag_button:hover{background-color: #C4302B; color: white;}
+                    
+                .read_button{padding: 10px 20px; background-color: #C4302B; margin:0 0 0 1%; color: white; font-size: 13px;}
+                    .read_button:hover{background-color: white; color: #C4302B;}
+                .read_button1{padding: 10px 20px; background-color: red; margin:0 0 0 1%; color: white; font-size: 13px;}
+                    .read_button1:hover{opacity: 0.7;}    
+
+                .view{ width: 25%; height: 40px; float: right; display: flex; justify-content: center; align-items: center; flex-flow: row wrap; color: #666}
+                    .view img{width: 15px; height: 15px;}
+                    .view .see{padding: 0 20px 0 0px;}
+                    
+
+                .name_font{color: #ED0086;}    
+
+                #sub_1{width: 65%; height: 4300px; display: flex; flex-direction: column; padding: 120px 0 0 0px;}
+
+                    #sub_1 h2{color: black; font-size: 30px; padding: 0 0 2% 0px;}
+
+
+                    #content_1{width: 100%; height: 985px;; margin: 0 auto; text-align: left; display: flex; flex-direction: column; align-items: flex-start;}
+                        .content_1_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_1_imgbox{width: 100%; height: 523px; background-color: white;}
+                            .photo1{background-image: url("../img/sub/camping-square-6.jpg"); background-size: cover; background-position: center;}
+
+                        .content_1_text2{width: 100%; height: 248px;; padding: 2% 0px;;}
+                            .content_1_text2 h4{color: black; padding: 2% 0px;}
+                            .content_1_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_1_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+
+
+                    #content_2{width: 100%; height: 985px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; background-color: white; padding: 80px 0 0 0px;}
+                        #content_2 h2{color: black;}
+                        .content_2_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_2_imgbox{width: 100%; height: 523px; background-color: white;}
+                            .photo2{background-image: url("../img/camp6.jpg"); background-size: cover; background-position: center;}
+
+                        .content_2_text2{width: 100%; height: 248px; padding: 2% 0px;}
+                            .content_2_text2 h4{color: black; padding: 2% 0px;}
+                            .content_2_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_2_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+
+
+                    #content_3{width: 100%; height: 985px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; padding: 140px 0 0 0px;}
+                        .content_3_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_3_imgbox{width: 100%; height: 523px;}
+                            .photo3{background-image: url("../img/camp9.jpg"); background-size: cover; background-position: center;}
+
+                        .content_3_text2{width: 100%; height: 248px; padding: 2% 0px;}
+                            .content_3_text2 h4{color: black; padding: 2% 0px;}
+                            .content_3_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_3_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+                                
+
+                    #content_4{width: 100%; height: 985px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; margin: 0 auto; background-color: white; padding: 140px 0 0 0px;}
+                        #content_4 h2{color: black;}
+                        .content_4_text1{width: 100%; height: 110px; color: black;}
+
+                        .content_4_imgbox{width: 100%; height: 523px; }
+                            .photo4{background-image: url("../img/concert4.jpg"); background-size: cover; background-position: center;}
+
+                        .content_4_text2{width: 100%; height: 248px; padding: 2% 0px;}
+                            .content_4_text2 h4{color: black; padding: 2% 0px;}
+                            .content_4_text2 p{color: #666; font-size: 15px; padding: 1% 0 0 0px; line-height: 20px;}
+                        .content_4_text3{width: 100%; height: 47px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto;}   
+                                
+    /*sub1끝 sub2시작*/
+
+                #sub_2{width: 30%; height: 4300px; margin: 0 auto; display: flex; flex-direction: column; justify-content: flex-start; text-align: left; margin: 0 0 0 5%; background-color: white;  padding: 120px 0 0 0px;}
+
+                    #sub_content1{width: 100%; height: 100px; position: relative;}
+                        .search{border: none; width: 100%; background-color: #e9ecef; height: 50%; padding: 0 5%; outline: none}
+                        .i{width: 20px; height: 20px; position: absolute; top: 15%; right: 5%;}
+                            .search::placeholder {color: #666;}
+                         
+                         
+                    #sub_content2{width: 100%; height: 400px; display: flex; flex-flow: row wrap; align-items: flex-start; color: black; }
+                        #sub_content2 h2{color: black; font-size: 20px; padding: 0 0 2% 0px;}
+                        .sub_2_imgbox{width: 100%; height: 240px;} 
+                            .photo5{background-image: url("../img/sub/rockin-the-rivers-22.jpg"); background-size: cover; background-position: center;}
+                        .sub_2_textbox{width: 100%; height: 130px; padding: 2% 0px; line-height: 20px;}
+                            .sub_2_textbox p{line-height: 18px; font-size: 13px; color: #C1C1C3;}
+
+
+                    #sub_content3{width: 100%; height: 200px; color: white; display: flex; flex-flow: row wrap; align-content: flex-start; justify-content: space-between;}
+                        #sub_content3 h2{padding: 0 0 0 0px; width: 100%;}
+                        .sub3_iconbox{width: 100%; display: flex; justify-content: space-between; flex-flow: row;  align-items: center;}                       
+                        .sub3_iconbox img{width: 90%; height: 50%;}
+                            .icon1{background-color: #00ACEE;}
+                            .icon2{background-color: #3B5998;}
+                            .icon3{background-color: #DC4E41;}
+                            .icon4{background-color: #00AFF0;}
+                            .icon5{background-color: pink;}
+                            .icon6{background-color: #fbc433;}
+
+                            .icon1:hover{border-radius: 50%; background-color: #00ACEE; transition: 0.5s ease-in-out;}
+                            .icon2:hover{border-radius: 50%; background-color: #3B5998; transition: 0.5s ease-in-out}
+                            .icon3:hover{border-radius: 50%; background-color: #DC4E41; transition: 0.5s ease-in-out}
+                            .icon4:hover{border-radius: 50%; background-color: #00AFF0; transition: 0.5s ease-in-out}
+                            .icon5:hover{border-radius: 50%; background-color: pink; transition: 0.5s ease-in-out}
+                            .icon6:hover{border-radius: 50%; background-color: #fbc433; transition: 0.5s ease-in-out}
+                        
+
+
+                    #sub_content4{width: 100%; height: 600px; display: flex; flex-direction: column; align-content: space-between; color: black; background-color: white;}
+                        .categories{width: 100%; line-height: 40px;}
+                        .categories hr{border: 1px solid #e9ecef;}
+                        .categories ul{width: 110%; margin-left: -10.5%}
+                        .categories li{list-style: none; display: block; width: 100%;}
+                        .categories li a{color: black;}
+                        .categories li a:hover{color: #C4302B; font-weight: bold;} 
+                            .category_sub{float: right; color: black;}
+                        
+
+
+                    #sub_content5{width: 100%; height: 300px; margin: 0 auto; color: black;}
+                        .sub_5_textbox{width: 100%; height: 250px; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+                            .sub_5_textbox img{width: 50px; height: 50px;}
+                            .sub_5_textbox p{color: #808080;}
+
+
+                    #sub_content6{width: 100%; height: 550px; display: flex; flex-direction: column; background-color: white;}
+                        .popular{width:100%; height: 30px; color: black;}
+                        .sub_6_box{width: 100%; height: 100px; display: flex; flex-flow: row wrap; margin: 2% auto 0; }
+                            .sub_6_box img{width: 30%; height: 100px;}
+                            .sub_6_textbox{width: 70%; height: 130px; padding: 2%}
+                                .sub_6_textbox h2{font-size: 15px;}
+                                .sub_6_textbox p{font-size: 12px; line-height: 30px; color: #666;}
+                                .sub_6_textbox span{font-size: 12px; color: black;}
+                                .sub_6_textbox a{color: black;}
+                                    .sub_6_textbox a:hover{color: #C4302B;}
+
+
+                    #sub_content7{width: 100%; height: 250px; }
+                        #sub_content7 h2{padding: 20px 0px; color: black}
+
+                        .tags{width: 100%; text-align: center; display: flex; flex-flow: row wrap; justify-content: flex-start; align-items: flex-start;}
+                        .tags ul{display: inline;  margin-left: -12%;}
+                        .tags ul li{display: inline-block; float: left; line-height: 30px; margin: 0 0 0 2%;}
+                        .tags ul li a{color: white; background-color: #666; padding: 5px 9px; font-size: 13px;}
+                        .tags ul li a:hover{background-color: #C4302B; color: #eee;}
+
+
+                    #sub_content8{width: 100%; height: 140px; padding: 20px 0 20px 0px; position: relative;}
+                        #sub_content8 h2{color: black; font-size: 20px; padding: 0 0 20px 0px;}
+                        .in{width: 20px; height: 20px; position: absolute; top: 56%; right: 5%;}
+
+
+
+                    #sub_content9{width: 100%; height: 380px; color: black;}
+                        .sub_9_box{width: 100%; height: 300px; display: flex; justify-content: space-between; align-content: space-around; flex-flow: row wrap;}
+                            .sub_9_imgbox{width: 30%; height: 130px; overflow: hidden; position: relative; margin: 0 auto;}
+                                .photo6{background-image: url("../img/oasis3.jpg"); background-size: cover; background-position: center;} 
+                                .photo7{background-image: url("../img/oasis4.jpg"); background-size: cover; background-position: center;}
+                                .photo8{background-image: url("../img/fresh-7.jpg"); background-size: cover; background-position: center;}
+                                .photo9{background-image: url("../img/sub/camping-square-8.jpg"); background-size: cover; background-position: center;}
+                                .photo10{background-image: url("../img/sub/camping-square-5.jpg"); background-size: cover; background-position: center;}
+                                .photo11{background-image: url("../img/camp8.jpg"); background-size: cover; background-position: center;}
+
+                                .sub_9_img{width: 101%; height: 100%; transform: scale(1.0); transition: 0.4s ease-in-out;}
+                                .sub_9_img:hover{transform: scale(1.2); opacity: 0.5;}
+                                .sub_9_imgbox:hover .instagram{display: block;}
+
+                                    .instagram{width: 20px; height: 20px; position: absolute; top: 50%; left: 42%; display: none;}
+                                    
+        } 
+                                
+
+              
+                        

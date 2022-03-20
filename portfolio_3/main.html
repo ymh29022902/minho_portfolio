@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>PORPFOLIO</title>
+        <link href="css/reset.css" rel="stylesheet">
+	    <link href="css/main.css" rel="stylesheet">
+        <link href="css/common.css" rel="stylesheet">
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+        <script>
+            $(function(){
+                $(".logo_bar").click(function(){
+                    $(".menu").slideToggle();
+                });    
+
+                $(window).resize(function()  {
+                    if(window.innerWidth>=800) {
+                        $(".menu").show();
+                    }
+                    if(window.innerWidth<=799){
+                        $(".menu").hide();
+                    }
+                }); 
+            });
+
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 820) {
+                        $("header").css("background", "rgb(35, 35, 35, 1)");
+                    }
+                    else{
+                        $("header").css("background", "rgba(0, 0, 0, 0)")
+                    }
+                });
+            });
+
+        
+            $(document).ready(function(){
+
+                $("button:nth-of-type(1)").click(function(){
+                    $(".trip_content1").fadeIn();
+                    $(".trip_content2").hide();
+                    $(".trip_content3").hide();
+                });
+
+                $("button:nth-of-type(2)").click(function(){
+                    $(".trip_content2").fadeIn();
+                    $(".trip_content1").hide();
+                    $(".trip_content3").hide();
+                });
+
+                $("button:nth-of-type(3)").click(function(){
+                    $(".trip_content3").fadeIn();
+                    $(".trip_content1").hide();
+                    $(".trip_content2").hide();
+                });
+            });
+        </script>
+
+    </head>
+
+    <body> 
+    <div id="wrap">    
+        <header>
+            <div class="row_bar">
+                <div class="row_bar_side">
+            	    <div class="row_bar_left">Tickets for 2021 on sale now!</div>
+                    <div class="row_bar_right">Call us 406.285.0099</div>  
+                </div>              	
+            </div>
+
+            <div id="banner">
+            	<div class="logo">
+                    <a href="./main.html">
+                        <div class="bg1"></div>
+            		</a>
+                    
+                    <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-256.png" class="logo_bar" alt="logo">
+            	</div>
+
+            	<nav class="menu">
+            		<ul>
+                        <li><a href="./main.html">HOME</a></li>
+                        <li><a href="./sub.html">TICKET</a></li>
+                        <li><a href="./sub.html">LINE UP'S</a>
+                            <ul class="sidemenu1">
+                                <li><a href="#" class="line_up">2021 Line Up</a></li>
+                                <li><a href="#">Part Line Up's</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sub.html">2021 BANDS ⋁</a>
+                            <ul class="sidemenu2">
+                                <li><a href="#">Skillet</a></li>
+                                <li><a href="#">Lit</a></li>
+                                <li><a href="#">Saving Abel's Scotty Austin</a></li>
+                                <li><a href="#">Dead Fervor</a></li>
+                                <li><a href="#">.38 Special</a></li>
+                                <li><a href="#">John Cafferty & The Beaver Brown Band</a></li>
+                                <li><hr></li>
+                                <li><a href="#">Bluee tattoo</a></li>
+                                <li><a href="#">Jared Stewart</a></li>
+                                <li><a href="#">Black Stone Cherry</a></li>
+                                <li><a href="#">Steven Adler(of Gun's Roses)</a></li>
+                                <li><a href="#">The Iron Maidens</a></li>
+                                <li><a href="#">Black Label Society</a></li>
+                                <li><a href="#">Defenders of the Faith</a></li>
+                                <li><hr></li>
+                                <li><a href="#">Liliac</a></li>
+                                <li><a href="#">2am Logic</a></li>
+                                <li><a href="#">Candlebox</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sub.html">SPONSORS&VENDORS</a></li>
+                        <li><a href="./sub.html">CAMPING</a></li>
+                        <li><a href="./sub.html">NEWS&UPDATES</a></li>
+                        <li><a href="./sub.html">MEDIA</a></li>
+                        <li><a href="./sub.html">FAQ</a></li>
+                        <li><a href="./sub.html">SHOP</a>
+                            <ul class="sidemenu3">
+                                <li><a href="#" class="memoraibilia">Memoraibilia</a></li>
+                                <li><a href="#" class="clothing">Clothing</a></li>
+                                <li><a href="#" class="cart">Cart</a></li>
+                                <li><a href="#" class="check_out">Checkout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            	</nav>
+
+            </div>	
+
+        </header>
+
+        <div id="slider">
+            
+            
+            <div class="slider_log"><img src="img/rockin-the-rivers-logo.svg" alt="slider_log"></div>
+            <h5>MONTANA'S HOMEGROWN ROCKFEST</h5>
+            <h1>ROCKIN' THE RIVERS</h1>
+            <p>The Bridge, Three Forks, MT</p>
+            <a href="https://player.vimeo.com/video/512505267?autoplay=1" class="player"><img src="img/player.png" alt="player_icon"></a>
+        </div>
+
+        <section>
+        	<div id="contents_1">
+                <div class="background_cover1">
+        		    <div class="incredible_text">
+        			    <h2>"AN <span style="font-weight: bold;">INCREDIBLE</span> CELEBRATION OF <span style="font-weight: bold;">ROCK</span> LIKE NO OTHER...</h2>
+        			    <h4>BRINGING TOGETHER SUCH AN AMAZING COLLECTION OF TALENTED AND INFLUENTIAL ROCK GROUPS WITH THE ABSOLUTELY STUNNING MONTANA LANDSCAPE, THIS FESTIVAL HAS BECOME ONE OF THE COUNTRIES’ MUST-ATTEND ROCK SHOWS.</h4>
+        			    <p>With the current lack of live rock music available due to the lock-down, this upcoming festival promises to be a truly one of a kind event that will rise head and shoulders above past events, if for no other reason than it brings the spirit of rock and roll, which is the spirit of America, back on stage and back in front of the masses the way it was meant to be!</p>
+        		    </div>
+                </div>
+
+        		<div class="incredible_box1">
+        			<h3>01.</h3>
+        			<h2>LOCATION</h2>
+                    <img src="img/icon11.png" class="incredible_icon" alt="icon">
+        			<p>Located on Highway 2 - Four Miles East of Lewis & Clark Caverns I-90 East, Take Exit 256 at Cardwell * I-90 West, Take Exit 274 at Three Forks.</p>
+        		</div>
+
+        		<div class="incredible_box2">
+        			<h3>02.</h3>
+        			<h2>DATE</h2>
+                    <img src="img/icon12.png" class="incredible_icon" alt="icon">
+        			<p>Thursday, Friday, & Saturday August 12-14, 2021. <span style="font-weight: bold;">Gates open August 12th at 8am</span></p>
+        		</div>
+
+        		<div class="incredible_box3">
+        			<h3>03.</h3>
+        			<h2>WHAT</h2>
+                    <img src="img/icon13.png" class="incredible_icon" alt="icon">
+        			<p>Montana's Home Grown, Ultimate Die-hard Rockfest</p>
+        		</div>
+        	</div>
+        	
+
+        	<div id="contents_2">
+         
+                <div class="fresh_container">
+                    <a href="#" class="fresh_imgbox photo1">
+                        <div class="fresh_sub">
+                            <h3>THE ORIGINS OF ROCKIN' THE RIVERS</h3>
+                            <p>From 2001</p>
+                            <span>The tradition of a three-day festival.</span>
+                        </div>
+                    </a>    
+                    <a href="#" class="fresh_imgbox photo2">
+                        <div class="fresh_sub">
+                            <h3>Rules of the festival</h3>
+                            <p>Information</p>
+                            <span>Be aware of this before enjoying festivals and camping.</span>
+                        </div>
+                    </a>  
+                </div>    
+
+                <div class="fresh_textbox">
+                        <h2>FRESH LINE-UPS</h2>
+                        <p>Known as “Montana's Home Grown Rockfest,” this festival has a reputation for bringing together fresh lineups and a rejuvenated spirit that plays hard off of our past history.</p>
+                        <img src="img/rockin-the-rivers-logo-grey.svg" alt="logo">
+                        <span>Montana's Homegrown Rockfest</span>
+                </div>
+                <div class="fresh_container">
+                    <a href="#" class="fresh_imgbox photo3">
+                        <div class="fresh_sub">
+                            <h3>Facility</h3>
+                            <p>Information</p>
+                            <span>You can check the facilities inside and outside the stadium, including the store.</span>
+                        </div>
+                    </a> 
+                    <a href="#" class="fresh_imgbox photo4">
+                        <div class="fresh_sub">
+                            <h3>QnA</h3>
+                            <p>Information</p>
+                            <span>Inquiries about this event.</span>
+                        </div>
+                    </a> 
+        	    </div>
+            </div>
+
+
+            <div id="contents_3">
+                <div class="background-cover2">
+                    <div class="ultimate_video">
+                        <video src="video/rock_n_roll.mp4" loop muted autoplay></video>
+                    </div>    
+                    <div class="ultimate_box">
+                        <h2 class="ultimate">THE ULTIMATE DIE-HARD ROCK FESTIVAL</h2>
+                        <div class="ultimate_text1">
+                            <p>Enjoy the festival in a space where rock music and natural beauty harmonize!</p><br>
+                        </div>
+                        <div class="ultimate_text2">
+                            <p>Montana offers you an opportunity to express your love for rock <span style="font-weight: bold">every year!</span></p>
+                        </div>
+                        <div class="ultimate_text3">
+                            <span class="ultimate_button"><a href="#content_12">WATCHING BANDS</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="contents_4">
+                <div class="con4_img photo5"></div>
+                <div class="con4_textbox">
+                   <h2>An incredible celebration of rock like no other.</h2>
+                   <p>ver the past 20 years, Rocking the Rivers has been held in a 140-acre nature amphitheater just outside Three Forks, Montana. Within the terrain that helps improve sound quality, you will never miss your favorite song regardless of your seat.</p> 
+                   <span class="band_button"><a href="#">LOCATION</a></span>
+                </div>
+            </div>
+
+             <div id="contents_5">
+                <div class="background-cover3">
+                    <h2 class="oasis">A ROCK OASIS</h2>
+                    <div class="oasis_box">
+                        <div class="oasis_imgbox1"></div>                           
+                        <div class="oasis_text1">
+                            <p>This is an oasis of rock!</p><br>
+                            <span class="oasis_button"><a href="#">VIEW</a></span>
+                        </div>
+                    </div>   
+                    <div class="oasis_box1">
+                        <div class="oasis_imgbox2"></div>                           
+                        <div class="oasis_text1">
+                            <p>No one interferes with you!</p><br>
+                            <span class="oasis_button"><a href="#">VIEW</a></span>
+                        </div>
+                    </div>  
+                    <div class="oasis_box">
+                        <div class="oasis_imgbox3"></div>                           
+                        <div class="oasis_text1">
+                            <p>Fall into the heat and energy of the festival!</p><br>
+                            <span class="oasis_button"><a href="#">VIEW</a></span>
+                        </div>
+                    </div>   
+                        
+                </div>
+            </div>
+
+
+            <div id="contents_6">
+                <div class="river1 photo6"></div>
+
+                <div class="river2">
+                    <h2>ROCKIN THE RIVERS LINE-UP</h2>
+                    <h3>Known as “Montana's Home Grown Rockfest”</h3>
+                    <p>This festival has a reputation for bringing together fresh lineups and a rejuvenated spirit that plays hard off of our past history. It serves as the perfect excuse for people to pack up for the weekend, forget work and the rest of the world, and simply get out and have some fun here at one of America’s premier rock festival.</p>
+                    <span class="river_button"><a href="#">SEE LINE-UP</a></span>
+                </div>
+
+                <div class="river3">
+                    <div class="concert1"></div>
+                    
+                    <p>Many people come back year after year for this festival not only because of the great music and camaraderie of the other patrons but because of the extraordinary spirit they claim they feel here in this part of the country.<br/><br/> 
+                    When a lot of like-minded people get together to just genuinely enjoy something as powerful as music in such a breathtakingly beautiful area like this, it creates a powerful energy and bond that can’t be found anywhere else. <br/><br/>
+                    Everyone becomes your friend, and you feel genuinely at home, even with the large and loud crowd surrounding you. Bonds have been made. Lifelong friendships have been formed. It’s an experience unlike any other.</p>
+                </div>
+
+                <div class="river4 photo7"></div>
+            </div>
+
+            <div id="contents_7">
+                <div class="background-cover4">
+                    <h2 class="influential">INFLUENTIAL ROCK GROUPS</h2>
+                    
+
+                    <div class="influential_img">
+                        <div class="group1 people1"></div>
+                        <div class="group2 people2"></div>
+                    </div>
+                    <div class="influential_box">                          
+                        <div class="influential_text1">
+                            <h4>Effort to back to the past</h4>
+                            <p>Bringing together such an amazing collection of talented and influential rock groups with the absolutely stunning Montana landscape, this festival has become one of the countries’ must-attend rock shows. </p>
+                            <span class="ultimate_button"><a href="#">MORE</a></span>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="contents_8">
+                <div class="con8_box">
+                    <div class="con8_textbox">
+                        <h2>IMMERSE YOURSELF</h2>
+                        <h3>We’ve been organizing and hosting Rockin’ the River for over two decades now, and we have no intention of quitting any time soon!</h3>
+                        <p>No matter whether you prefer rock music, heavy metal music, or you just love music; this festival was designed for you. Buy your tickets, pick your campsite, and come prepared to forget life outside of the festival and fully immerse yourself in a truly epic rock experience.</p> 
+                    </div>
+                </div>
+                <div class="con8_img photo8"></div>
+            </div>
+
+
+            <div id="contents_9">
+                <div class="background-cover5">
+                    <h2 class="trip_head">COMPLETE YOUR TRIP WITH PROMOTION.</h2>
+                    <h4 class="trip_sub_head">Visitors who own tickets to the rock performance have up to 30% discount promotions for affiliate services. Enjoy camping and other various entertainments.</h4>
+
+                <!--영역1-->    
+                    
+                    <div class="trip_content1">
+                        <h2>Enjoy festival with nature</h2>
+                        <div class="trip_content_box">
+                            <div class="tripbox">
+                                <h3>Sale Event</h3>
+                                <div class="trip_imgbox1 trip_img1"></div>
+                                <div class="trip_text1">
+                                    <p>Coupons available at the December 12 discount event will be offered to concert visitors. </p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>    
+                          
+
+                            <div class="tripbox">
+                                <h3>Goods</h3>
+                                <div class="trip_imgbox2 trip_img2"></div>
+                                <div class="trip_text2">
+                                    <p>Buy T-shirts, albums and other goods at a lower price than online stores.</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>  
+
+                            <div class="tripbox">
+                                <h3>Local Partnership</h3>
+                                <div class="trip_imgbox3 trip_img3"></div>
+                                <div class="trip_text3">
+                                    <p>Get a discount at a facility affiliated with Rockin' the Rivers.</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+
+                <!--영역2-->    
+
+                    <div class="trip_content2">
+                        <h2>Summer Season Event</h2>
+                        <div class="trip_content_box">
+                            <div class="tripbox">
+                                <h3>Enjoy Water festival</h3>    
+                                <div class="trip_imgbox4 trip_img4"></div>
+                                <div class="trip_text4">
+                                    <p>During the summer, events such as large swimming pool stages will be held.</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>    
+
+                            <div class="tripbox">
+                                <h3>With Together!</h3>
+                                <div class="trip_imgbox5 trip_img5"></div>
+                                <div class="trip_text5">
+                                    <p>The more people you get with tickets, the more benefits you get!</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>  
+
+                            <div class="tripbox">
+                                <h3>Water Leisure</h3>
+                                <div class="trip_imgbox6 trip_img6"></div>
+                                <div class="trip_text6">
+                                    <p>Various leisure activities such as kayak!</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>   
+
+                <!--영역3-->
+
+                    <div class="trip_content3">
+                        <h2>Local Affiliates</h2>
+                        <div class="trip_content_box">
+                            <div class="tripbox">
+                                <h3>Discount for visitors</h3>
+                                <div class="trip_imgbox7 trip_img7"></div>
+                                <div class="trip_text7">
+                                    <p>Various leisure activities such as kayak!</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>    
+
+                            <div class="tripbox">
+                                <h3>Facility Promotion</h3>
+                                <div class="trip_imgbox8 trip_img8"></div>
+                                <div class="trip_text8">
+                                    <p>Various leisure activities such as kayak!</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>  
+
+                            <div class="tripbox">
+                                <h3>Comfortable Trip</h3>
+                                <div class="trip_imgbox9 trip_img9"></div>
+                                <div class="trip_text9">
+                                    <p>Various leisure activities such as kayak!</p>
+                                    <a href="#"><span class="trip_sub_button">More</span></a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>    
+
+                    <div class="trip_button">
+                        <button>discount</button>
+                        <button>water festival</button>
+                        <button>facility</button>
+                    </div>   
+                </div>
+            </div>
+
+
+            <div id="content_10">
+                <div class="con10">  
+                    <h1 class="vip">2021 WEEKEND PACKAGE</h1>                 
+                    <div class="package_box1">
+                        <h2>WEEKEND PACKAGE FOR 1</h2>
+                        <h1 class="package_price"><span class="currency">$</span>250</h1>
+                        <div class="Information">
+                            <ul>
+                                <li>One 3-day ticket</li>
+                                <li>One reserved campsite</li>
+                                <li>Two vehicle passes</li>
+                                <li><span class="cancel">Access to VIP area with limited shade, comlimentary non-alchoholic and draft beverages</span></li>
+                            </ul>
+                        </div>    
+                        <div class="select_area">
+                            <span><a href="#" class="ticket">SELECT OPTION</a></span>
+                        </div>    
+                    </div>
+
+                    <div class="package_box2">
+                        <h2>VIP WEEKEND PACKAGE FOR 1</h2>
+                        <h1 class="package_price"><span class="currency">$</span>395</h1>
+                        <div class="information">
+                            <ul>
+                                <li>One 3-day VIP wristband</li>
+                                <li>One reserved VIP campsite</li>
+                                <li>Two vicle passes</li>
+                                <li>Access to VIP area with limited shade, complimentary non-alcholic and draft beverages</li>
+                            </ul>
+                        </div>    
+                        <div class="select_area">
+                            <span><a href="#" class="ticket">SELECT OPTION</a></span>
+                        </div>    
+                    </div>
+
+                    <div class="package_box1">
+                        <h2>WEEKEND PACKAGE FOR 2</h2>
+                        <h1 class="package_price"><span class="currency">$</span>410</h1>
+                        <div class="information">
+                            <ul>
+                                <li>Two 3-day wristband</li>
+                                <li>One reserved campsite</li>
+                                <li>Two vehicle passes</li>
+                                <li><span class="cancel">Access to VIP area with limited shade, complimentary non-alcholic and draft beverages</span></li>
+                            </ul>
+                        </div>    
+                        <div class="select_area">
+                            <span><a href="#" class="ticket">SELECT OPTION</a></span>
+                        </div>    
+                    </div>
+
+                    <div class="package_box2">
+                        <h2>VIP WEEKEND PACKAGE FOR 2</h2>
+                        <h1 class="package_price"><span class="currency">$</span>695</h1>
+                        <div class="information">
+                            <ul>
+                                <li>Two 3-day VIP wristband</li>
+                                <li>One reserved VIP campsite</li>
+                                <li>Two vehicle passes</li>
+                                <li>Access to VIP area with limited shade, complimentary non-alcholic and draft beverages</li>
+                            </ul>
+                        </div>    
+                        <div class="select_area">
+                            <span><a href="#" class="ticket">SELECT OPTION</a></span>
+                        </div>    
+                    </div>
+
+                    <span class="all"><a href="#" class="ticket1">ALL TICKETS</a></span>
+                </div>
+            </div>
+
+
+            <div id="content_11">
+                <div class="con11 photo9"></div>
+                <div class="con11_textbox">
+                    <h1 class="rated">RATED 4.8<br>OUT OF 5</h1>
+                    <span>By past attendees on Google, Yelp & Facebook</span>
+                </div>
+
+            </div>
+
+
+            <div id="content_12">
+                <div class="con12_box">
+                    <div class="con12_textbox">
+                        <h2>HEADLINERS</h2>
+                        <p>Although we were beyond sad to have to cancel the festival in 2020 - which was also going to be our 20th Anniversary Festival - due to the pandemic and social distancing mandates, there is a bright side! The delay has allowed us to increase our budget and work towards bringing in an expanded and exciting lineup for our August 2021 dates. Not only are we currently working to secure all of 2020s missed lineup (as shown below), but we are also in the process of scheduling additional groups in order to make this 20th Anniversary Festival one of the most rockin’ yet!</p>
+                        <span class="band_button"><a href="#">Bands Line Up</a></span>
+                    </div>
+
+                    <div class="con12_imgbox">
+                        <a href="#" class="musician_box">
+                            <div class="musician photo10"></div>
+                            <div class="musician_text">
+                            <h4>THURSDAY 12TH</h4>
+                            <p>.38 Special<br><span class="sleep">Jacksonville, Florida</span></p>
+                            </div>
+                        </a>
+                        <a href="#" class="musician_box">
+                            <div class="musician photo11"></div>
+                            <div class="musician_text">
+                            <h4>FRIDAY 13TH</h4>
+                            <p>Skillet<br/><span class="sleep">Memphis, Tennessee</span></p>
+                            </div>
+                        </a>
+                        <a href="#" class="musician_box">
+                            <div class="musician photo12"></div>
+                            <div class="musician_text">
+                            <h4>SATURDAY 14TH</h4>
+                            <p>Black Label Society<br/><span class="sleep">Los Angeles, California</span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="content_13">
+                <div class="background-cover7">
+                    <h2>OUR SPONSOR</h2>
+                    <div class="our">
+                        
+                        <div class="sponsor">
+                            <img src="img/pepsi.svg" alt="spon_log1">
+                            <img src="img/coors.svg" alt="spon_log2">
+                            <img src="img/frontier.svg" alt="spon_log3">
+                            <img src="img/sac.svg" alt="spon_log4">
+                        </div>
+                        <span><a href="#" class="left">&gt;</a></span>
+                        <span><a href="#" class="right">&lt;</a></span>
+                    </div>   
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <div id="footer_box">
+                <div class="footer_sub1">
+                    <h3>ROCKIN'THE RIVERS</h3>
+                    <p>Montana's Homegrown Rockfest</p>
+                        <ul> 
+                            <li><a href="https://www.twitter.com/rockintherivers"><div class="icon twitter"></div></a></li>
+                            <li><a href="https://www.facebook.com/rockintheriversMT"><div class="icon face"></div></a></li>
+                            <li><a href="https://www.instagram.com/rockintheriversofficial"><div class="icon insta"></div></a></li>
+                        </ul>    
+                </div>
+
+                <div class="footer_sub2">
+                    <h3>LINKS</h3>
+                    
+                        <ul>
+                            <li><a href="#">Purchase Tickets</a></li>
+                            <li><a href="#">See Full Line-Up</a></li>
+                            <li><a href="#">Camping Information</a></li>
+                            <li><a href="#">Follow News</a></li>
+                            <li><a href="#">Purchase Merchandise</a></li>
+                        </ul>
+                    
+                </div>
+
+                <div class="footer_sub3">
+                    <h3>CONTACK</h3>
+                    
+                        <ul>
+                            <li><img src="img/icon7.png" class="sub3_icon" alt="icon">406.285.0099</li>
+                            <li><img src="img/icon8.png" class="sub3_icon" alt="icon">1865 Hwy 2 Cardwell MT 59721</li>
+                            <li><img src="img/icon10.png" class="sub3_icon" alt="icon"><a href="#"> info@rockintherivers.com</a></li>
+                        </ul>                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    </body>
+</html>

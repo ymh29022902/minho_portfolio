@@ -1,0 +1,6 @@
+﻿@charset "utf-8";
+
+    *{margin: 0; box-sizing: border-box; font-family:sans-serif;}
+    ul,ol, li{list-style: none;}
+    a{text-decoration: none;}
+    html {font-size:18px;}
